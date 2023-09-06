@@ -12,3 +12,4 @@ pydantic
 pymupdf
 pypdfium2
 lxml
+pdfrw
