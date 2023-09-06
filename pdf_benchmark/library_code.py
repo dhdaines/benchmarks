@@ -161,7 +161,7 @@ def pdfplubmer_get_text(data: bytes) -> str:
     text = ""
     with pdfplumber.open(BytesIO(data)) as pdf:
         for page in pdf.pages:
-            text += page.extract_text()
+            text += page.extract_text(use_text_flow=True)
             text += "\n"
     return text
 

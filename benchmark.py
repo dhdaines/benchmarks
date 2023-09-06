@@ -188,7 +188,7 @@ if __name__ == "__main__":
             "pdfplumber",
             "https://pypi.org/project/pdfplumber/",
             text_extraction_function=pdfplubmer_get_text,
-            version=pdfplumber.__version__,
+            version="git+https://github.com/dhdaines/pdfplumber",
             license="MIT",
             last_release_date="2023-07-29",
             dependencies="pdfminer.six",
