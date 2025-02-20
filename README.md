@@ -25,15 +25,15 @@ This benchmark is about reading pure PDF files - notscanned documents and not do
 ## Libraries
 |     Name     | Last PyPI Release |             License             |         Version         |                       Dependencies                        |
 | -----------: | :---------------- | ------------------------------: | ----------------------: | :-------------------------------------------------------- |
-|         Borb | 2023-06-23        |                 AGPL/Commercial |                  2.1.16 |                                                           |
-|    pypdfium2 | 2023-07-04        |      Apache-2.0 or BSD-3-Clause |                  4.30.1 | PDFium (Foxit/Google)                                     |
-| pdfminer.six | 2022-11-05        |                           MIT/X |                20231228 |                                                           |
-|   pdfplumber | 2023-07-29        |                             MIT |                  0.11.5 | pdfminer.six                                              |
+|         Borb | 2024-08-03        |                 AGPL/Commercial |                  2.1.16 |                                                           |
+|    pypdfium2 | 2024-12-19        |      Apache-2.0 or BSD-3-Clause |                  4.30.1 | PDFium (Foxit/Google)                                     |
+| pdfminer.six | 2024-07-06        |                           MIT/X |                20231228 |                                                           |
+|   pdfplumber | 2025-01-01        |                             MIT |                  0.11.5 | pdfminer.six                                              |
 |        pdfrw | 2017-09-18        |                             MIT |                     0.4 |                                                           |
-|    pdftotext | -                 |                             GPL |                  0.86.1 | build-essential libpoppler-cpp-dev pkg-config python3-dev |
+|    pdftotext | 2025-02-03        |                             GPL |                  0.86.1 | build-essential libpoppler-cpp-dev pkg-config python3-dev |
 |        playa | 2025-02-18        |                             MIT | 0.3.0rc1.dev41+g4a84b70 |                                                           |
-|      PyMuPDF | 2023-08-24        | GNU AFFERO GPL 3.0 / Commerical |                  1.25.3 | MuPDF                                                     |
-|        pypdf | 2023-08-26        |                    BSD 3-Clause |                   5.3.0 |                                                           |
+|      PyMuPDF | 2025-02-06        | GNU AFFERO GPL 3.0 / Commerical |                  1.25.3 | MuPDF                                                     |
+|        pypdf | 2025-02-09        |                    BSD 3-Clause |                   5.3.0 |                                                           |
 |         Tika | 2023-01-01        |                       Apache v2 |                   2.6.0 | Apache Tika                                               |
 
 
