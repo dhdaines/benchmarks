@@ -1,4 +1,3 @@
-import argparse
 import os
 import subprocess
 import tempfile
@@ -12,7 +11,6 @@ import pypdf
 import pypdfium2 as pdfium
 from borb.pdf.pdf import PDF
 from borb.toolkit.text.simple_text_extraction import SimpleTextExtraction
-from playa.cli import extract_text as playa_extract_text
 from pdfminer.high_level import extract_pages
 from requests import ReadTimeout
 
@@ -25,13 +23,13 @@ def playa_get_text(data: bytes) -> str:
         with open(path, "wb") as outfh:
             outfh.write(data)
         outpath = os.path.join(tempdir, "pdf.txt")
+        texts = []
         with open(outpath, "wt") as outfh:
-            args = argparse.Namespace(pages="all", outfile=outfh)
             with playa.open(path, max_workers=2) as pdf:
-                playa_extract_text(pdf, args)
-        with open(outpath) as infh:
-            text = infh.read()
-        return text
+                pages = pdf.pages
+                page_labels = [page.label for page in pages]
+                texts = list(pages.map(playa.Page.extract_text))
+        return postprocess(texts, page_labels)
 
 
 def pymupdf_get_text(data: bytes) -> str:
