@@ -401,7 +401,14 @@ images were labeled by anonymous untrained workers
 to which they refer to as knowledge workers (KWs).
 One crowd annotation was obtained for each image by
 a majority vote on a pixel basis of 10 segmentations
-given by 10 different KWs. Figure 2: A typical segmentation pipeline gets raw
+given by 10 different KWs. Training
+Prediction
+ Post-
+processingWindow-wise
+ClassiﬁcationWindow
+extraction Data
+augmentation
+Feature extraction Preprocessing Figure 2: A typical segmentation pipeline gets raw
 pixel data, applies preprocessing techniques
 like scaling and feature extraction like HOG
 features. For training, data augmentation

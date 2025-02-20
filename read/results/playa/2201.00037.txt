@@ -66,7 +66,31 @@ all techniques yield an obliquity which is coplanar with the orbit and Laplace p
 and consistent with a Cassini state. Furthermore, the observed obliquity angle (2. 042 ± 0 .08
 –2–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 1. The orbit of Mercury (M) around Sun (S) with respect to the Laplace plane (grey shaded
+I
+descending
+node of orbit Ω
+ p
+ ê
+ 3 I
+I ê
+ 3 Lε
+ mI
+ ê
+ 3 p
+ ascending
+node of orbit
+descending
+node of equator equatorial 
+plane
+ orbital
+direction
+Sê
+ 3 I
+ê
+ 3 L
+ M
+ ε
+ morbital planeFigure 1. The orbit of Mercury (M) around Sun (S) with respect to the Laplace plane (grey shaded
 rectangle) and the Cassini state of Mercury. The normal to the orbital plane ( ˆe I
 3 ) is oﬀset from the nor-
 mal to the Laplace plane ( ˆe L
@@ -386,6 +410,42 @@ A C
  22 . (4)
 –6–
 Conﬁdential manuscript submitted to JGR-Planets
+θ
+ m
+ θ
+ n
+θ
+ s
+ θ
+ fΩ
+ Ω
+ s
+ Ω
+ fê
+ 3 p
+ ê
+ 3 sê
+ 3 I
+I ε
+ m
+θ
+ pê
+ 3 L
+ ê
+ 1 p
+ ê
+ 2 p Cassini plane
+ ω Ω
+ o tê
+ 3 I
+I
+ ε
+ m ê
+ 3 p
+ ê
+ 1ê
+ 2 pê
+ 3 La) b)
 Figure 2. Geometry of the Cassini state model of Mercury viewed (a) in the Cassini plane and (b)
 in a frame attached to the rotating mantle. The orbit normal ( ˆe I
 3 ) is tilted by an angle I = 8 . 533◦
@@ -1480,7 +1540,19 @@ core density scenarios and in the absence of viscous and EM coupling (i.e. K
 icb =
 –16–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 3. a) Fluid core density (red), mantle density (blue), ﬂuid core radius (orange, right-hand
+ 0200400600800100012001400
+period (yr)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km)300040005000600070008000
+density (kg/m3 )
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) 200020202040206020802100
+ Fluid core radius (km)fluid core density
+ CMB radius
+ FICNFCN
+ int
+mantle densitya b
+ FCNFigure 3. a) Fluid core density (red), mantle density (blue), ﬂuid core radius (orange, right-hand
 side scale) and b) FICN (blue) and FCN (red) periods as a function of inner core radius. The FCN
 period when the external torque is set to zero (FCN
  int ) is shown in orange. Solid lines correspond to
@@ -1677,7 +1749,26 @@ core must remain in close alignment with the mantle. Presented diﬀerently, sin
 riod is more than 3000 times shorter than the forced precession period, the inner core can eas-
 –18–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 4. a) Obliquity of the mantle ( ˜ε
+2.0382.0402.0422.0442.0462.0482.050
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) 1.52.02.53.03.54.04.5
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km)crustal thickness
+ 16 km
+36 km26 km crustal thickness
+ 16 km
+36 km26 kmε
+ m
+ε
+ g
+ for a rigid planet
+ε
+ m m
+ f
+n
+ s (x100)a bFigure 4. a) Obliquity of the mantle ( ˜ε
  m , solid lines) and of the principal moment of inertia ( ˜ε
  g ,
 dashed line) b) ˜m
@@ -2028,7 +2119,34 @@ cosity that we have identiﬁed above (i.e ν ≈ 5 × 10 − 4
  ), the inﬂuence of viscous cou-
 –21–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 5. a) Obliquity of the mantle ( ˜ε
+ε
+ mε
+ g
+ m
+ f
+n
+ s
+2.0382.0402.0422.0442.0462.0482.050
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) 0.00.51.01.52.02.53.03.54.04.5
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km)kinematic viscosity:
+ 0.01 m 2
+  s -1
+ 0.00001 m 2
+  s -1
+0.0001 m 2
+  s -1
+0.0005 m 2
+  s -1
+0.001  m 2
+  s -1
+a b
+ for a rigid planet
+ε
+ m Figure 5. a) Obliquity of the mantle ( ˜ε
  m , solid lines) and gravity ﬁeld ( ˜ε
  g , dashed lines) b) ˜m
 f
@@ -2428,7 +2546,26 @@ Coupling models when viscous and EM stresses are both present have been presente
 Mathews and Guo [2005] and Deleplace and Cardin [2006]. However, in the light of our results,
 –25–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 6. a) Obliquity of the mantle ( ˜ε
+2.0322.0342.0362.0382.0402.0422.0442.0462.0482.050
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) 0.00.51.01.52.02.53.03.54.04.5
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km)B
+ r  at ICB:
+ 1 mT 0.01 mT0.03 mT0.1 mT0.3  mT
+ε
+ m
+ε
+ g
+ m
+ f
+n
+ sa b
+ for a rigid planet
+ε
+ m Figure 6. a) Obliquity of the mantle ( ˜ε
  m , solid lines) and gravity ﬁeld ( ˜ε
  g , dashed lines) b) ˜m
 f
@@ -2479,7 +2616,25 @@ model included the tangential viscous stress at the ICB and CMB, but not the EM 
 Table 1 gives the obliquities of the mantle, ﬂuid core and inner core, denoted respectively as
 –26–
 Conﬁdential manuscript submitted to JGR-Planets
-Figure 7. a) Obliquity of the mantle ( ˜ε
+2.0322.0342.0362.0382.0402.0422.0442.0462.0482.050
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) 0.00.51.01.52.02.53.03.54.04.5
+Obliquity angle (arcmin)
+ 0 200 400 600 800 1000 1200 1400
+Inner core radius (km) for a rigid planet
+ε
+ ma bα
+ 3 :
+ 0.20 0.010.05 0.100.15ρ
+ s  = 8800 kg m -3
+ m
+ f
+n
+ sε
+ m
+ε
+ gFigure 7. a) Obliquity of the mantle ( ˜ε
  m , solid lines) and gravity ﬁeld ( ˜ε
  g , dashed lines) b) ˜m
 f

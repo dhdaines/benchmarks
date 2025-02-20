@@ -1979,13 +1979,22 @@ R 2
  ( v ) 
 =R 2
 32 2.2. DIFFERENZIERBARE MANNIGFALTIGKEITEN
-(a)Kugelkoordinaten −1
+N
+S v
+u (a)Kugelkoordinaten −1
  0
  1
  2
  −2 −1 0 1 20. 60. 81
  (b)Rotationskörper
-(c)Sinus und Kosinus haben keine gemeinsame Nullstelle
+π
+2 π
+ 3 π
+2 2 π
+− 1− 0. 50. 51
+ xy
+ sin x
+cos x (c)Sinus und Kosinus haben keine gemeinsame Nullstelle
 33 2.2. DIFFERENZIERBARE MANNIGFALTIGKEITEN
 Die Jacobi-Matrix
  J
@@ -2327,7 +2336,24 @@ Beispiel 26 (Simpliziale Abbildungen)
  ist simplizial:
 ϕ
 3)Tori können simplizial auf Sphären abgebildet werden (vgl.Abbildung 2.8)
-Abbildung 2.8:Abbildung eines Torus auf eine Sphäre
+M
+ Ma
+a ab
+ b bc
+c c
+dd
+ dM a
+b c
+d
+bb bb b bbb b
+ b
+ b bb
+bb
+bbb
+ b bb bb b
+b
+b b
+bAbbildung 2.8:Abbildung eines Torus auf eine Sphäre
 Deﬁnition 38
 Sei K ein endlicher Simplizialkomplex. Für n ≥ 0 sei a
  n ( K ) die Anzahl der n -Simplizes in
@@ -2887,7 +2913,8 @@ ab
  γ
  1γ
  2
-(a)Kreis mit zwei Wegen (b)Torus mit drei Wegen
+(a)Kreis mit zwei Wegen
+a b(b)Torus mit drei Wegen
 Abbildung 3.3:Beispiele für (nicht)-Homotopie von Wegen
 Deﬁnition 43
 Seien γ
@@ -6590,7 +6617,11 @@ Beispiel 48
 1 (s ) < 0 , κ
 2 ( s) = 0 → K (s ) < 0
 4) S = Torus. SieheAbbildung 5.3
-Abbildung 5.3: K ( s
+ s
+ 1s
+ 2
+s
+ 3Abbildung 5.3: K ( s
 1 ) > 0 , K (s
  2 ) = 0, K (s
  3 ) < 0
