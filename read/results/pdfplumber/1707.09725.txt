@@ -12,40 +12,11 @@ Second reviewer: Prof. Dr.–Ing. J. M. Zöllner
 Advisor: Dipl.–Inform. Michael Weber
 Research Period: 03. May 2017 – 03. August 2017
 KIT–UniversityoftheStateofBaden-WuerttembergandNationalResearchCenteroftheHelmholtzAssociation www.kit.edu
-a
-r
-X
-i
-v
-:
-1
-7
-0
-7
-.
-0
-9
-7
-2
-5
-v
-1
-[
-c
-s
-.
-C
-V
-]
-3
-1
-J
-u
-l
-2
-0
-1
-7
+arXiv:1707.09725v1
+[cs.CV]
+31
+Jul
+2017
 
 Analysis and Optimization of Convolutional Neural
 Network Architectures
@@ -435,20 +406,7 @@ n feature maps
 n filters of
 size k×k×3
 widthw widthw
-h
-e
-i
-g
-h
-t
-h
-h
-e
-i
-g
-h
-t
-h
+heighth heighth
 neural
 network
 data
@@ -1802,18 +1760,7 @@ make any statement about the ordering of m and m(cid:48) in epoch i+1.
 0.6
 0.7
 epoch
-v
-a l i
-d a
-t i
-o
-n
-a c
-c
-u
-r
-a
-c y
+validationaccuracy
 maximum validation accuracy
 minimum validation accuracy
 1.5
@@ -1823,9 +1770,7 @@ minimum validation accuracy
 3.5
 4
 4.5
-l
-o s
-s
+loss
 maximum validation accuracy
 minimum validation accuracy
 mean loss

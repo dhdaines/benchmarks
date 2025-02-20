@@ -425,9 +425,11 @@ R2 überein.
 U
 1
 = R \N
-U2
+U
+2
 =
-R\
+R
+\
 N
 Abbildung 1.2: Zariski-Topologie auf R2
 Definition 7
@@ -2145,7 +2147,7 @@ i
 :
 ···
 : y n)
-(cid:55)→
+(cid:55) →
 (y 1,...,y n)
 ist bijektiv.
 Die U

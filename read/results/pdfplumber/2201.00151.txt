@@ -1,41 +1,8 @@
-a
-r
-X
-i
-v
-:
-2
-2
-0
-1 .
-0
-0
+arXiv:2201.00151v1
+[astro-ph.GA]
 1
-5
-1
-v
-1
-[
-a
-s
-t
-r
-o
--
-p
-h
-.
-G
-A
-]
-1
-J
-a
-n
-2
-0
-2
-2
+Jan
+2022
 Astronomy&Astrophysicsmanuscriptno.Populations4 ©ESO2022
 January4,2022
 Multiple stellar populations in Schwarzschild modeling
@@ -182,16 +149,10 @@ data, we decided to use a galaxy from the Illustris project
 ulationfollowstheformationandevolutionofgalaxiesfromthe
 early Universe to the present by solving gravity and hydrody-
 namics, as well as modeling of star formation, galactic winds,
-S
-F
-R
-[
-M
-⊙
-y
-r -
-1
-]
+SFR
+[M⊙
+yr
+-1]
 t [Gyr]
 0
 4
@@ -204,9 +165,7 @@ thesimulatedgalaxyfromtheIllustrisprojectusedtocreatemockdata.
 Theblackandgrayverticalarrowsindicatethelastmergerswhichthe
 galaxyunderwent,wetanddry,respectively.
 t
-[
-G y
-r ]
+[Gyr]
 Z [Z ⊙]
 0
 2
@@ -219,9 +178,9 @@ Z [Z ⊙]
 2
 4
 6
-N [
-1 0
-2 ]
+N
+[10
+2]
 Fig. 2. Number of stars as a function of their metallicity and time of
 formation(theageoftheUniverse)inthesimulatedgalaxy.Thevertical
 lineindicatestheappliedsplitintostellarpopulations.
@@ -253,40 +212,47 @@ Articlenumber,page2of12
 K.Kowalczyk&E.L.Łokas:MultiplestellarpopulationsinSchwarzschildmodeling
 -80
 -40
-0 40
+0
+40
 80
 POPULATION I
-[ k p c ]
+[kpc]
 major
 POPULATION I
 intermediate
 POPULATION I
 minor
 5.3
-5.9 6.5 7.1
+5.9
+6.5
+7.1
 7.7
-l o g (
-Σ ) [ M ⊙ / k p c 2 ]
+log(
+Σ)
+[M⊙
+/kpc
+2]
 -80
 -40
 0
 40
 POPULATION II
-[ k p c ]
+[kpc]
 POPULATION II POPULATION II
 -160
 -80
 0
 80
 160
-V [ k m / s ]
+V
+[km/s]
 -80
 -40
 0
 40
 -80 -40 0 40
 POPULATION II
-[ k p c ]
+[kpc]
 [kpc]
 -80 -40 0 40
 POPULATION II
@@ -298,43 +264,51 @@ POPULATION II
 30
 60
 90
-σ [ k m / s ]
+σ
+[km/s]
 -80
 -40
-0 40
+0
+40
 80
 POPULATION II
-[ k p c ]
+[kpc]
 major
 POPULATION II
 intermediate
 POPULATION II
 minor
 5.3
-5.9 6.5 7.1
+5.9
+6.5
+7.1
 7.7
-l o g (
-Σ ) [ M ⊙ / k p c 2 ]
+log(
+Σ)
+[M⊙
+/kpc
+2]
 -80
 -40
 0
 40
 POPULATION II
-[ k p c ]
+[kpc]
 POPULATION II POPULATION II
 -160
 -80
 0
 80
 160
-V [ k m / s ]
+V
+[km/s]
 -80
 -40
 0
 40
 -80 -40 0 40
 POPULATION II
-[ k p c ]
+[kpc]
 [kpc]
 -80 -40 0 40
 POPULATION II
@@ -346,7 +320,8 @@ POPULATION II
 30
 60
 90
-σ [ k m / s ]
+σ
+[km/s]
 Fig.3.Mapsoftheprojectedstellardensity,meanstellarvelocity,andstellarvelocitydispersion(inrows)fortwostellarpopulations:themetal-
 richpopulationI(left-handsidepanels)andthemetal-poorpopulationII(right-handside),andobservationsalongtheprincipalaxesdetermined
 forallstars(incolumns,alongthemajor,theintermediate,andtheminoraxis,respectively).
@@ -356,7 +331,7 @@ forallstars(incolumns,alongthemajor,theintermediate,andtheminoraxis,respectively
 0.5
 1
 1 10 100
-β ( r )
+β(r)
 r [kpc]
 -1
 -0.5
@@ -364,7 +339,7 @@ r [kpc]
 0.5
 1
 0 10 20 30 40 50
-β ( r )
+β(r)
 r [kpc]
 all stars
 pop I
@@ -375,7 +350,8 @@ pop II
 100
 120
 1 10 100
-σ r ( r )
+σr
+(r)
 r [kpc]
 40
 60
@@ -383,7 +359,8 @@ r [kpc]
 100
 120
 0 10 20 30 40 50
-σ r ( r )
+σr
+(r)
 r [kpc]
 40
 60
@@ -391,7 +368,8 @@ r [kpc]
 100
 120
 1 10 100
-σ t ( r )
+σt
+(r)
 r [kpc]
 40
 60
@@ -399,7 +377,8 @@ r [kpc]
 100
 120
 0 10 20 30 40 50
-σ t ( r )
+σt
+(r)
 r [kpc]
 Fig.4.Profilesofthevelocityanisotropyparameter,radialvelocitydispersion,andtangentialvelocitydispersion(inconsecutivecolumns)calcu-
 latedfromallstars(inred),includingonlypopulationI(inorange),andonlypopulationII(inblue).Theupperrowshowstheprofilesusingthe
@@ -427,15 +406,10 @@ A&Aproofs:manuscriptno.Populations4
 101
 103
 10 100
-n
-⋆ (
-R
-)
-[
-k
-p
-c - 2
-]
+n⋆
+(R)
+[kpc
+-2]
 R [kpc]
 major
 10 100
@@ -551,8 +525,7 @@ K.Kowalczyk&E.L.Łokas:MultiplestellarpopulationsinSchwarzschildmodeling
 10-1
 100
 0 10 20 30 40
-M (
-R )
+M(R)
 R [kpc]
 major
 0 10 20 30 40
@@ -564,17 +537,12 @@ minor
 369
 12
 0 10 20 30 40
-m
-2 (
-R ) [
-1
-0
-3 (
-k
-m
-s -
-1 )
-2 ]
+m2
+(R)[10
+3(km
+s
+-1)
+2]
 R [kpc]
 0 10 20 30 40
 R [kpc]
@@ -584,17 +552,12 @@ R [kpc]
 -505
 10
 0 10 20 30 40
-m
-3 (
-R ) [
-1
-0
-4 (
-k
-m
-s -
-1 )
-3 ]
+m3
+(R)[10
+4(km
+s
+-1)
+3]
 R [kpc]
 0 10 20 30 40
 R [kpc]
@@ -602,17 +565,12 @@ R [kpc]
 R [kpc]
 01234
 0 10 20 30 40
-m
-4 (
-R ) [
-1
-0
-8 (
-k
-m
-s -
-1 )
-4 ]
+m4
+(R)[10
+8(km
+s
+-1)
+4]
 R [kpc]
 0 10 20 30 40
 R [kpc]
@@ -784,17 +742,16 @@ Asourparametrizationofthemass-to-lightratioisnotintu-
 itivewepresentitsprofilesexplicitlyinthefirstrowsoftheleft-
 Articlenumber,page6of12
 K.Kowalczyk&E.L.Łokas:MultiplestellarpopulationsinSchwarzschildmodeling
-106 107
+106
+107
 108
 109
 1010
 10 100
 ALL
-Υ ( r ) [
-M
-⊙ /
-L
-⊙ ]
+Υ(r)
+[M⊙
+/L⊙ ]
 r [kpc]
 major
 10 100
@@ -814,11 +771,11 @@ data
 108
 10 100
 ALL
-ν t o t ( r )
-[
-M ⊙
-k
-p c - 3 ]
+νtot
+(r)
+[M⊙
+kpc
+-3]
 r [kpc]
 10 100
 ALL
@@ -826,13 +783,14 @@ r [kpc]
 10 100
 ALL
 r [kpc]
-1010 1011
+1010
+1011
 1012
 10 100
 ALL
-M t o t ( r ) [
-M
-⊙ ]
+Mtot
+(r)
+[M⊙ ]
 r [kpc]
 10 100
 ALL
@@ -845,7 +803,7 @@ r [kpc]
 01
 0 10 20 30 40
 ALL
-β ( r )
+β(r)
 r [kpc]
 0 10 20 30 40
 ALL
@@ -853,17 +811,16 @@ r [kpc]
 0 10 20 30 40 50
 ALL
 r [kpc]
-106 107
+106
+107
 108
 109
 1010
 10 100
 POPULATIONS
-Υ ( r ) [
-M
-⊙ /
-L
-⊙ ]
+Υ(r)
+[M⊙
+/L⊙ ]
 r [kpc]
 major
 10 100
@@ -883,11 +840,11 @@ data
 108
 10 100
 POPULATIONS
-ν t o t ( r )
-[
-M ⊙
-k
-p c - 3 ]
+νtot
+(r)
+[M⊙
+kpc
+-3]
 r [kpc]
 10 100
 POPULATIONS
@@ -895,13 +852,14 @@ r [kpc]
 10 100
 POPULATIONS
 r [kpc]
-1010 1011
+1010
+1011
 1012
 10 100
 POPULATIONS
-M t o t ( r ) [
-M
-⊙ ]
+Mtot
+(r)
+[M⊙ ]
 r [kpc]
 10 100
 POPULATIONS
@@ -914,7 +872,7 @@ r [kpc]
 01
 0 10 20 30 40
 POPULATIONS
-β ( r )
+β(r)
 r [kpc]
 0 10 20 30 40
 POPULATIONS
@@ -993,20 +951,12 @@ A&Aproofs:manuscriptno.Populations4
 -1
 01
 0 10 20 30 40
-P
-O
-P
+POP
 I
 +
-P
-O
-P
-I
-I
-β
-(
-r
-)
+POP
+II
+β(r)
 r [kpc]
 major
 0 10 20 30 40
@@ -1019,12 +969,9 @@ minor
 -1
 01
 0 10 20 30 40
-P
-O
-P
+POP
 I
-β (
-r )
+β(r)
 r [kpc]
 0 10 20 30 40
 r [kpc]
@@ -1034,12 +981,9 @@ r [kpc]
 -1
 01
 0 10 20 30 40
-P
-O
-P I
-I
-β (
-r )
+POP
+II
+β(r)
 r [kpc]
 0 10 20 30 40
 r [kpc]
@@ -1115,13 +1059,10 @@ Sérsicparameter(m) 0.808 0.807 0.898
 104
 105
 0.2 0.5 2 0.1 1
-n
-⋆ (
-R )
-[
-k
-p
-c - 2 ]
+n⋆
+(R)
+[kpc
+-2]
 R [kpc]
 all stars
 popI
@@ -1140,7 +1081,9 @@ tionintroducedinprevioussections.Thinverticallinesindicate
 the innermost data point for the light profile for all stars and
 the outerboundaryof the kinematic sample. The former,set at
 logr = −0.16,isalsousedastheminimumofthemass-to-light
-ratio profile (r 0 in Eq.5). The fitted parameters of the profiles,
+ratio profile (r
+0
+in Eq.5). The fitted parameters of the profiles,
 thatisthenormalizationN 0,theSérsicradiusR S,andtheSérsic
 parameterm,areincludedinthesecondpartofTable2.
 Figure12presentstheprofilesoftheobservablesusedinthe
@@ -1172,9 +1115,7 @@ profileforthepopulationsisbasedonthefitofallstarsbutusing
 0.2
 0.25
 0 0.4 0.8 1.2 1.6
-M
-( R
-)
+M(R)
 R [kpc]
 all stars
 pop I
@@ -1186,55 +1127,34 @@ pop II
 160
 200
 0 0.4 0.8 1.2 1.6
-m
-2 (
-R ) [
-(
-k
-m
-s - 1 )
-2
-]
+m2
+(R)[(km
+s
+-1)
+2]
 R [kpc]
 -16
 -8
 08
 16
 0 0.4 0.8 1.2 1.6
-m
-3
-(
-R
-)
-[
-1
-0
-2
-(
-k
-m
-s -
-1
-)
-3
-]
+m3
+(R)[10
+2(km
+s
+-1)
+3]
 R [kpc]
 048
 12
 16
 0 0.4 0.8 1.2 1.6
-m
-4 (
-R )
-[
-1
-0 4 (
-k
-m
-s -
-1 )
-4
-]
+m4
+(R)[10
+4(km
+s
+-1)
+4]
 R [kpc]
 Fig. 12. Observables of the Fornax dSph used in our Schwarzschild
 modelingscheme.Inrows:thefractionofthetotalnumberofstars,the
@@ -1287,11 +1207,10 @@ c
 6
 9
 12
-χ 2 -
 χ
-2
-m i
-n
+2-
+χ
+2min
 Fig.13.Valuesofχ2relativetothefittedminimumwithintherangeof3σconfidencelevelforallstars(leftpanel)andforthepopulations(right
 panel)fortheFornaxdSph.
 (Kowalczyketal.2019),weobtainedhigherestimatesoftheen-
@@ -1377,28 +1296,27 @@ K.Kowalczyk&E.L.Łokas:MultiplestellarpopulationsinSchwarzschildmodeling
 103
 105
 0.1 1
-Υ ( r ) [ M
-⊙ / L ⊙ ]
+Υ(r)
+[M⊙
+/L⊙ ]
 r [kpc]
 ALL
 0.1 1
 r [kpc]
 POPULATIONS
 3σ
-2σ 1σ best model
+2σ 1σ
+best model
 K19
 104
 106
 108
 0.1 1
-ν t o t ( r )
-[
-M
-⊙
-k
-p
-c -
-3 ]
+νtot
+(r)
+[M⊙
+kpc
+-3]
 r [kpc]
 0.1 1
 r [kpc]
@@ -1406,10 +1324,8 @@ r [kpc]
 107
 109
 0.1 1
-M t o t ( r )
-[
-M
-⊙ ]
+Mtot (r)
+[M⊙ ]
 r [kpc]
 0.1 1
 r [kpc]
@@ -1418,7 +1334,7 @@ r [kpc]
 -1
 01
 0 0.4 0.8 1.2 1.6
-β ( r )
+β(r)
 r [kpc]
 0 0.4 0.8 1.2 1.6
 r [kpc]
@@ -1454,35 +1370,34 @@ smaller data samples or using one stellar population) resulted
 -1
 01
 0 0.4 0.8 1.2 1.6
-P O P I
-+ P O P
+POP
 I
-I
-β
-( r )
++
+POP
+II
+β(r)
 r [kpc]
 -2
 -1
 01
 0 0.4 0.8 1.2 1.6
-P
-O
-P
+POP
 I
-β (
-r )
+β(r)
 r [kpc]
 -2
 -1
 01
 0 0.4 0.8 1.2 1.6
-P O P I
-I
-β ( r )
+POP
+II
+β(r)
 r [kpc]
-best model 1σ
+best model
+1σ
 2σ
-3σ K19
+3σ
+K19
 Fig. 15. Profiles of the anisotropy parameter obtained with the
 SchwarzschildmodelingoftwostellarpopulationsfortheFornaxdSph.
 Inrows:resultsforallstars(calculatedasthesuperpositionoftwopop-

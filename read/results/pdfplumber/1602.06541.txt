@@ -94,39 +94,11 @@ tion algorithms, there is a publication about multiple
 class affiliation segmentation [LRAL08]. Similarly,
 recent publications in pixel-level object segmentation
 used layered models [YHRF12].
-a
-r
-X
-i
-v
-:
-1
-6
-0
-2
-.
-0
-6
-5
-4
-1
-v
-2
-[
-c s
-.
-C
-V
-]
-1
-1
-M
-a
-y
-2
-0
-1
-6
+arXiv:1602.06541v2
+[cs.CV]
+11
+May
+2016
 2
 C. Input Data
 The available data which can be used for the

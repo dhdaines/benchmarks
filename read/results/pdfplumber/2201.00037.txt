@@ -12,46 +12,11 @@ cores into a common precession motion.
 proaches that expected for a rigid planet.
 Corresponding author: Mathieu Dumberry, dumberry@ualberta.ca
 –1–
-a
-r
-X
-i
-v
-:
-2
-2
-0
-1
-.
-0
-0
-0
-3
-7
-v
-1
-[
-a
-s
-t
-r
-o
--
-p
-h
-.
-E
-P
-]
-3
-1
-D
-e
-c
-2
-0
-2
-1
+arXiv:2201.00037v1
+[astro-ph.EP]
+31
+Dec
+2021
 Confidential manuscript submitted to JGR-Planets
 Abstract
 We present a model of the Cassini state of Mercury that comprises an inner core, a fluid core
@@ -1438,31 +1403,39 @@ Confidential manuscript submitted to JGR-Planets
 0
 200
 400
-600 800 1000
+600
+800
+1000
 1200
 1400
-p e r i o d ( y r )
+period
+(yr)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 3000
 4000
-5000 6000
+5000
+6000
 7000
 8000
-d e n s i t y ( k g / m 3 )
+density
+(kg/m
+3)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 2000
 2020
-2040 2060
+2040
+2060
 2080
 2100
-F l
-u i
-d c o r e r a d i u s ( k
-m )
+Fluid
+core
+radius
+(km)
 fluid core density
-CMB radius
+CMB
+radius
 FICN
 FCNint
 mantle density
@@ -1636,27 +1609,40 @@ Confidential manuscript submitted to JGR-Planets
 2.038
 2.040
 2.042
-2.044 2.046 2.048
+2.044
+2.046
+2.048
 2.050
-O b l i q u i t
-y
-a n g l e ( a r c m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 1.5
 2.0
 2.5
-3.0 3.5
+3.0
+3.5
 4.0
 4.5
-O b l i q u i t
-y
-a n g l e ( a r c m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
-crustal thickness 16 km 36 km 26 km crustal thickness 16 km 36 km 26 km ε m ε g
-for a rigid planet ε m
-m f n s(x100)
+crustal thickness 16 km
+36 km
+26 km
+crustal thickness 16 km
+36 km
+26 km
+ε m ε
+g
+for a rigid planet
+ε
+m
+m f
+n s(x100)
 a b
 Figure 4. a) Obliquity of the mantle (˜ ε m, solid lines) and of the principal moment of inertia (˜ ε g,
 dashed line) b) ˜ m
@@ -1979,8 +1965,10 @@ cosity that we have identified above (i.e ν ≈ 5×10−4 m2 s−1), the influe
 Confidential manuscript submitted to JGR-Planets
 ε m
 ε g
-m f
-n s
+m
+f
+n
+s
 2.038
 2.040
 2.042
@@ -1988,31 +1976,24 @@ n s
 2.046
 2.048
 2.050
-O
-b l i q u i t
-y a n g l e
-(
-a r c
-m i
-n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 0.0
 0.5
 1.0
 1.5
-2.0 2.5
+2.0
+2.5
 3.0
 3.5
 4.0
 4.5
-O
-b l i q u i t
-y a n g l e
-(
-a r c
-m i
-n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 kinematic viscosity: 0.01 m2 s-1 0.00001 m2 s-1 0.0001 m2 s-1 0.0005 m2 s-1 0.001 m2 s-1
@@ -2351,15 +2332,9 @@ Confidential manuscript submitted to JGR-Planets
 2.046
 2.048
 2.050
-O
-b l i q
-u i t
-y a n
-g l e
-(
-a r
-c
-m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 0.0
@@ -2372,26 +2347,23 @@ Inner core radius (km)
 3.5
 4.0
 4.5
-O
-b l i q
-u i t
-y a n
-g l e
-(
-a r
-c
-m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 Br at ICB: 1 mT 0.01 mT 0.03 mT 0.1 mT 0.3 mT
 ε
 m
-ε g
+ε
+g
 m
 f
 n s
 a b
-for a rigid planet ε m
+for a rigid planet
+ε
+m
 Figure 6. a) Obliquity of the mantle (˜ ε m, solid lines) and gravity field (˜ ε g, dashed lines) b) ˜ m
 f
 (solid lines) and ˜ n
@@ -2452,14 +2424,9 @@ Confidential manuscript submitted to JGR-Planets
 2.046
 2.048
 2.050
-O b l i q
-u i t y a
-n
-g l e
-(
-a r
-c
-m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 0.0
@@ -2472,14 +2439,9 @@ Inner core radius (km)
 3.5
 4.0
 4.5
-O b l i q
-u i t y a
-n
-g l e
-(
-a r
-c
-m i n )
+Obliquity
+angle
+(arcmin)
 0 200 400 600 800 1000 1200 1400
 Inner core radius (km)
 for a rigid planet
@@ -2487,10 +2449,14 @@ for a rigid planet
 m
 a b
 α 3: 0.20 0.01 0.05 0.10 0.15 ρ s = 8800 kg m-3
-m f
-n s
+m
+f
+n
+s
 ε
-m ε g
+m
+ε
+g
 Figure 7. a) Obliquity of the mantle (˜ ε m, solid lines) and gravity field (˜ ε g, dashed lines) b) ˜ m
 f
 (solid lines) and ˜ n

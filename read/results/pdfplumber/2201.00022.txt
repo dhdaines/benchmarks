@@ -71,45 +71,11 @@ lated gas (e.g., Begelman et al. 2006; Yue et al. 2014;
 Ferrara et al. 2014; Choi et al. 2015; Shlosman et al.
 2016). These high redshift IMBHs would need to sur-
 vive galaxy evolution and mergers to present day (e.g.,
-a
-r
-X
-i
-v
-:
-2
-2
-0
-1
-.
-0
-0
-0
-2
-2
-v
-2
-[
-a
-s
-t
-r
-o
--
-p
-h
-.
-G
-A
-]
+arXiv:2201.00022v2
+[astro-ph.GA]
 6
-J
-u
-l
-2
-0
-2
-2
+Jul
+2022
 2 Rose et al.
 Rashkov&Madau2014),withsignificanteffectsontheir
 stellarandevendarkmattersurroundings(e.g.,Bertone

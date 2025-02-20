@@ -127,40 +127,11 @@ are learned. This is usually done by an
 optimization technique called gradient descent. The gradient
 descent algorithm takes a function which has to be derivable,
 starts at any point of the surface of this error function and
-a
-r
-X
-i
-v
-:
-1
-6
-0
-1
-.
-0
-3
-6
-4
-2
-v
-1
-[
-c
-s
-.
-C
-V
-]
-1
-2
-J
-a
-n
-2
-0
-1
-6
+arXiv:1601.03642v1
+[cs.CV]
+12
+Jan
+2016
 2
 makes a step in the direction which goes downwards. Hence
 it tries to find a minimum of this high-dimensional function.

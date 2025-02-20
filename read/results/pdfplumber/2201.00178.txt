@@ -41,44 +41,11 @@ et al. 2021). Local mode-coupling analysis in the Cartesian approximation, formu
 validated by Hanson et al. (2021) (hereafter H21) by examining the power-spectrum of supergranular waves and
 comparing with previous time-distance studies (Langfellner et al. 2018).
 prasad.subramanian@tifr.res.in
-a
-r
-X
-i
-v
-:
-2
-2
-0
+arXiv:2201.00178v1
+[astro-ph.SR]
 1
-.
-0
-0
-1
-7
-8
-v
-1
-[
-a
-s
-t
-r
-o
--
-p
-h .
-S
-R
-]
-1
-J
-a
-n
-2
-0
-2
-2
+Jan
+2022
 2 Mani et al.
 Normal-modecouplingreferstotheconceptofexpressingsolar-oscillationeigenfunctionsasalinearweightedcombi-
 nationofmodel-eigenfunctions(e.g.,ModelSChristensen-Dalsgaard2021). Themodeleigenfunctionsformacomplete
