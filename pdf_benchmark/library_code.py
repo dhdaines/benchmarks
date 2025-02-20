@@ -29,10 +29,8 @@ def playa_get_text(data: bytes) -> str:
             args = argparse.Namespace(pages="all", outfile=outfh)
             with playa.open(path) as pdf:
                 playa_extract_text(pdf, args)
-                page_labels = [page.label for page in pdf.pages]
         with open(outpath) as infh:
             text = infh.read()
-        text = postprocess(text, page_labels)
         return text
 
 
