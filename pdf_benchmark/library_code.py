@@ -27,7 +27,7 @@ def playa_get_text(data: bytes) -> str:
         outpath = os.path.join(tempdir, "pdf.txt")
         with open(outpath, "wt") as outfh:
             args = argparse.Namespace(pages="all", outfile=outfh)
-            with playa.open(path) as pdf:
+            with playa.open(path, max_workers=2) as pdf:
                 playa_extract_text(pdf, args)
         with open(outpath) as infh:
             text = infh.read()
