@@ -15,6 +15,7 @@ import fitz as PyMuPDF
 import pdfminer
 import pdfplumber
 import pdfrw
+import playa
 import pypdf
 import pypdfium2
 import tika
@@ -30,6 +31,7 @@ from pdf_benchmark.library_code import (
     pdfplubmer_get_text,
     pdfrw_watermarking,
     pdftotext_get_text,
+    playa_get_text,
     pymupdf_get_text,
     pymupdf_image_extraction,
     pymupdf_watermarking,
@@ -250,6 +252,15 @@ if __name__ == "__main__":
             license="MIT",
             last_release_date="2017-09-18",
             dependencies="",
+        ),
+        "playa": Library(
+            "playa",
+            "playa",
+            "https://pypi.org/project/playa-pdf/",
+            text_extraction_function=playa_get_text,
+            version=playa.__version__,
+            license="MIT",
+            last_release_date="2025-02-18",
         ),
     }
     main(docs, libraries)

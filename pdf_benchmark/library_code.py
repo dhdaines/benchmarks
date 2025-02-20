@@ -1,3 +1,4 @@
+import argparse
 import os
 import subprocess
 import tempfile
@@ -6,14 +7,33 @@ from io import BytesIO
 import fitz as PyMuPDF
 import pdfminer
 import pdfplumber
+import playa
 import pypdf
 import pypdfium2 as pdfium
 from borb.pdf.pdf import PDF
 from borb.toolkit.text.simple_text_extraction import SimpleTextExtraction
+from playa.cli import extract_text as playa_extract_text
 from pdfminer.high_level import extract_pages
 from requests import ReadTimeout
 
 from .text_extraction_post_processing import postprocess, PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE
+
+
+def playa_get_text(data: bytes) -> str:
+    with tempfile.TemporaryDirectory() as tempdir:
+        path = os.path.join(tempdir, "pdf.pdf")
+        with open(path, "wb") as outfh:
+            outfh.write(data)
+        outpath = os.path.join(tempdir, "pdf.txt")
+        with open(outpath, "wt") as outfh:
+            args = argparse.Namespace(pages="all", outfile=outfh)
+            with playa.open(path) as pdf:
+                playa_extract_text(pdf, args)
+                page_labels = [page.label for page in pdf.pages]
+        with open(outpath) as infh:
+            text = infh.read()
+        text = postprocess(text, page_labels)
+        return text
 
 
 def pymupdf_get_text(data: bytes) -> str:

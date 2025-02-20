@@ -6,6 +6,7 @@ pypdf
 requests
 rich
 tika
+playa-pdf
 python-Levenshtein
 pdftotext
 pydantic
