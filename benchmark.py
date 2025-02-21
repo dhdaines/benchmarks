@@ -174,7 +174,7 @@ if __name__ == "__main__":
             version=pypdf.__version__,
             watermarking_function=pypdf_watermarking,
             license="BSD 3-Clause",
-            last_release_date="2023-08-26",
+            last_release_date="2025-02-09",
             image_extraction_function=pypdf_image_extraction,
         ),
         "pdfminer": Library(
@@ -184,7 +184,7 @@ if __name__ == "__main__":
             text_extraction_function=lambda n: pdfminder_extract_text(BytesIO(n)),
             version=pdfminer.__version__,
             license="MIT/X",
-            last_release_date="2022-11-05",
+            last_release_date="2024-07-06",
             image_extraction_function=pdfminer_image_extraction,
         ),
         "pdfplumber": Library(
@@ -194,7 +194,7 @@ if __name__ == "__main__":
             text_extraction_function=pdfplubmer_get_text,
             version=pdfplumber.__version__,
             license="MIT",
-            last_release_date="2023-07-29",
+            last_release_date="2025-01-01",
             dependencies="pdfminer.six",
         ),
         "pymupdf": Library(
@@ -207,7 +207,7 @@ if __name__ == "__main__":
             image_extraction_function=pymupdf_image_extraction,
             dependencies="MuPDF",
             license="GNU AFFERO GPL 3.0 / Commerical",
-            last_release_date="2023-08-24",
+            last_release_date="2025-02-06",
         ),
         "pdftotext": Library(
             "pdftotext",
@@ -228,7 +228,7 @@ if __name__ == "__main__":
             version="2.1.16",
             watermarking_function=None,
             license="AGPL/Commercial",
-            last_release_date="2023-06-23",
+            last_release_date="2024-08-03",
         ),
         "pdfium": Library(
             "pypdfium2",
@@ -239,7 +239,7 @@ if __name__ == "__main__":
             watermarking_function=None,
             image_extraction_function=pdfium_image_extraction,
             license="Apache-2.0 or BSD-3-Clause",
-            last_release_date="2023-07-04",
+            last_release_date="2024-12-19",
             dependencies="PDFium (Foxit/Google)",
         ),
         "pdfrw": Library(
@@ -260,7 +260,7 @@ if __name__ == "__main__":
             text_extraction_function=playa_get_text,
             version=playa.__version__,
             license="MIT",
-            last_release_date="2025-02-18",
+            last_release_date="2025-02-20",
         ),
     }
     main(docs, libraries)
