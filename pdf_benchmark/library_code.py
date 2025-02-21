@@ -22,13 +22,11 @@ def playa_get_text(data: bytes) -> str:
         path = os.path.join(tempdir, "pdf.pdf")
         with open(path, "wb") as outfh:
             outfh.write(data)
-        outpath = os.path.join(tempdir, "pdf.txt")
         texts = []
-        with open(outpath, "wt") as outfh:
-            with playa.open(path, max_workers=2) as pdf:
-                pages = pdf.pages
-                page_labels = [page.label for page in pages]
-                texts = list(pages.map(playa.Page.extract_text))
+        with playa.open(path, max_workers=2) as pdf:
+            pages = pdf.pages
+            page_labels = [page.label for page in pages]
+            texts = list(pages.map(playa.Page.extract_text))
         return postprocess(texts, page_labels)
 
 
