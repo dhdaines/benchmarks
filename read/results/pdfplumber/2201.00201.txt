@@ -81,11 +81,46 @@ formed by Feast et al. (2006), who provided quantitative age
 estimates for these stars. A summary of the main results and
 prospectsemergingfromtheseHipparcos-erastudiesisgivenby
 Articlenumber,page1of9
-arXiv:2201.00201v2
-[astro-ph.SR]
-17
-Jan
-2022
+a
+r
+X
+i
+v
+:
+2
+2
+0
+1
+.
+0
+0
+2
+0
+1
+v
+2
+[
+a
+s
+t
+r
+o
+-
+p
+h
+.
+S
+R
+]
+1
+7
+J
+a
+n
+2
+0
+2
+2
 A&Aproofs:manuscriptno.trabucchi_etal_2022_period_age_relation_of_lpvs
 Feast(2007).Morerecently,thestudyoftheGalaxywithLPVs
 hasbeenstimulatedbythewealthofdataacquiredbylarge-scale
@@ -124,17 +159,23 @@ We employed PARSEC-COLIBRI isochrones (Marigo et al.
 (TP-AGB) phase, and from PARSEC (Bressan et al. 2012, ver-
 sion 1.2S) for the preceding evolution. The adopted set of
 isochrones covers the range 0.001 to 0.016 in initial metal-
-licity (Z i), with a 0.001 step, while it spans the age interval
+licity (Z
+i
+), with a 0.001 step, while it spans the age interval
 8.00 ≤ log(τ/yr) ≤ 10.45 with a step of 0.05. Since the AGB
 phaseisshort-lived,itonlyspansasmallrangeofinitialmasses
-foreachgivenisochrone,oforderof10−2M (cid:12)atmost.
+foreachgivenisochrone,oforderof10−2M
+(cid:12)
+atmost.
 Theadoptedisochronesincludelinearpulsationperiodsfrom
 Trabucchietal.(2019)forovertonemodesandnonlinearperiods
 computed with the period-mass-radius relation from Trabucchi
 etal.(2021b)fortheFM1.Pulsationpropertieswerecomputed
 alongboththeearly-AGBandtheTP-AGB.Wedidnotextend
 ouranalysistoredsupergiantstarsasthepulsationprescription
-weemployedarestrictlyvalidonlybelow7M (cid:12).
+weemployedarestrictlyvalidonlybelow7M
+(cid:12)
+.
 Werecallthat,withtheadoptednonlinearrelation,theperiod
 increaseswithradius(R)asabrokenpowerlaw,whoseexponent
 decreasesassoonasthe“bendingradius”R
@@ -146,8 +187,10 @@ s
 b
 is reached
 (i.e.,theperiodbecomesindependentofradius).Theexactval-
-ues of R b and R s, as well as of the exponents, depend on the current mass (M). We assume that the FM is dominant if the
-stellar radius is larger than the critical value R dom,0, which we
+ues of R b and R s , as well as of the exponents, depend on the current mass (M). We assume that the FM is dominant if the
+stellar radius is larger than the critical value R
+dom,0
+, which we
 computedfromthecurrentstellarmassusingEq.4ofTrabucchi
 etal.(2021b).
 1 Hereinafter, whenever we discuss periods, it should be understood
@@ -245,7 +288,9 @@ variability observations, relative period uncertainties are most
 likelynegligiblecomparedwiththoseassociatedwithage.
 3. Results
 Panel (a) of Fig. 1 shows a comparison between model predic-
-tions and observations in the P FM–log(τ/yr) plane. The former
+tions and observations in the P
+FM
+–log(τ/yr) plane. The former
 are displayed by a density map showing the expected number
 N FM of LPVs pulsating in the FM in each period-age bin, nor-
 malizedtomaximum.Modelpredictionsareingoodagreement
@@ -257,7 +302,9 @@ rich LPVs from Feast et al. (2006, their table 4), which fit the
 generalpatternwiththeexceptionoftheirgroup3,estimatedto
 beolderthanwhatourmodelspredictatP(cid:39)650.
 We also show a linear best-fit to the models distribution
-(weighted by N FM), which shows a fairly good agreement with
+(weighted by N
+FM
+), which shows a fairly good agreement with
 the best-fit to observations by Grady et al. (2019, also shown).
 However, the best-fit line does not fully capture the properties
 ofthepredictions,noroftheobservedtrend.Indeed,modelsare
@@ -360,13 +407,13 @@ oftheAGBthatlimitstherangeofperiodsaFM-pulsatingLPV
 canhaveatagivenage.Yet,theDFMPpartoftheAGBislong
 enoughforsignificantvariationsinradiustooccur,whichresult
 inthedispersionofthePArelationseeninFig.1.
-AtagiveninitialmetallicityZ i,theshapeoftheperioddis-
+AtagiveninitialmetallicityZ i ,theshapeoftheperioddis-
 tributionprimarilyresultsfromthefactthat,throughouttheTP-
 AGB (the stage during which the FM is normally excited), the
 envelope expansion accelerates, while the period becomes pro-
 gressivelylesssensitivetochangesinradius(seeAppendixC).
 In particular, the slope of the period-radius relation decreases
-sharply at P b = P(R b). The FM period distribution is roughly
+sharply at P b = P(R b ). The FM period distribution is roughly
 symmetricaroundthatvalue,butatitsshort-periodside,theFM
 isnotdominant.Therefore,whenonlyFM-dominatedLPVsare
 considered,asisdonehere,theobservedperioddistributionap-
@@ -377,14 +424,20 @@ adopted criterion for the onset of DFMP does not depend on
 metallicity, but the FM period does as metal-poor LPVs are
 warmer and have smaller radii compared with metal-rich ones.
 As a consequence, the bulk of the period distribution of metal-
-poorLPVsisatperiodsshorterthanP b,sotheyonlycontribute
+poorLPVsisatperiodsshorterthanP
+b
+,sotheyonlycontribute
 to the global distribution (i.e., at all Z
 i
 at a given age) over a
-smallperiodrangeatP(cid:38) P b.Incontrast,metal-richLPVshave
-periodswellbeyondP b,sotheycontributebothatthatvalueand
+smallperiodrangeatP(cid:38) P
+b
+.Incontrast,metal-richLPVshave
+periodswellbeyondP
+b
+,sotheycontributebothatthatvalueand
 atlongerperiods.TheresultisanexcessofFM-dominatedLPVs
-nearP b,thatistosayontheshortsideoftheoverallperioddis-
+nearP b ,thatistosayontheshortsideoftheoverallperioddis-
 tribution.
 We note that, in contrast with the prescription we adopted,
 the onset of DFMP in reality is probably sensitive to metallic-
@@ -664,14 +717,18 @@ Wyatt,S.P.&Cahn,J.H.1983,ApJ,275,225
 Ya’Ari,A.&Tuchman,Y.1996,ApJ,456,350
 Articlenumber,page6of9
 Trabucchietal.:Theperiod-agerelationofLPVs
-Fig.A.1.Absolute-K sGaia-2MASSdiagramforthestarswithorwith-
+Fig.A.1.Absolute-K
+s
+Gaia-2MASSdiagramforthestarswithorwith-
 out a spectral type (left and right panels, respectively) in the selected
 sample. Symbol colors and shapes indicate the spectral type and host
 clusterdescribedinthelegend,respectively,whichalsoreportsthenum-
 berofsourcesdisplayed(i.e.,havingbothopticalandNIRphotometry).
 The dashed line marks the separation between O- and C-rich sources
 accordingtoLebzelteretal.(2018).AnarrowmarksthesourceMSX
-LMC124inNGC1830that,havingW BP,RP−W
+LMC124inNGC1830that,havingW
+BP,RP
+−W
 J,Ks
 =9.73mag,liesout-
 sidetheplotarea.BackgrounddotsareLPVsintheLMCfromOGLE-
@@ -754,7 +811,13 @@ tributionequals25%ofitsmaximum.Weselectedthisarbitrary
 value upon visual inspection of the PA plane. We modeled the
 central trend of the PA relation, as well as its short- and long-
 periodedges,withlinearorquadraticfunctionsintheform
-log(τ/yr)=a 0+a 1(P/˜ P)+a 2(P/˜ P)2, (B.1)
+log(τ/yr)=a
+0
++a
+1
+(P/˜ P)+a
+2
+(P/˜ P)2, (B.1)
 (where ˜ P = 350 days) and employed a Lenvenberg-Marquardt
 nonlinearregressionalgorithm3toderivethebest-fitcoefficients,
 which are listed in Table B.1. We remark that these best-fit ex-
@@ -789,7 +852,7 @@ Becauseoftheconnectionbetweenageandinitialmass,the
 PArelationcanbetranslatedintoaperiod-initialmassrelation,
 whichwederivedusingthesameapproachdescribedabove,and
 assumingtheform
-log(M i/M (cid:12))=b 0+b 1(P/˜ P)+b 2(P/˜ P)2. (B.2)
+log(M i /M (cid:12) )=b 0 +b 1 (P/˜ P)+b 2 (P/˜ P)2. (B.2)
 Theresultingbest-fitlinesaredisplayedinFig.B.1,andtheco-
 efficientsaregiveninTableB.2.
 WeremarkthatboththePAandtheperiod-initialmassrela-
@@ -805,7 +868,9 @@ initial masses M
 i
 (cid:39) 3.85M
 (cid:12)
-over a small range of ∼ 10−3M (cid:12).
+over a small range of ∼ 10−3M
+(cid:12)
+.
 The relation between period and initial mass is displayed in
 panel (a) of Fig. C.1, where isochrone portions undergoing
 TableB.2.Best-fitcoefficientsfortheperiod-initialmassrelationand
@@ -831,7 +896,7 @@ pulsesandconsideronlythequiescentevolution(greenlinesin
 Fig.C.1).Thesmallestinitialmasscorrespondstoastarthatjust
 enteredtheTP-AGB,whentheFMhasaperiodof∼ 240days
 butisnotdominant.Itonlybecomesdominantaboveathreshold
-radiusR dom,0,thatisforperiodslongerthana(mass-dependent)
+radiusR dom,0 ,thatisforperiodslongerthana(mass-dependent)
 criticalperiod P
 dom,0
 (thesolidgraylineinFig.C.1).Theleast
@@ -847,16 +912,26 @@ radiusandalongerperiod.Therateatwhichaperiodincreases
 withradiusisnotfixed,butratherdecreaseswithevolution.Ac-
 cordingtotheprescriptionofTrabucchietal.(2021b),aperiod
 growswithradiusasabrokenpower-lawwithexponentα(cid:39)1.8
-ifR<R b,andwithα(cid:39)1.25atlargerradii.
+ifR<R
+b
+,andwithα(cid:39)1.25atlargerradii.
 This is equivalent to saying that the period grows more
 slowly after it exceeds a critical value P
 b
-= P(R b), marked by
+= P(R
+b
+), marked by
 the gray dotted line in Fig. C.1. The isochrone reaches it at
 Articlenumber,page8of9
 Trabucchietal.:Theperiod-agerelationofLPVs
-Fig.B.1.SimilartoFig.2,butshowinginitialmassM iinplaceofage.Thebest-fitlinestothemostpopulatedbandandedgesofthetheoretical
-P FM–M irelationareshown.
+Fig.B.1.SimilartoFig.2,butshowinginitialmassM
+i
+inplaceofage.Thebest-fitlinestothemostpopulatedbandandedgesofthetheoretical
+P
+FM
+–M
+i
+relationareshown.
 Fig.C.1.Perioddistributionatfixedageandmetallicity.Panel(a)shows
 periodasafunctionofinitialmass(currentmassonthetopaxis)onthe
 TP-AGB for a ∼ 200 Myr old isochrone with Z

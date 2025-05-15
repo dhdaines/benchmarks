@@ -642,7 +642,7 @@ o(ae)*
 where G is the gravitational constant and r, is the sum
 of the radii of the interacting objects, a black hole with
 mass mpy and a star with mass m,. Detailed in Rose
-et al. (2020), fi(e.) and fo(e.) account for the effect of
+et al. (2020), fi(es) and fo(e.) account for the effect of
 the eccentricity of the BH’s orbit about the SMBH on
 the collision rate, while n and o are simply evaluated
 at the semimajor axis of the orbit (see below). Note
@@ -954,21 +954,19 @@ collisions and increase the BH mass accordingly.
 
  
 
-% * Initial
-4x10 e e@ AM=1M.
-¢ Bondi-Hoyle-Lyttleton
+% Initial
+4x10) e AM=1M,
+« Bondi-Hoyle-Lyttleton
 
-3x10 ¥
+ax 101 ¥
 
-3 ate °
-es
-= es
-1 °
-n 2x10 on oe,
-= os
-103 4
-
- 
+"3 at .
+s
+=, Xie. ‘
+uw 2x10 ‘cs *
+m1 "A509,
+=
+10?
 
  
 
@@ -976,7 +974,12 @@ n 2x10 on oe,
 
  
 
-10-3 10-7 107? 10°
+ 
+
+ 
+
+103 10°? 107? 10°
+
 Distance from SMBH [pc]
 
 Figure 2. We consider an example that highlights the mass
@@ -1254,7 +1257,7 @@ following equation:
 
  
 
-Ménal(tcon — Const.) = Minitial + Am — , (7)
+Ménal (toll md const.) = Minitial + Am — ’ (7)
 co
 in which T represents the simulation time and Am and
 teoll Temain constant, approximated as their initial val-

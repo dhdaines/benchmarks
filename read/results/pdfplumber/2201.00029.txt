@@ -125,7 +125,9 @@ Q7 Re-bin 2 5.889 0.597 1.965 19.2
 TABLE I: The table displays the various frequencies collected from Q7 and the information
 found through calculations to find period and SNR. The frequency of 5.464 µHz is not included,
 and therefore was not used in any calculations determining the average period of rotation. The
-values under corrected flux magnitude are relative to our significant frequency cutoff of 3 𝝈, thus
+values under corrected flux magnitude are relative to our significant frequency cutoff of 3
+𝝈
+, thus
 negative numbers are under the cutoff.
 Q13 Significant
 Data Points
@@ -150,7 +152,9 @@ TABLE II: The table displays the various frequencies collected from Q13 and the 
 found through calculations to find period and SNR. The last two significant frequencies (11.641
 µHz and 16.823 µHz) for Q13 Re-bin 3 represent potential harmonics, which are discussed in
 further detail in the Conclusions section of this paper. The values under corrected flux magnitude
-are relative to our significant frequency cutoff of 3 𝝈, thus negative numbers are under the cutoff.
+are relative to our significant frequency cutoff of 3
+𝝈
+, thus negative numbers are under the cutoff.
 8
 First Iteration (µHz) First Re-bin (µHz) Second Re-bin (µHz) Third Re-bin (µHz)
 0.933 0.933 0.215 0.216
@@ -207,7 +211,9 @@ First Iteration (µHz) First Re-bin (µHz) Second Re-bin (µHz) Third Re-bin (µ
 15.881
 16.823
 TABLE IV: The table displays all frequencies of Q13 that had a corrected flux magnitude (ppm)
-above the cutoff of 3 𝝈. The minor shifting of significant frequencies between re-bins is a by-
+above the cutoff of 3
+𝝈
+. The minor shifting of significant frequencies between re-bins is a by-
 product of the method, and we calculated for such errors when finding our average.
 Conclusions
 As our research used the long-cadence data from Kepler, much of the high-frequency

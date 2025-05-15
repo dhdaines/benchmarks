@@ -51,10 +51,10 @@ in „Analysis I“ vermittelt.
 ), Mengenschreibweisen (
 
 ,
-∩
+∪
 
 ,
-∪
+∩
 
 P
 
@@ -273,9 +273,9 @@ sind als Komplement oﬀener Mengen abgeschlossen.
 
 X =
 
-\
-
 ∅
+
+\
 
 T und
 (cid:4)
@@ -447,9 +447,9 @@ sind dort alle abgeschlossenen Mengen.
 
 {
 
-{
-
 }
+
+{
 
 ,
 
@@ -1385,9 +1385,9 @@ x = y
 
 Ux
 
-∩
-
 ∈
+
+∩
 
 Uy =
 ∅
@@ -2183,9 +2183,9 @@ R
 ∩
 X, wobei X ein topologischer Raum ist.
 
-∩
-
 ∪
+
+∩
 
 6) R mit Zariski-Topologie ist zusammenhängend.
 
@@ -7537,9 +7537,9 @@ R)
 
 →
 
-(cid:55)→
-
 →
+
+(cid:55)→
 
 ×
 
@@ -8855,9 +8855,9 @@ z
 
 Abbildungen.
 
-}
-
 (cid:107)
+
+}
 
 ∈
 1) f1 := idR ist eine oﬀene und stetige Abbildung.
@@ -9034,9 +9034,9 @@ Vi
 
 Vj =
 
-∃
-
 ∀
+
+∃
 
 ∈
 
@@ -9079,9 +9079,9 @@ yi
 
 ∩
 
-{
-
 }
+
+{
 
 .
 ∅
@@ -10188,9 +10188,9 @@ von y.
 
 ⊆
 
-U ein Homöomorphismus. Dann ist W := f −1(V )
-
 Y
+
+U ein Homöomorphismus. Dann ist W := f −1(V )
 
 ×
 ∈
@@ -10234,9 +10234,9 @@ f (y0) = g(y0), so ist (g−1
 
 −
 
-1
-
 }
+
+1
 
 schon Fix(f ) = Y , also f = idY .
 
@@ -11440,6 +11440,8 @@ Diese Teilmengen Hi heißen Halbebenen bzgl. g.
 
 für alle A
 
+gilt: AB
+
 Hi, B
 
 ∈ {
@@ -11454,8 +11456,6 @@ Hi, B
 
 H2 in zwei nichtleere Teilmengen H1, H2, sodass
 =
-
-gilt: AB
 
 = j.
 
@@ -12447,9 +12447,9 @@ g =
 
 (cid:4)
 
-}
-
 {
+
+}
 
 ⇒
 ⇒
@@ -13660,17 +13660,17 @@ Abbildung 4.21: Hyperbolische Geraden erfüllen §5 nicht.
 1
 −
 
-1
-
-0
-
-3
-
 2
+
+1
 
 5
 
+0
+
 4
+
+3
 
 x
 
@@ -17773,9 +17773,9 @@ phismus.
 
 H, x
 
-(cid:55)→
-
 →
+
+(cid:55)→
 
 3) Sei X ein topologischer Raum. Dann ist idX ein Homöomorphismus. Da keine
 Verknüpfung auf X deﬁniert wurde, ist X keine Gruppe und daher auch kein Grup-
@@ -18038,9 +18038,9 @@ R
 
 \ {
 
-}
-
 0
+
+}
 
 0
 

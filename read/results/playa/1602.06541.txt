@@ -2,7 +2,7 @@
 A Survey of Semantic Segmentation
 Martin Thoma
 info@martin-thoma.de
-Abstract —This survey gives an overview over different
+Abstract—This survey gives an overview over different
 techniques used for pixel-level semantic segmentation.
 Metrics and datasets for the evaluation of segmentation
  algorithms and traditional approaches for segmentation
@@ -13,16 +13,16 @@ convolutional neural networks are mentioned and typical
 problematic situations for segmentation algorithms are
 examined. A taxonomy of segmentation algorithms is
 given.
- I. I NTRODUCTION
+ I. INTRODUCTION
 Semantic segmentation is the task of clustering
 parts of images together which belong to the same
 object class. This type of algorithm has several usecases
- such as detecting road signs [ MBLAGJ+
- 07],
-detecting tumors [ MBVLG02 ], detecting medical instruments
- in operations [WAH97 ], colon crypts segmentation
- [ CRSS14], land use and land cover classification
- [HDT02 ]. In contrast, non-semantic segmentation
+ such as detecting road signs [MBLAGJ+
+07],
+detecting tumors [MBVLG02], detecting medical instruments
+ in operations [WAH97], colon crypts segmentation
+ [CRSS14], land use and land cover classification
+ [HDT02]. In contrast, non-semantic segmentation
 only clusters pixels together based on general characteristics
  of single objects. Hence the task of non-semantic
 segmentation is not well-defined, as many different
@@ -49,7 +49,7 @@ brief, non-exhaustive summary of recently published
 semantic segmentation algorithms which are based on
 neural networks in Section VI. Finally, Section VII
 informs the reader about typical problematic cases for
-segmentation algorithms. II. TAXONOMY OF S EGMENTATION A LGORITHMS
+segmentation algorithms.  II. TAXONOMY OF SEGMENTATION ALGORITHMS
 The computer vision community has published a
 wide range of segmentation algorithms so far. Those
 algorithms can be grouped by the kind of data they
@@ -59,9 +59,9 @@ The following subsections will give four different
 criteria by which segmentation algorithms can be
 classified.
 This survey describes fixed-class (see Section II-A),
-single-class affiliation (see Section II-B ) algorithms
+single-class affiliation (see Section II-B) algorithms
 which work on grayscale or colored single pixel images
-(see Section II-C ) in a completely automated, passive
+(see Section II-C) in a completely automated, passive
 fashion (see Section II-D).
 A. Allowed classes
 Semantic segmentation is a classification task. As
@@ -69,14 +69,14 @@ such, the classes on which the algorithm is trained is a
 central design decision.
 Most algorithms work with a fixed set of classes;
 some even only work on binary classes like foreground
- vs background [ RM07], [ CS10 ] or street vs
+ vs background [RM07], [CS10] or street vs
 no street [BKTT15].
 However, there are also unsupervised segmentation
 algorithms which do not distinguish classes at all (see
 Section V-B) as well as segmentation algorithms which
 are able to recognize when they don’t know a class.
-For example, in [ GRC+
- 08 ] a void class was added
+For example, in [GRC+
+08] a void class was added
 for classes which were not in the training set. Such
 a void class was also used in the MSRCv2 dataset
 (see Section III-B2) to make it possible to make more
@@ -92,8 +92,7 @@ we simultaneously two labels to the coordinates of the
 glass: Glass and table. Although there is much more
 work being done on single class affiliation segmentation
  algorithms, there is a publication about multiple
-class affiliation
- segmentation [ LRAL08 ]. Similarly,
+class affiliation segmentation [LRAL08]. Similarly,
 recent publications in pixel-level object segmentation
 used layered models [YHRF12].arXiv:1602.06541v2  [cs.CV]  11 May 2016
 
@@ -106,8 +105,8 @@ magnetic resonance (MR) imaging or ultrasonography
  whereas colored photographs are obviously
 widespread.
 • Excluding or including depth data: RGB-D,
-sometimes also called range [ HJBJ +
- 96 ] is available
+sometimes also called range [HJBJ+
+96] is available
  in robotics, autonomous cars and recently
 also in consumer electronics such as Microsoft
 Kinect [Zha12].
@@ -118,7 +117,7 @@ stereo images was already tried in [BVZ01]. It can
 be seen as a more natural way of segmentation as
 most mammals have two eyes. It can also be seen
 as being related to having depth data.
-Co-segmentation as in [ RMBK06], [ CXGS12 ] is
+Co-segmentation as in [RMBK06], [CXGS12] is
 the problem of finding a consistent segmentation
 for multiple images. This problem can be seen
 in two ways: One the one hand, it can be seen
@@ -129,15 +128,15 @@ of information to find a meaningful segmentation.
 This idea can be extended to time series such as
 videos.
 • 2D vs 3D
- : Segmenting images is a 2D segmentation
+: Segmenting images is a 2D segmentation
  task where the smallest unit is called a pixel.
 In 3D data, such as volumetric X-ray CT images
-as they were used in [ HHR01 ], the smallest unit
+as they were used in [HHR01], the smallest unit
 is called a voxel.
 D. Operation state
 The operation state of the classifying machine can
-either be active as in [SUM +
- 11 ], [SSA12] where robots
+either be active as in [SUM+
+11], [SSA12] where robots
 can move objects to find a segmentation or passive,
 where the received image cannot be influenced. Among
 the passive algorithms, some segment in a completely
@@ -145,12 +144,12 @@ automatic fashion, others work in an interactive mode.
 One example would be a system where the user clicks
 on the background or marks a coarse segmentation and
 the algorithm finds a fine-grained segmentation. [BJ00],
-[ RKB04 ], [ PS07] describe systems which work in an
-interactive mode. (a) Example Scene (b) Visualization of a found segmentation
+[RKB04], [PS07] describe systems which work in an
+interactive mode.  (a) Example Scene (b) Visualization of a found segmentation
 
 Figure 1: An example of a scene and a possible visualization
  of a found segmentation.
-III. E VALUATION AND D ATASETS
+III. EVALUATION AND DATASETS
 A. Quality measures for evaluation
 A performance measure is a crucial part of any
 machine learning system. As users of a semantic
@@ -172,24 +171,24 @@ meaningful information about the overall accuracy, there
 are a couple of metrics how accuracy can be defined.
 For this section, let k ∈ N be the number of classes,
 n
- ij ∈ N
- 0 with i, j ∈ 1 , . . . , k be the number of pixels
+ij ∈ N
+0 with i, j ∈ 1, . . . , k be the number of pixels
 which belong to class i and were labeled as class j .
 (n
- ij ) is called a confusion matrix . Let t
- i =
- k
-j =1 n
- ij
+ij ) is called a confusion matrix. Let t
+i =
+k
+j=1 n
+ij
 be the total number of pixels of class i.
 One way to compare segmentation algorithms is by
 the pixel-wise accuracy of the predicted segmentation
-as done in many publications [ SWRC06], [ CP08],
-[ LSD14 ]. This is also called per-pixel rate and defined
+as done in many publications [SWRC06], [CP08],
+[LSD14]. This is also called per-pixel rate and defined
  as
- k
+k
 i=1 n
- ii
+ii
 
 k
 i=1 t
@@ -211,70 +210,70 @@ general “car” and the more specific “wheel of a
 car”
 Three accuracy metrics which do not suffer from
 problem P1 are used in [LSD14]:
-• mean accuracy : 1
+• mean accuracy: 1
 k ·
 k
-i =1 n
- ii
+i=1 n
+ii
 t
-i ∈ [0 , 1]
+i ∈ [0, 1]
 • mean intersection over union:
 1
 k ·
 k
-i =1 n
- ii
+i=1 n
+ii
 t
- i − n
-ii +
- k
-j =1 n
- ji ∈ [0, 1]
-• frequency weighted intersection over union :
+i−n
+ii+
+k
+j=1 n
+ji ∈ [0, 1]
+• frequency weighted intersection over union:
 (
 k
-i =1 t
-i ) −1
+i=1 t
+i)−1
 k
-i =1 t
+i=1 t
 i · n
- ii
+ii
 t
-i − n
- ii +
+i−n
+ii+
 k
-j =1 n
-ji ∈ [0 , 1]
+j=1 n
+ji ∈ [0, 1]
 Another problem might be pixels which cannot be
 assigned to one of the known classes. For this reason,
-[ SWRC06 ] makes use of a void class. This class gets
+[SWRC06] makes use of a void class. This class gets
 completely ignored for all quality measures. Hence the
-total number of pixels is assumed to bewidth · height −
+total number of pixels is assumed to be width · height −
 number of void pixels.
 One way to deal with problem P1 and problem P2
-is giving the confusion matrix as done in [ SWRC06 ].
+is giving the confusion matrix as done in [SWRC06].
 However, this approach is not feasible if many classes
 are given.
 The F -measure is useful for binary classification
  task such as the KITTI road segmentation
-benchmark [ FKG13 ] or crypt segmentation as done
-by [ CRSS14]. It is calculated as “the harmonic mean
+benchmark [FKG13] or crypt segmentation as done
+by [CRSS14]. It is calculated as “the harmonic mean
 of the precision and recall” [PH05]:
 F
 β = (1 + β )2 tp
 (1 + β 2
- ) · tp + β 2
+) · tp + β 2
  · fn + fp
 where β = 1 is chosen in most cases and tp means
-true positive , fn means false negative and fp means
+true positive, fn means false negative and fp means
 false positive.
 Finally, it should be noted that a lot of other measures
 for the accuracy of segmentations were proposed for
 non-semantic segmentation. One of those accuracy
 measures is Normalized Probabilistic Rand (NPR)
-index which was introduced in [ UPH05 ] and evaluated
- in [ CSI +
- 09 ] on dermoscopy images. Other
+index which was introduced in [UPH05] and evaluated
+ in [CSI+
+09] on dermoscopy images. Other
 non-semantic segmentation measures were introduced
 in [MFTM01], but the reason for creating them seems to
 be to deal with the under-defined task description of nonsemantic
@@ -291,10 +290,10 @@ pixel as street or no-street and thus makes a semantic segmentation, every image
 Most papers do not give exact values for the time
 their application needs. One reason might be that this is
 very hardware, implementation and in some cases even
-data specific. For example, [HJBJ +
- 96 ] notes that their
+data specific. For example, [HJBJ+
+96] notes that their
 algorithm needs 10 s on a Sun SparcStation 20. The
-fastest CPU ever produced for this system had200 MHz.
+fastest CPU ever produced for this system had 200 MHz.
 Comparing this directly with results which were obtained
  using an Intel i7-4820K with 3.9 GHz would not
 be meaningful.
@@ -332,22 +331,21 @@ the following, only the most widely used ones as well
 as three medical databases are described. An overview
 over the quantity and the kind of data is given by
 Table I.
-1) PASCAL VOC: The PASCAL 1
- VOC 2
+1) PASCAL VOC: The PASCAL1
+ VOC2
  challenge
 was organized eight times with different datasets:
-Once every year from 2005 to 2012 [ EVGW+
- b ].
+Once every year from 2005 to 2012 [EVGW+
+b].
 1
- p
- attern analysis, statistical modelling and computational l earning,
+pattern analysis, statistical modelling and computational learning,
 an EU network of excellence
 2
- V isual Object Classes
+Visual Object Classes
 
 Beginning with 2007, a segmentation challenge was
-added [EVGW +
- a].
+added [EVGW+
+a].
 The dataset consists of annotated photographs from
 www.flicker.com, a photo sharing website. There are
 multiple challenges for PASCAL VOC. The 2012
@@ -376,10 +374,10 @@ the object boundaries” [SWRC06].
 consists of 165 images with pixel-level annotation of
 5 classes: “healthy, adenomatous, moderately differentiated,
  moderately-to-poorly differentiated, and poorly
-differentiated” [ CSM09]. This dataset is part of the
+differentiated” [CSM09]. This dataset is part of the
 Gland Segmentation (GlaS) challenge.
-The DIARETDB1 [KKV +
- 14 ] is a dataset of 89 images
+The DIARETDB1 [KKV+
+14] is a dataset of 89 images
  fundus images. Those images show the interior
 surface of the eye. Fundus images can be used to detect
 diabetic retinopathy. The images have four classes of
@@ -387,11 +385,11 @@ coarse annotations: hard and soft exudates, hemorrhages
 and red small dots.
 20 test and additionally 20 training retinal fundus
  images are available through the DRIVE data
-set [ SAN+
- 04 ]. The vessels were annotated. Additionally,
+set [SAN+
+04]. The vessels were annotated. Additionally,
  [AP11] added vascular features.
-The Open-CAS Endoscopic Datasets [ MHMK+
- 14]
+The Open-CAS Endoscopic Datasets [MHMK+
+14]
 are 60 images taken from laparoscopic adrenalectomies
 and 60 images taken from laparoscopic pancreatic
 resections. Those are from 3 surgical procedures each.
@@ -401,14 +399,15 @@ images were labeled by anonymous untrained workers
 to which they refer to as knowledge workers (KWs).
 One crowd annotation was obtained for each image by
 a majority vote on a pixel basis of 10 segmentations
-given by 10 different KWs. Training
+given by 10 different KWs.  Training
 Prediction
  PostprocessingWindow-wise
 
 ClassificationWindow
 extraction Data
 augmentation
-Feature extraction Preprocessing Figure 2: A typical segmentation pipeline gets raw
+Feature extractionPreprocessing
+Figure 2: A typical segmentation pipeline gets raw
 pixel data, applies preprocessing techniques
 like scaling and feature extraction like HOG
 features. For training, data augmentation
@@ -420,10 +419,10 @@ semantic segmentation can be refined by
 simple morphologic operations or by more
 complex approaches such as Markov Random
 Fields (MRFs).
-IV. S EGMENTATION P IPELINE
+IV. SEGMENTATION PIPELINE
 Typically, semantic segmentation is done with a
 classifier which operates on fixed-size feature inputs
-and a sliding-window approach [ DT05 ], [ YBCK10],
+and a sliding-window approach [DT05], [YBCK10],
 [SCZ08]. This means a classifier is trained on images
 of a fixed size. The trained classifier is then fed with
 rectangular regions of the image which are called windows.
@@ -431,9 +430,9 @@ rectangular regions of the image which are called windows.
 51 px × 51 px of the environment, it might only classify
 the center pixel or a subset of the complete window.
 This segmentation pipeline is visualized in Figure 2.
-This approach was taken by [BKTT15 ] and a majority
- of the VOC2007 participants [ EVGW +
- a]. As this
+This approach was taken by [BKTT15] and a majority
+ of the VOC2007 participants [EVGW+
+a]. As this
 approach has to apply the patch classifier 512 · 512 =
 262 144 times for images of size 512 px × 512 px, there
 are techniques for speeding it up such as applying a
@@ -447,14 +446,14 @@ Conditional Random Fields (CRFs) which take the
 information of the complete image and segment it in
 an holistic approach.
 
-V. T RADITIONAL A PPROACHES
+V. TRADITIONAL APPROACHES
 Image segmentation algorithms which use traditional
 approaches, hence don’t apply neural networks and
 make heavy use of domain knowledge, are wide-spread
 in the computer vision community. Features which can
-be used for segmentation are described in SectionV-A ,
+be used for segmentation are described in Section V-A,
 a very brief overview of unsupervised, non-semantic
-segmentation is given in SectionV-B, Random Decision
+segmentation is given in Section V-B, Random Decision
 Forests are described in Section V-C, Markov Random
 Fields in Section V-E and Support Vector Machines
 (SVMs) in Section V-D. Postprocessing is covered in
@@ -475,52 +474,52 @@ for the gray-value) are the most widely used features. A
 typical image is in the RGB color space, but depending
 on the classifier and the problem another color space
 might result in better segmentations. RGB, YcBcr, HSL,
-Lab and YIQ are some examples used by [ CRSS14].
+Lab and YIQ are some examples used by [CRSS14].
 No single color space has been proven to be superior
-to all others in all contexts [ CJSW01]. However, the
+to all others in all contexts [CJSW01]. However, the
 most common choices seem to be RGB and HSI.
 Reasons for choosing RGB is simplicity and the support
 by programming languages, whereas the choice of
 the HSI color space might make it simpler for the
 classifier to become invariant to illumination. One
 reason for choosing CIE-L*a*b* color space is that it
-approximates human perception of brightness [ KP92 ].
+approximates human perception of brightness [KP92].
 It follows that choosing the L*a*b color space helps
 algorithms to detect structures which are seen by
 humans. Another way of improving the structure within
 an image is histogram equalization, which can be
 applied to improve contrast [PAA+
- 87], [RM07].
+87], [RM07].
 2) Histogram of oriented Gradients: Histogram of
 oriented gradients (HOG) features interpret the image
-as a discrete function I : N 2
+as a discrete function I : N2
  → { 0, . . . , 255 } which
-maps the position (x, y ) to a color. For each pixel, there
-are two gradients: The partial derivative of x and y .
+maps the position (x, y) to a color. For each pixel, there
+are two gradients: The partial derivative of x and y.
 Now the original image is transformed to two feature
 maps of equal size which represents the gradient. These
 feature maps are splitted into patches and a histogram of the directions is calculated for each patch. HOG features
-were proposed in [DT05 ] and are used in [BMBM10],
+were proposed in [DT05] and are used in [BMBM10],
 [FGMR10] for segmentation tasks.
 3) SIFT: Scale-invariant feature transform (SIFT)
 feature descriptors describe keypoints in an image. The
 image patch of the size 16 × 16 around the keypoint
 is taken. This patch is divided in 16 distinct parts of
-the size 4 × 4 . For each of those parts a histogram of
+the size 4 × 4. For each of those parts a histogram of
 8 orientations is calculated similar as for HOG features.
 This results in a 128-dimensional feature vector for
 each keypoint.
 It should be emphasized that SIFT is a global feature
 for a complete image.
-SIFT is described in detail in [Low04 ] and are used
+SIFT is described in detail in [Low04] and are used
 in [PTN09].
 4) BOV: Bag-of-visual-words (BOV), also called
-bag of keypoints , is based on vector quantization.
+bag of keypoints, is based on vector quantization.
 Similar to HOG features, BOV features are histograms
 which count the number of occurrences of certain
 patterns within a patch of the image. BOV are described
-in [ CDF+
- 04 ] and used in combination with SIFT
+in [CDF+
+04] and used in combination with SIFT
 feature descriptors in [CP08].
 5) Poselets: Poselets rely on manually added extra
 keypoints such as “right shoulder”, “left shoulder”,
@@ -551,7 +550,7 @@ contain much more information. A simple approach
 to deal with this is downsampling the high-resolution
 image to a low-resolution variant. Another way of
 doing dimensionality reduction is principal component
-analysis (PCA), which is applied by [ COWR11 ]. The
+analysis (PCA), which is applied by [COWR11]. The
 idea behind PCA is to find a hyperplane on which all
 
 feature vectors can be projected with a minimal loss
@@ -577,8 +576,8 @@ consistent regions or region boundaries.
 1) Clustering Algorithms: Clustering algorithms can
 directly be applied on the pixels, when one gives a
 feature vector per pixel. Two clustering algorithms are
-k -means and the mean-shift algorithm.
-The k -means algorithm is a general-purpose clustering
+k-means and the mean-shift algorithm.
+The k-means algorithm is a general-purpose clustering
  algorithm which requires the number of clusters to
 be given beforehand. Initially, it places the k centroids
 randomly in the feature space. Then it assigns each
@@ -586,10 +585,10 @@ data point to the nearest centroid, moves the centroid
 to the center of the cluster and continues the process
 until a stopping criterion is reached. A faster variant is
 described in [Har75].
-k -means was applied by [CLP98] for medical image
+k-means was applied by [CLP98] for medical image
 segmentation.
 Another clustering algorithm is the mean-shift algorithm
- which was introduced by [ CM02] for segmentation
+ which was introduced by [CM02] for segmentation
  tasks. The algorithm finds the cluster centers
 by initializing centroids at random seed points and
 iteratively shifting them to the mean coordinate within
@@ -602,8 +601,8 @@ points.
 2) Graph Based Image Segmentation: Graph-based
 image segmentation algorithms typically interpret pixels
 as vertices and an edge weight is a measure of
-dissimilarity such as the difference in color [ FH04 ],
-[ Fel]. There are several different candidates for edges. The 4-neighborhood (north, east, south west) or an 8neighborhood
+dissimilarity such as the difference in color [FH04],
+[Fel]. There are several different candidates for edges. The 4-neighborhood (north, east, south west) or an 8neighborhood
  (north, north-east, east, south-east, south,
 south-west, west, north-west) are plausible choices.
 One way to cut the edges is by building a minimum
@@ -611,12 +610,12 @@ spanning tree and removing edges above a threshold.
 This threshold can either be constant, adapted to the
 graph or adjusted by the user. After the edge-cutting
 step, the connected components are the segments.
-A graph-based method which ranked 2 nd
+A graph-based method which ranked 2nd
  in the
 Pascal VOC 2010 challenge [EVGW+
- 10 ] is described
-in [ CS10 ]. The system makes heavy use of the multicue
- contour detector globalPb [ MAFM08] and needs
+10] is described
+in [CS10]. The system makes heavy use of the multicue
+ contour detector globalPb [MAFM08] and needs
 about 10 GB of main memory [CS11].
 3) Random Walks: Random walks belong to the
 graph-based image segmentation algorithms. Random
@@ -660,13 +659,13 @@ watersheds due to plateaus.
 
 C. Random Decision Forests
 Random Decision Forests were first proposed
-in [ Ho95 ]. This type of classifier applies techniques
-called ensemble learning , where multiple classifiers
+in [Ho95]. This type of classifier applies techniques
+called ensemble learning, where multiple classifiers
 are trained and a combination of their hypotheses is
 used. One ensemble learning technique is the random
 subspaces method where each classifier is trained
 on a random subspace of the feature space. Another
-ensemble learning technique is bagging , which is
+ensemble learning technique is bagging, which is
 training the trees on random subsets of the training set.
 In the case of Random Decision Forests, the classifiers
 are decision trees. A decision tree is a tree where each
@@ -680,25 +679,25 @@ ordinal, interval, ratio) can be arbitrary. Another advantage
 for example, is the speed of training and classification.
 Decision trees were extensively studied in the past
 20 years and a multitude of training algorithms have
-been proposed (e.g. ID3 in [ Qui86], C4.5 in [ Qui93 ]).
+been proposed (e.g. ID3 in [Qui86], C4.5 in [Qui93]).
 Possible training hyperparameters are the measure to
 evaluate the “goodness of split” [Min89], the number of
 decision trees being used, and if the depth of the trees
 is restricted. Typically in the context of classification,
 decision trees are trained by adding new nodes until
 each leaf contains only nodes of a single class or until it
-is not possible to split further. This is called astopping
+is not possible to split further. This is called a stopping
 criterion.
 There are two typical training modes: Central axis
-projection and perceptron training . In training, for
+projection and perceptron training. In training, for
 each node a hyperplane is searched which is optimal
 according to an error function.
 Random Decision Forests with texton features (see
 Section V-A6) are applied in [SJC08] for segmentation.
 In the [MSC] dataset, they report a per-pixel accuracy
-rate of 66 .9 % for their best system. This system
+rate of 66.9 % for their best system. This system
 requires 415 ms for the segmentation of 320 px × 213 px
-images on a single 2 .7 GHz core. On the Pascal
+images on a single 2.7 GHz core. On the Pascal
 VOC 2007 dataset, they report an average per-pixel
 accuracy for their best segmentation system of 42 %.
 An excellent introduction to Random Decision
@@ -707,22 +706,22 @@ D. SVMs
 SVMs are well-studied binary classifiers which can
 be described by five central ideas. For those ideas, the
 training data is represented as (x
- i , y
-i ) where x
- i is the
+i, y
+i) where x
+i is the
 feature vector and y
- i ∈ { −1, 1 } the binary label for
+i ∈ { −1, 1 } the binary label for
 training example i ∈ { 1, . . . , m }. 1) If data is linearly separable, it can be separated
 by a hyperplane. There is one hyperplane which
 maximizes the distance to the next datapoints
 (support vectors). This hyperplane should be taken:
 minimize
-w ,b 1
-2 w 2
+w,b 1
+2 w2
 s.t. ∀m
-i=1 y
-i · ( w , x
- i  + b)
+i=1y
+i · (w, x
+i + b)
 
 sgn applied to this gives the classification≥ 1
 2) Even if the underlying process which generates the
@@ -732,39 +731,39 @@ noise can make the data not separable. The introduction
 of linear separability solves this problem. The
 trade-off between accepting some errors and a
 more complex model is weighted by a parameter
-C ∈ R +
+C ∈ R+
 0 . The bigger C , the more errors are
 accepted. The new optimization problem is:
 minimize
 w 1
-2 w 2
+2 w2
  + C · m
 
 i=1 ξ
- i
+i
 s.t. ∀m
-i=1 y
-i · ( w , x
- i  + b) ≥ 1 − ξ
- i
+i=1y
+i · (w, x
+i + b) ≥ 1 − ξ
+i
 Note that 0 ≤ ξ
- i ≤ 1 means that the data point
+i ≤ 1 means that the data point
 is within the margin, whereas ξ
- i ≥ 1 means it is
+i ≥ 1 means it is
 misclassified. An SVM with C > 0 is also called
 a soft-margin SVM.
 3) The primal problem is to find the normal vector
-w and the bias b . The dual problem is to express
+w and the bias b. The dual problem is to express
 w as a linear combination of the training data x
- i :
+i:
 w = m
 
-i =1 α
-i y
-i x
- i
+i=1 α
+iy
+ix
+i
 where y
-i ∈ { −1 , 1 } represents the class of the
+i ∈ { −1, 1 } represents the class of the
 training example and α
 i are Lagrange multipliers.
 The usage of Lagrange multipliers is explained
@@ -789,64 +788,64 @@ i − 1
 
 i=1 m
 
-j =1 α
-i α
+j=1 α
+iα
 j y
- i y
- j x
- i , x
- j
+iy
+j x
+i, x
+j
 s.t. ∀m
-i=1 0 ≤ α
- i ≤ C
+i=10 ≤ α
+i ≤ C
 s.t. m
 
 i=1 α
-i y
- i = 0
+iy
+i = 0
 
 4) Not every dataset is linearly separable. This problem
  is approached by transforming the feature
 vectors x with a non-linear mapping Φ into
-a higher dimensional (probably ∞ -dimensional)
+a higher dimensional (probably ∞-dimensional)
 space. As the feature vectors x are only used
 within scalar product x
- i , x
-j  , it is not necessary
+i, x
+j , it is not necessary
 to do the transformation. It is enough to do the
 calculation
- K ( x
-i , x
- j ) =  x
- i , x
- j
-This function K is called a kernel . The idea of
+ K (x
+i, x
+j ) = x
+i, x
+j
+This function K is called a kernel. The idea of
 never explicitly transforming the vectors x
- i to the
+i to the
 higher dimensional space is called the kernel trick.
 Common kernels include the polynomial kernel
 K
- P (x
- i , x
- j ) = (x
- i , x
- j  + r )p
-of degree p and coefficient r , the Gaussian radial
+P (x
+i, x
+j ) = (x
+i, x
+j  + r)p
+of degree p and coefficient r, the Gaussian radial
 basis function (RBF) kernel
 K
- Gauss (x
- i , x
- j ) = e − γ  x
-i − x
+Gauss(x
+i, x
+j ) = e −γx
+i−x
 j 2
-2σ 2
+2σ2
 and the sigmoid kernel
 K
-tanh (x
- i , x
-j ) = tanh( γ x
- i , x
- j  − r )
+tanh(x
+i, x
+j ) = tanh(γ x
+i, x
+j  − r)
 where the parameter γ determines how much
 influence single training examples have.
 5) The described SVMs can only distinguish between
@@ -855,21 +854,21 @@ binary classifiers to multi-class classification is
 the one-vs-all and the one-vs-one strategy. In the
 one-vs-all strategy n classifiers have to be trained
 which can distinguish one of the n classes against
-all other classes. In the one-vs-one strategy n 2
- − n
+all other classes. In the one-vs-one strategy n2
+−n
 2
 classifiers are trained; one classifier for each pair
 of classes.
 A detailed description of SVMs can be found
 in [Bur98].
-SVMs are used by [YHRF12 ] on the 2009 and 2010
-PASCAL segmentation challenge [ EVGW +
- 10 ]. They
+SVMs are used by [YHRF12] on the 2009 and 2010
+PASCAL segmentation challenge [EVGW+
+10]. They
 did not hand their classifier in to the challenge itself,
 but calculated an average rank of 7 among the different
 categories.
-[ FGMR10] also used an SVM based method with
-HOG features and achieved the 7 th
+[FGMR10] also used an SVM based method with
+HOG features and achieved the 7th
  rank in the 2010
 PASCAL segmentation challenge by mean accuracy. It
 needs about 2 s on a 2.8 GHz 8-core Intel processor.
@@ -878,52 +877,52 @@ MRFs are undirected probabilistic graphical models
 which are wide-spread model in computer vision. The
 overall idea of MRFs is to assign a random variable for
 each feature and a random variable for each pixel which x
- 1 x
- 2 x
- 3x
- 4 x
- 5 x
- 6x
- 7 x
- 8 x
- 9
+1 x
+2 x
+3x
+4 x
+5 x
+6x
+7 x
+8 x
+9
 y
- 1 y
+1 y
 2 y
 3y
 4 y
- 5 y
- 6y
+5 y
+6y
 7 y
 8 y
 9
 x
- 1 x
- 2 x
- 3x
- 4 x
- 5 x
- 6x
- 7 x
- 8 x
- 9
+1 x
+2 x
+3x
+4 x
+5 x
+6x
+7 x
+8 x
+9
 y
- 1 y
+1 y
 2 y
 3y
 4 y
- 5 y
- 6y
+5 y
+6y
 7 y
 8 y
 9
 Figure 3: CRF with 4-neighborhood. Each node x
- i
-represents a pixel and each nodey
+i
+represents a pixel and each node y
 i represents
 a label.
 gets labeled as shown in Figure 3. For example, a MRF
-which is trained on images of the size224 px × 224 pixel
+which is trained on images of the size 224 px×224 pixel
 and gets the raw RGB values as features has
 224 · 224 · 3
 
@@ -933,9 +932,9 @@ output = 200 704
 random variables. Those random variables are conditionally
  independent, given their local neighborhood.
 These (in)dependencies can be expressed with a graph.
-Let G = ( V , E ) be the associated undirected graph
+Let G = (V , E ) be the associated undirected graph
 of an MRF and C be the set of all maximal cliques in
-that graph. Nodes represent random variables x , y and
+that graph. Nodes represent random variables x, y and
 edges represent conditional dependencies. Just like in
 he 4-neighborhood [SWRC06] and the 8-neighborhood
 are reasonable choices for constructing the graph.
@@ -945,76 +944,76 @@ and edges represent pixel neighborhood in computer
 vision problems segmentation problems where MRFs
 are used. Accordingly, the random variables y live
 on 1, . . . , nr of classes and the random variables x
-typically live on 0, . . . , 255 or [0 , 1].
-The probability of x , y can be expressed as
-P ( x, y ) = 1
-Z e − E (x ,y )
+typically live on 0, . . . , 255 or [0, 1].
+The probability of x, y can be expressed as
+P (x, y) = 1
+Z e−E(x,y)
 where Z =
-x ,y e −E ( x,y )
+x,y e−E(x,y)
  is a normalization term
 called the partition function and E is called the energy
 function. A common choice for the energy function is
-E ( x, y ) =
+E (x, y) =
 c∈C ψ
-c (x , y )
-where ψ is called a clique potential . One choice for
+c(x, y)
+where ψ is called a clique potential. One choice for
 cliques of size two x, y = (x
- 1 , x
-2 ) is [KP06]
+1, x
+2) is [KP06]
 ψ
-c (x
- 1 , x
-2 ) = wδ (x
- 1 , x
-2 ) =
- +w if x
- 1 = x
- 2
+c(x
+1, x
+2) = wδ(x
+1, x
+2) =
++w if x
+1 = x
+2
 −w if x
- 1 = x
- 2
-According to [ Mur12], the most common way of
+1 = x
+2
+According to [Mur12], the most common way of
 inference over the posterior MRF in computer vision
 problems is Maximum A Posteriori (MAP) estimation.
 
 Detailed introductions to MRFs are given by
-[ BKR11 ], [ Mur12]. MRFs are used by [ ZBS01] and
+[BKR11], [Mur12]. MRFs are used by [ZBS01] and
 [MSB12] for image segmentation.
 F. Conditional Random Fields
 CRFs are MRFs where all clique potentials are
-conditioned on input features [ Mur12]. This means,
-instead of learning the distribution P ( y , x ), the task
-is reformulated to learn the distribution P (y |x ) . One
+conditioned on input features [Mur12]. This means,
+instead of learning the distribution P (y, x), the task
+is reformulated to learn the distribution P (y|x). One
 consequence of this reformulation is that CRFs need
 much less parameters as the distribution of x does
 not have to be estimated. Another advantage of CRFs
 compared to MRFs is that no distribution assumption
 about x has to be made.
 A CRF has the partition function Z :
-Z (x ) =
-y P ( x, y )
+Z (x) =
+y P (x, y)
 and joint probability distribution
-P ( y | x ) = 1
-Z ( x )
+P (y|x) = 1
+Z (x)
 c∈C ψ
-c (y
- c | x )
-The simplest way to define the clique potentialsψ is
+c(y
+c|x)
+The simplest way to define the clique potentials ψ is
 the count of the class y
- c given x added with a positive
+c given x added with a positive
 smoothing constant to prevent the complete term from
 getting zero.
-CRFs as described in [ LRKT09 ] have reached top
-performance in PASCAL VOC 2010 [ VOC10] and
-are also used in [ HZCP04], [ SWRC06 ] for semantic
+CRFs as described in [LRKT09] have reached top
+performance in PASCAL VOC 2010 [VOC10] and
+are also used in [HZCP04], [SWRC06] for semantic
 segmentation.
 A method similar to CRFs was proposed
-in [ GBVdW+
- 10]. The system of Gonfaus et.al.
-ranked 1 st
+in [GBVdW+
+10]. The system of Gonfaus et.al.
+ranked 1st
  by mean accuracy in the segmentation task
 of the PASCAL VOC 2010 challenge [EVGW+
- 10].
+10].
 An introduction to CRFs is given by [SM11].
 G. Post-processing methods
 Post-processing refine a found segmentation and
@@ -1027,11 +1026,11 @@ in otherwise filled regions. They were used in [CLP98]
 for biomedical image segmentation.
 Another way of refinement of the found segmentation
 is by adjusting the segmentation to match close edges.
-This was used in [ BBMM11] with an ultra-metric
+This was used in [BBMM11] with an ultra-metric
 contour map [AMFM09].
 Active contour models are another example of a
-post-processing method [KWT88]. VI. N EURAL N ETWORKS FOR S EM ANTIC
-S EGM ENTATION
+post-processing method [KWT88].  VI. NEURAL NETWORKS FOR SEM ANTIC
+SEGM ENTATION
 Artificial neural networks are classifiers which are
 inspired by biologic neurons. Every single artificial
 neuron has some inputs which are weighted and sumed
@@ -1040,7 +1039,7 @@ function to the weighted sum and gives an output. Those
 neurons can take either a feature vector as input or the
 output of other neurons. In this way, they build up
 feature hierarchies.
-The parameters they learn are the weights w ∈ R .
+The parameters they learn are the weights w ∈ R.
 They are learned by gradient descent. To do so, an error
 function — usually cross-entropy or mean squared error
 — is necessary. For the gradient descent algorithm, one
@@ -1057,48 +1056,48 @@ CNNs are neural networks which learn image filters.
 They drastically reduce the number of parameters which
 have to be learned while being still general enough for
 the problem domain of images. This was shown by Alex
-Krizhevsky et al. in [ KSH12 ]. One major idea was a
+Krizhevsky et al. in [KSH12]. One major idea was a
 clever regularization called dropout training, which set
 the output of neurons while training randomly to zero.
 Another contribution was the usage of an activation
-function called rectified linear unit :
+function called rectified linear unit:
 ϕ
-ReLU ( x ) = max(0 , x)
+ReLU(x) = max(0, x)
 Those are much faster to train than the commonly used
 sigmoid activation functions
 ϕ
-Sigmoid ( x ) = 1
-e − x
+Sigmoid(x) = 1
+e−x
  + 1
 Krizhevsky et al. implemented those ideas and participated
  in the ImageNet Large-Scale Visual Recognition
 Challenge (ILSVRC). The best other system, which
 used SIFT features and Fisher Vectors, had a performance
- of about 25 .7 % while the network by Alex
-Krizhevsky et al. got 17 .0 % error rate on the ILSVRC2010
+ of about 25.7 % while the network by Alex
+Krizhevsky et al. got 17.0 % error rate on the ILSVRC2010
  dataset. As a preprocessing step, they downsampled
  all images to a fixed size of 256 px × 256 px before
 they fed the features into their network. This network
 is commonly known as AlexNet.
 Since AlexNet was developed, a lot of different
 neural networks have been proposed. One interesting
-example is [PC13 ], where a recurrent CNN for semantic
+example is [PC13], where a recurrent CNN for semantic
 segmentation is presented.
 
-Another notable paper is [ LSD14 ]. The algorithm
+Another notable paper is [LSD14]. The algorithm
 presented there makes use of a classifying network such
 as AlexNet, but applies the complete network as an
 image filter. This way, each pixel gets a probability
 distribution for each of the trained classes. By taking
 the most likely class, a semantic segmentation can be
 done with arbitrary image sizes.
-A very recent publication by Dai et al. [ DHS15]
+A very recent publication by Dai et al. [DHS15]
 showed that segmentation with much deeper networks
 is possible and achieves better results.
 More detailed explanations to neural networks for
 visual recognition is given by [LKJ15].
-VII. P OSSIBLE P ROBLEMS IN THE D ATA FOR
-S EGMENTATION ALGORITHMS
+VII. POSSIBLE PROBLEMS IN THE DATA FOR
+SEGMENTATION ALGORITHMS
 Different segmentation workflows have different
 problems. However, there are a couple of special cases
 which should be tested. Those cases might not occur
@@ -1109,7 +1108,7 @@ I am not aware of any systematic work which examined
 A. Lens Flare
 Lens flare is the effect of light getting scattered in
 the lens system of the camera. The testing data set of
-the KITTI road evaluation benchmark [ FKG13] has a
+the KITTI road evaluation benchmark [FKG13] has a
 couple of photos with this problem. Figure 4(a) shows
 an extreme example of lens flare.
 B. Vignetting
@@ -1129,11 +1128,11 @@ are problems depends heavily on the problem domain
 and the used model.
 1) Partial Occlusions: Segmentation systems which
 employ a model of the objects which should be
-segmented might suffer from partial occlusions. (a)Lens Flare
-Image by [Hus07] (b)Vignetting
+segmented might suffer from partial occlusions. (a) Lens Flare
+Image by [Hus07] (b) Vignetting
 Image by [Man12]
-(c)Smoke by cauterization
-Image by [GVSY13] (d)Camouflage
+(c) Smoke by cauterization
+Image by [GVSY13] (d) Camouflage
 Image by [Kaf07]
 (e) Transparency (f) Viewpoint
 Figure 4: Examples of images which might cause
@@ -1160,8 +1159,8 @@ on photographs of professional photographers might
 not have photos from the point of view of a child. This
 is visualized in Figure 4(f).
 
-VIII. D ISCUSSION
-Ohta et al. wrote [ OKS78 ] 38 years ago. It is one
+VIII. DISCUSSION
+Ohta et al. wrote [OKS78] 38 years ago. It is one
 of the first papers mentioning semantic segmentation.
 In this time, a lot of work was done and many
 different directions have been explored. Different kinds
@@ -1182,64 +1181,64 @@ A combination of different classifiers in an ensemble
 would be an interesting option to explore in order to
 improve accuracy. Another direction which is currently
 studied is combining classifiers such as neural networks
-with CRFs [ZJRP +
- 15]. R EFERENCES
+with CRFs [ZJRP+
+15].  REFERENCES
 [AM98] M. S. Atkins and B. T. Mackiewich, “Fully
 automatic segmentation of the brain in
 mri,” Medical Imaging, IEEE Transactions
-on , vol. 17, no. 1, pp. 98–107, Feb. 1998.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=668699
+on, vol. 17, no. 1, pp. 98–107, Feb. 1998.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=668699
 [AMFM09] P. Arbelaez, M. Maire, C. Fowlkes, and
 J. Malik, “From contours to regions: An
 empirical evaluation,” in Computer Vision and
 Pattern Recognition, 2009. CVPR 2009. IEEE
-Conference on . IEEE, Jun. 2009, pp. 2294–2301.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=5206707
+Conference on. IEEE, Jun. 2009, pp. 2294–2301.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=5206707
 [AP11] G. Azzopardi and N. Petkov, “Detection of
 retinal vascular bifurcations by trainable v4-like
 filters,” in Computer Analysis of Images and
-Patterns . Springer, 2011, pp. 451–459. [Online].
-Available: http://www. cs. rug. nl/~imaging/databases/
-retina_database/retinalfeatures_database. html
+Patterns. Springer, 2011, pp. 451–459. [Online].
+Available: http://www.cs.rug.nl/~imaging/databases/
+retina_database/retinalfeatures_database.html
 [BBMM11] T. Brox, L. Bourdev, S. Maji, and J. Malik,
 “Object segmentation by alignment of poselet
 activations to image contours,” in Computer Vision
 and Pattern Recognition (CVPR), 2011 IEEE
-Conference on . IEEE, Jun. 2011, pp. 2225–2232.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=5995659
+Conference on. IEEE, Jun. 2011, pp. 2225–2232.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=5995659
 [BJ00] Y. Boykov and M.-P. Jolly, “Interactive organ
 segmentation using graph cuts,” in Medical Image
 Computing and Computer-Assisted Intervention–
-MICCAI 2000 . Springer, 2000, pp. 276–
-286. [Online]. Available: http://link . springer . com/
-chapter/10 . 1007/978- 3-540- 40899-4_28
+MICCAI 2000. Springer, 2000, pp. 276–
+286. [Online]. Available: http://link.springer.com/
+chapter/10.1007/978- 3-540- 40899-4_28
 [BKR11] A. Blake, P. Kohli, and C. Rother, Markov random
 fields for vision and image processing. Mit Press,
 2011.
 [BKTT15] S. Bittel, V. Kaiser, M. Teichmann, and M. Thoma,
 “Pixel-wise segmentation of street with neural
 networks,” arXiv preprint arXiv:1511.00513, 2015.
-[Online]. Available: http://arxiv. org/abs/1511. 00513
+[Online]. Available: http://arxiv.org/abs/1511.00513
 [BMBM10] L. Bourdev, S. Maji, T. Brox, and J. Malik,
 “Detecting people using mutually consistent
 poselet activations,” in Computer Vision–ECCV
-2010 . Springer, 2010, pp. 168–181. [Online].
-Available: http://link. springer. com/chapter/10. 1007/
+2010. Springer, 2010, pp. 168–181. [Online].
+Available: http://link.springer.com/chapter/10.1007/
 978- 3-642- 15567-3_13#page- 1
 [Bur98] C. J. Burges, “A tutorial on support vector machines
 for pattern recognition,” Data mining and knowledge
-discovery , vol. 2, no. 2, pp. 121–167, 1998.
+discovery, vol. 2, no. 2, pp. 121–167, 1998.
 [BVZ01] Y. Boykov, O. Veksler, and R. Zabih, “Fast
 approximate energy minimization via graph cuts,”
 Pattern Analysis and Machine Intelligence, IEEE
-Transactions on , vol. 23, no. 11, pp. 1222–1239,
-2001. [Online]. Available: http://ieeexplore. ieee. org/
-xpls/abs_all. jsp?arnumber=969114
-[CDF +
- 04] G. Csurka, C. Dance, L. Fan, J. Willamowski,
+Transactions on, vol. 23, no. 11, pp. 1222–1239,
+2001. [Online]. Available: http://ieeexplore.ieee.org/
+xpls/abs_all.jsp?arnumber=969114
+[CDF+
+04] G. Csurka, C. Dance, L. Fan, J. Willamowski,
 and C. Bray, “Visual categorization with bags of
 keypoints,” in Workshop on statistical learning in
 computer vision, ECCV, vol. 1, no. 1-22. Prague,
@@ -1254,269 +1253,268 @@ knowledge-based morphological operations with
 biomedical applications,” Image Processing, IEEE
 Transactions on, vol. 7, no. 12, pp. 1673–1683, Dec.
 
-1998. [Online]. Available: http://ieeexplore. ieee. org/
-xpls/abs_all. jsp?arnumber=730379
+1998. [Online]. Available: http://ieeexplore.ieee.org/
+xpls/abs_all.jsp?arnumber=730379
 [CM02] D. Comaniciu and P. Meer, “Mean shift: A
 robust approach toward feature space analysis,”
 Pattern Analysis and Machine Intelligence, IEEE
 Transactions on, vol. 24, no. 5, pp. 603–619, 2002.
-[Online]. Available: http://ieeexplore . ieee . org/xpl/
-login . jsp?tp=&arnumber=1000236
+[Online]. Available: http://ieeexplore.ieee.org/xpl/
+login.jsp?tp=&arnumber=1000236
 [COWR11]
  C. Chen, J. Ozolek, W. Wang, and G. K. Rohde,
 “A pixel classification system for segmenting
 biomedical images using intensity neighborhoods
 and dimension reduction,” in Biomedical Imaging:
 From Nano to Macro, 2011 IEEE International
-Symposium on . IEEE, 2011, pp. 1649–1652.
-[Online]. Available: https://www . andrew . cmu . edu/
-user/gustavor/chen_isbi_11. pdf
+Symposium on. IEEE, 2011, pp. 1649–1652.
+[Online]. Available: https://www.andrew.cmu.edu/
+user/gustavor/chen_isbi_11.pdf
 [CP08] G. Csurka and F. Perronnin, “A simple high
 performance approach to semantic segmentation.”
-in BMVC , 2008, pp. 1–10. [Online]. Available:
- http://www . xrce . xerox . com/layout/set/print/
-content/download/16654/118653/file/2008-023 . pdf
+in BMVC, 2008, pp. 1–10. [Online]. Available:
+ http://www.xrce.xerox.com/layout/set/print/
+content/download/16654/118653/file/2008-023.pdf
 [CRSS] A. Cohen, E. Rivlin, I. Shimshoni, and
 E. Sabo, “Colon crypt segmentation website.” [Online].
- Available: http://mis . haifa . ac . il/~ishimshoni/
-SegmentCrypt/Download. htm
+ Available: http://mis.haifa.ac.il/~ishimshoni/
+SegmentCrypt/Download.htm
 [CRSS14] ——, “Memory based active contour algorithm
 using pixel-level classified images for colon crypt
 segmentation,” Computerized Medical Imaging
-and Graphics , Nov. 2014. [Online]. Available:
-http://mis . haifa . ac . il/~ishimshoni/SegmentCrypt/
+and Graphics, Nov. 2014. [Online]. Available:
+http://mis.haifa.ac.il/~ishimshoni/SegmentCrypt/
 Active%20contour%20based%20on%20pixellevel%20classified%20image%20for%20colon%
 
-20crypts%20segmentation. pdf
+20crypts%20segmentation.pdf
 [CS10] J. Carreira and C. Sminchisescu, “Constrained
 parametric min-cuts for automatic object segmentation,”
  in Computer Vision and Pattern Recognition
-(CVPR), 2010 IEEE Conference on . IEEE, 2010,
+(CVPR), 2010 IEEE Conference on. IEEE, 2010,
 pp. 3241–3248.
 [CS11] ——, “Cpmc: Constrained parametric min-cuts for
 automatic object segmentation,” Feb. 2011. [Online].
-Available: http://www . maths . lth . se/matematiklth/
+Available: http://www.maths.lth.se/matematiklth/
 personal/sminchis/code/cpmc/
 [CSI+
- 09] M. E. Celebi, G. Schaefer, H. Iyatomi, W. V.
+09] M. E. Celebi, G. Schaefer, H. Iyatomi, W. V.
 Stoecker, J. M. Malters, and J. M. Grichnik, “An
 improved objective evaluation measure for border
 detection in dermoscopy images,” Skin Research
 and Technology, vol. 15, no. 4, pp. 444–450, 2009.
-[Online]. Available: http://arxiv. org/abs/1009. 1020
+[Online]. Available: http://arxiv.org/abs/1009.1020
 [CSM09] L. P. Coelho, A. Shariff, and R. F. Murphy, “Nuclear
 segmentation in microscope cell images: a handsegmented
  dataset and comparison of algorithms,”
 in Biomedical Imaging: From Nano to Macro,
-2009. ISBI’09. IEEE International Symposium on .
+2009. ISBI’09. IEEE International Symposium on.
 IEEE, 2009, pp. 518–521. [Online]. Available:
-http://murphylab. web. cmu. edu/data
+http://murphylab.web.cmu.edu/data
 [CXGS12] M. D. Collins, J. Xu, L. Grady, and V. Singh,
 “Random walks based multi-image segmentation:
 Quasiconvexity results and gpu-based solutions,”
 in Computer Vision and Pattern Recognition
-(CVPR), 2012 IEEE Conference on . IEEE,
+(CVPR), 2012 IEEE Conference on. IEEE,
 2012, pp. 1656–1663. [Online]. Available: http:
-//pages. cs. wisc. edu/~jiaxu/pub/rwcoseg. pdf
+//pages.cs.wisc.edu/~jiaxu/pub/rwcoseg.pdf
 [DHS15] J. Dai, K. He, and J. Sun, “Instance-aware semantic
  segmentation via multi-task network cascades,”
 arXiv preprint arXiv:1512.04412, 2015.
 [DT05] N. Dalal and B. Triggs, “Histograms of oriented
 gradients for human detection,” in Computer
 Vision and Pattern Recognition, 2005. CVPR
-2005. IEEE Computer Society Conference on , vol. 1, June 2005, pp. 886–893 vol. 1.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=1467360
-[EVGW +
- a] M. Everingham, L. Van Gool, C. K. I.
+2005. IEEE Computer Society Conference on, vol. 1, June 2005, pp. 886–893 vol. 1.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=1467360
+[EVGW+
+a] M. Everingham, L. Van Gool, C. K. I.
 Williams, J. Winn, and A. Zisserman, “The
 PASCAL Visual Object Classes Challenge
 2007 (VOC2007) Results,” http://www.pascalnetwork.org/challenges/VOC/voc2007/workshop/index.html.
 
-[Online]. Available: http://host . robots . ox . ac . uk:
-8080/pascal/VOC/voc2007/index . html
-[EVGW +
- b] ——, “The PASCAL Visual Object Classes Challenge
+[Online]. Available: http://host.robots.ox.ac.uk:
+8080/pascal/VOC/voc2007/index.html
+[EVGW+
+b] ——, “The PASCAL Visual Object Classes Challenge
  2012 (VOC2012) Results,” http://www.pascalnetwork.org/challenges/VOC/voc2012/workshop/index.html.
 
-[Online]. Available: http://host . robots . ox . ac . uk:
-8080/pascal/VOC/voc2012/index . html
-[EVGW +
- 10] M. Everingham, L. Van Gool, C. K. Williams,
+[Online]. Available: http://host.robots.ox.ac.uk:
+8080/pascal/VOC/voc2012/index.html
+[EVGW+
+10] M. Everingham, L. Van Gool, C. K. Williams,
 J. Winn, and A. Zisserman, “The pascal visual object
 classes (voc) challenge,” International journal of
 computer vision, vol. 88, no. 2, pp. 303–338, 2010.
-[EVGW +
- 12] M. Everingham, L. Van Gool, C. K. I. Williams,
+[EVGW+
+12] M. Everingham, L. Van Gool, C. K. I. Williams,
 J. Winn, and A. Zisserman, “Visual object
 classes challenge 2012 (voc2012),” 2012. [Online].
-Available: http://host . robots . ox . ac . uk:8080/pascal/
-VOC/voc2012/index. html
+Available: http://host.robots.ox.ac.uk:8080/pascal/
+VOC/voc2012/index.html
 [Fel] P. F. Felzenszwalb, “Graph based image
  segmentation.” [Online]. Available: http:
-//cs . brown. edu/~pff/segment/
+//cs.brown.edu/~pff/segment/
 [FGMR10]
  P. F. Felzenszwalb, R. B. Girshick, D. McAllester,
 and D. Ramanan, “Object detection with discriminatively
  trained part-based models,” Pattern Analysis
-and Machine Intelligence, IEEE Transactions on ,
+and Machine Intelligence, IEEE Transactions on,
 vol. 32, no. 9, pp. 1627–1645, 2010.
 [FH04] P. F. Felzenszwalb and D. P. Huttenlocher,
 “Efficient graph-based image segmentation,”
-International Journal of Computer Vision ,
+International Journal of Computer Vision,
 vol. 59, no. 2, pp. 167–181, 2004. [Online].
-Available: http://link . springer . com/article/10 . 1023/
-B:VISI . 0000022288 . 19776. 77
+Available: http://link.springer.com/article/10.1023/
+B:VISI.0000022288.19776.77
 [FKG13] J. Fritsch, T. Kuehnl, and A. Geiger, “A
 new performance measure and evaluation
 benchmark for road detection algorithms,” in
 International Conference on Intelligent Transportation
- Systems (ITSC) , 2013. [Online]. Available:
-http://www . cvlibs. net/datasets/kitti/eval_road. php
-[GBVdW +
- 10]
- J. M. Gonfaus, X. Boix, J. Van de Weijer, A. D.
+ Systems (ITSC), 2013. [Online]. Available:
+http://www.cvlibs.net/datasets/kitti/eval_road.php
+[GBVdW+
+10] J. M. Gonfaus, X. Boix, J. Van de Weijer, A. D.
 Bagdanov, J. Serrat, and J. Gonzalez, “Harmony potentials
  for joint classification and segmentation,” in
 Computer Vision and Pattern Recognition (CVPR),
 2010 IEEE Conference on. IEEE, 2010, pp. 3280–
 3287.
-[GRC +
- 08] S. Gould, J. Rodgers, D. Cohen, G. Elidan, and
+[GRC+
+08] S. Gould, J. Rodgers, D. Cohen, G. Elidan, and
 D. Koller, “Multi-class segmentation with relative
 location prior,” International Journal of Computer
-Vision , vol. 80, no. 3, pp. 300–316, Apr. 2008.
+Vision, vol. 80, no. 3, pp. 300–316, Apr. 2008.
 [GVSY13] S. Giannarou, M. Visentini-Scarzanella, and G.Z.
  Yang, “Probabilistic tracking of affine-invariant
 anisotropic regions,” Pattern Analysis and Machine
-Intelligence, IEEE Transactions on , vol. 35, no. 1,
+Intelligence, IEEE Transactions on, vol. 35, no. 1,
 pp. 130–143, 2013.
 [Har75] J. A. Hartigan, Clustering algorithms. John Wiley
 & Sons, Inc., 1975.
 [HDT02] C. Huang, L. Davis, and J. Townshend, “An
 assessment of support vector machines for land
 cover classification,” International Journal of remote
-sensing , vol. 23, no. 4, pp. 725–749, 2002.
+sensing, vol. 23, no. 4, pp. 725–749, 2002.
 [HHR01] S. Hu, E. Hoffman, and J. Reinhardt, “Automatic
 lung segmentation for accurate quantitation of
 volumetric x-ray ct images,” Medical Imaging, IEEE
 
-Transactions on , vol. 20, no. 6, pp. 490–498, Jun.
+Transactions on, vol. 20, no. 6, pp. 490–498, Jun.
 2001.
 [HJBJ+
- 96] A. Hoover, G. Jean-Baptiste, X. Jiang, P. J.
+96] A. Hoover, G. Jean-Baptiste, X. Jiang, P. J.
 Flynn, H. Bunke, D. B. Goldgof, K. Bowyer,
 D. W. Eggert, A. Fitzgibbon, and R. B.
 Fisher, “An experimental comparison of range
 image segmentation algorithms,” Pattern Analysis
 and Machine Intelligence, IEEE Transactions
-on , vol. 18, no. 7, pp. 673–689, Jul. 1996.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=506791
+on, vol. 18, no. 7, pp. 673–689, Jul. 1996.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=506791
 [Ho95] T. K. Ho, “Random decision forests,” in
 Document Analysis and Recognition, 1995.,
 Proceedings of the Third International Conference
-on , vol. 1. IEEE, 1995, pp. 278–282.
-[Online]. Available: http://ect . bell-labs . com/who/
-tkh/publications/papers/odt. pdf
+on, vol. 1. IEEE, 1995, pp. 278–282.
+[Online]. Available: http://ect.bell-labs.com/who/
+tkh/publications/papers/odt.pdf
 [Hus07] Hustvedt, “File:cctv lens flare.jpg,” Wikipedia
 Commons, Nov. 2007. [Online]. Available:
- https://commons . wikimedia . org/wiki/File:
-CCTV_Lens_flare. jpg
+ https://commons.wikimedia.org/wiki/File:
+CCTV_Lens_flare.jpg
 [HZCP04] X. He, R. Zemel, and M. Carreira-Perpindn,
 “Multiscale conditional random fields for image
 labeling,” in Computer Vision and Pattern
 Recognition, 2004. CVPR 2004. Proceedings
 of the 2004 IEEE Computer Society Conference
-on , vol. 2, Jun. 2004, pp. II–695–II–702 Vol.2.
-[Online]. Available: http://ieeexplore . ieee . org/xpl/
-login . jsp?tp=&arnumber=1315232
+on, vol. 2, Jun. 2004, pp. II–695–II–702 Vol.2.
+[Online]. Available: http://ieeexplore.ieee.org/xpl/
+login.jsp?tp=&arnumber=1315232
 [JLD03] K. Jiang, Q.-M. Liao, and S.-Y. Dai, “A novel white
 blood cell segmentation scheme using scale-space
 filtering and watershed clustering,” in Machine
 Learning and Cybernetics, 2003 International
-Conference on , vol. 5, Nov 2003, pp. 2820–2825
-Vol.5. [Online]. Available: http://ieeexplore. ieee. org/
-xpl/login. jsp?tp=&arnumber=1260033
+Conference on, vol. 5, Nov 2003, pp. 2820–2825
+Vol.5. [Online]. Available: http://ieeexplore.ieee.org/
+xpl/login.jsp?tp=&arnumber=1260033
 [Kaf07] L. Kaffer, “File:great male leopard in south afrikajd.jpg,”
  Wikipedia Commons, Jul. 2007. [Online].
-Available: https://commons. wikimedia. org/wiki/File:
-Great_male_Leopard_in_South_Afrika-JD . JPG
+Available: https://commons.wikimedia.org/wiki/File:
+Great_male_Leopard_in_South_Afrika-JD.JPG
 [KKV+
- 14] V. Kalesnykiene, J.-k. Kamarainen, R. Voutilainen,
+14] V. Kalesnykiene, J.-k. Kamarainen, R. Voutilainen,
 J. Pietilä, H. Kälviäinen, and H. Uusitalo,
 “Diaretdb1 diabetic retinopathy database and
 evaluation protocol,” 2014. [Online]. Available:
-http://www2 . it. lut. fi/project/imageret/diaretdb1/
+http://www2.it.lut.fi/project/imageret/diaretdb1/
 [KP92] J. M. Kasson and W. Plouffe, “An analysis of
 selected computer interchange color spaces,” ACM
 Transactions on Graphics (TOG), vol. 11, no. 4, pp.
 373–405, 1992.
 [KP06] Z. Kato and T.-C. Pong, “A markov random
 field image segmentation model for color
-textured images,” Image and Vision Computing ,
+textured images,” Image and Vision Computing,
 vol. 24, no. 10, pp. 1103–1114, 2006. [Online].
-Available: http://www . sciencedirect . com/science/
+Available: http://www.sciencedirect.com/science/
 article/pii/S0262885606001223
 [KSH12] A. Krizhevsky, I. Sutskever, and G. E. Hinton,
 “Imagenet classification with deep convolutional
 neural networks,” in Advances in neural information
-processing systems , 2012, pp. 1097–1105.
+processing systems, 2012, pp. 1097–1105.
 [KWT88] M. Kass, A. Witkin, and D. Terzopoulos,
 “Snakes: Active contour models,” International
-journal of computer vision , vol. 1, no. 4, pp.
+journal of computer vision, vol. 1, no. 4, pp.
 321–331, Jan. 1988. [Online]. Available: http:
-//link . springer. com/article/10. 1007/BF00133570
+//link.springer.com/article/10.1007/BF00133570
 [LKJ15] F.-F. Li, A. Karpathy, and J. Johnson,
 “CS231n: Convolutional neural networks for
 visual recognition,” 2015. [Online]. Available:
-http://cs231n . stanford. edu/
+http://cs231n.stanford.edu/
 [Low04] D. Lowe, “Distinctive image features from scale- invariant keypoints,” International Journal of
 Computer Vision, vol. 60, no. 2, pp. 91–110, 2004.
-[Online]. Available: http://dx . doi . org/10 . 1023/B%
-3AVISI . 0000029664 . 99615. 94
+[Online]. Available: http://dx.doi.org/10.1023/B%
+3AVISI.0000029664.99615.94
 [LRAL08] A. Levin, A. Rav-Acha, and D. Lischinski,
 “Spectral matting,” Pattern Analysis and
-Machine Intelligence, IEEE Transactions on ,
+Machine Intelligence, IEEE Transactions on,
 vol. 30, no. 10, pp. 1699–1712, 2008.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4547428
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4547428
 [LRKT09] L. Ladický, C. Russell, P. Kohli, and P. Torr,
 “Associative hierarchical crfs for object class image
 segmentation,” in Computer Vision, 2009 IEEE 12th
-International Conference on , 2009, pp. 739–746.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=5459248
+International Conference on, 2009, pp. 739–746.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=5459248
 [LSD14]
  J. Long, E. Shelhamer, and T. Darrell, “Fully
 convolutional networks for semantic segmentation,”
-arXiv preprint arXiv:1411.4038 , 2014. [Online].
-Available: http://arxiv. org/abs/1411. 4038
+arXiv preprint arXiv:1411.4038, 2014. [Online].
+Available: http://arxiv.org/abs/1411.4038
 [MAFM08] M. Maire, P. Arbelaez, C. Fowlkes, and
 J. Malik, “Using contours to detect and localize
 junctions in natural images,” in Computer Vision
 and Pattern Recognition, 2008. CVPR 2008.
-IEEE Conference on , June 2008, pp. 1–8.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4587420
+IEEE Conference on, June 2008, pp. 1–8.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4587420
 [Man12] M. Manske, “File:randabschattung mikroskop
 kamera 6.jpg,” Wikipedia Commons,
  Dec. 2012. [Online]. Available:
- https://commons . wikimedia . org/wiki/File:
-Randabschattung_Mikroskop_Kamera_6. JPG
-[MBLAGJ +
- 07] S. Maldonado-Bascon, S. Lafuente-Arroyo, P. GilJimenez,
+ https://commons.wikimedia.org/wiki/File:
+Randabschattung_Mikroskop_Kamera_6.JPG
+[MBLAGJ+
+07] S. Maldonado-Bascon, S. Lafuente-Arroyo, P. GilJimenez,
  H. Gomez-Moreno, and F. LopezFerreras,
  “Road-sign detection and recognition
 based on support vector machines,” Intelligent
-Transportation Systems, IEEE Transactions on ,
+Transportation Systems, IEEE Transactions on,
 vol. 8, no. 2, pp. 264–278, Jun. 2007.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4220659
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4220659
 [MBVLG02] N. Moon, E. Bullitt, K. Van Leemput, and G. Gerig,
-“Automatic brain and tumor segmentation,” inMedical
+“Automatic brain and tumor segmentation,” in Medical
  Image Computing and Computer-Assisted Intervention—MICCAI
- 2002 . Springer, 2002, pp.
+ 2002. Springer, 2002, pp.
 372–379.
 [MFTM01] D. Martin, C. Fowlkes, D. Tal, and J. Malik,
 “A database of human segmented natural
@@ -1524,22 +1522,22 @@ images and its application to evaluating
 segmentation algorithms and measuring ecological
 statistics,” in Computer Vision, 2001. ICCV
 2001. Proceedings. Eighth IEEE International
-Conference on , vol. 2. IEEE, 2001, pp. 416–423.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=937655
-[MHMK +
- 14] L. Maier-Hein, S. Mersmann, D. Kondermann,
+Conference on, vol. 2. IEEE, 2001, pp. 416–423.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=937655
+[MHMK+
+14] L. Maier-Hein, S. Mersmann, D. Kondermann,
 S. Bodenstedt, A. Sanchez, C. Stock, H. G.
 Kenngott, M. Eisenmann, and S. Speidel, “Can
 masses of non-experts train highly accurate
 image classifiers?” in Medical Image Computing
 and Computer-Assisted Intervention–MICCAI 2014.
 Springer, 2014, pp. 438–445. [Online]. Available:
-http://opencas. webarchiv. kit. edu/?q=node/26
+http://opencas.webarchiv.kit.edu/?q=node/26
 [Min89] J. Mingers, “An empirical comparison of selection
 measures for decision-tree induction,” Machine
-Learning , vol. 3, no. 4, pp. 319–342, 1989.
-[Online]. Available: http://dx . doi . org/10 . 1023/A%
+Learning, vol. 3, no. 4, pp. 319–342, 1989.
+[Online]. Available: http://dx.doi.org/10.1023/A%
 3A1022645801436
 [MSB12] G. Moser, S. B. Serpico, and J. A. Benediktsson,
 “Markov random field models for supervised land
@@ -1547,15 +1545,15 @@ Learning , vol. 3, no. 4, pp. 319–342, 1989.
 cover classification from very high resolution
 multispectral remote sensing images,” in Advances
 in Radar and Remote Sensing (TyWRRS), 2012
-Tyrrhenian Workshop on . IEEE, 2012, pp. 235–
-242. [Online]. Available: http://ieeexplore. ieee. org/
-xpl/login. jsp?tp=&arnumber=6381135
+Tyrrhenian Workshop on. IEEE, 2012, pp. 235–
+242. [Online]. Available: http://ieeexplore.ieee.org/
+xpl/login.jsp?tp=&arnumber=6381135
 [MSC] “Object class recognition image database.”
-[Online]. Available: http://research . microsoft . com/
+[Online]. Available: http://research.microsoft.com/
 vision/cambridge/recognition/
 [MSR] “Image understanding - research data,”
 Microsoft Research. [Online]. Available:
- http://research . microsoft . com/en-us/projects/
+ http://research.microsoft.com/en-us/projects/
 objectclassrecognition/
 [Mur12] K. P. Murphy, Machine learning: a probabilistic
 perspective. MIT press, 2012.
@@ -1564,31 +1562,31 @@ system for scenes containing objects with substructures,”
  in Proceedings of the Fourth International
 Joint Conference on Pattern Recognitions, 1978, pp.
 752–754.
-[PAA +
- 87] S. M. Pizer, E. P. Amburn, J. D. Austin,
+[PAA+
+87] S. M. Pizer, E. P. Amburn, J. D. Austin,
 R. Cromartie, A. Geselowitz, T. Greer, B. ter
 Haar Romeny, J. B. Zimmerman, and K. Zuiderveld,
 “Adaptive histogram equalization and its variations,”
-Computer vision, graphics, and image processing ,
+Computer vision, graphics, and image processing,
 vol. 39, no. 3, pp. 355–368, 1987. [Online].
-Available: http://www . sciencedirect . com/science/
+Available: http://www.sciencedirect.com/science/
 article/pii/S0734189X8780186X
 [PC13] P. H. Pinheiro and R. Collobert, “Recurrent
 convolutional neural networks for scene parsing,”
-arXiv preprint arXiv:1306.2795 , 2013. [Online].
-Available: http://arxiv. org/abs/1306. 2795v1
+arXiv preprint arXiv:1306.2795, 2013. [Online].
+Available: http://arxiv.org/abs/1306.2795v1
 [PH05] C. Pantofaru and M. Hebert, “A
 comparison of image segmentation algorithms,”
-Robotics Institute , p. 336, 2005. [Online].
-Available: http://riweb-backend . ri . cmu . edu/
-pub _files/pub4/pantofaru _caroline _ 2005 _1/
-pantofaru_caroline_2005_1 . pdf
+Robotics Institute, p. 336, 2005. [Online].
+Available: http://riweb-backend.ri.cmu.edu/
+pub_files/pub4/pantofaru_caroline_2005_1/
+pantofaru_caroline_2005_1.pdf
 [PS07] A. Protiere and G. Sapiro, “Interactive
 image segmentation via adaptive weighted
 distances,” Image Processing, IEEE Transactions
-on , vol. 16, no. 4, pp. 1046–1057, 2007.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4130436
+on, vol. 16, no. 4, pp. 1046–1057, 2007.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4130436
 [PTN09] N. Plath, M. Toussaint, and S. Nakajima, “Multiclass
  image segmentation using conditional random
 fields and global classification,” in Proceedings
@@ -1597,161 +1595,159 @@ Machine Learning. ACM, 2009, pp. 817–824.
 [PXP00] D. L. Pham, C. Xu, and J. L. Prince, “A
 survey of current methods in medical image
 segmentation,” Annual Review of Biomedical
-Engineering , vol. 2, no. 1, pp. 315–337, 2000,
+Engineering, vol. 2, no. 1, pp. 315–337, 2000,
 pMID: 11701515. [Online]. Available: http://
-dx. doi. org/10. 1146/annurev . bioeng . 2. 1. 315
-[Qui86]
- J. R. Quinlan, “Induction of decision trees,”
-Machine learning , vol. 1, no. 1, pp. 81–106,
-Aug. 1986. [Online]. Available: http://dx . doi . org/
-10 . 1023/A%3A1022643204877
+dx.doi.org/10.1146/annurev.bioeng.2.1.315
+[Qui86] J. R. Quinlan, “Induction of decision trees,”
+Machine learning, vol. 1, no. 1, pp. 81–106,
+Aug. 1986. [Online]. Available: http://dx.doi.org/
+10.1023/A%3A1022643204877
 [Qui93] ——, C4.5: Programs for Machine Learning, P. Langley,
  Ed. Morgan Kaufmann Publishers, Inc., 1993.
 [RKB04] C. Rother, V. Kolmogorov, and A. Blake, “Grabcut:
 Interactive foreground extraction using iterated
 graph cuts,” ACM Transactions on Graphics
 (TOG), vol. 23, no. 3, pp. 309–314, 2004. [Online].
-Available: http://delivery. acm. org/10. 1145/1020000/
-1015720/p309- rother. pdf
+Available: http://delivery.acm.org/10.1145/1020000/
+1015720/p309- rother.pdf
 [RM00] J. B. Roerdink and A. Meijster, “The watershed
-transform: Definitions, algorithms and paralleliza- tion strategies,” Fundam. Inform. , vol. 41, no. 1-2,
+transform: Definitions, algorithms and paralleliza- tion strategies,” Fundam. Inform., vol. 41, no. 1-2,
 pp. 187–228, 2000.
 [RM07] J. Reynolds and K. Murphy, “Figure-ground
 segmentation using a hierarchical conditional
 random field,” in Computer and Robot
 Vision, 2007. CRV ’07. Fourth Canadian
-Conference on , May 2007, pp. 175–182.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4228537
+Conference on, May 2007, pp. 175–182.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4228537
 [RMBK06]
  C. Rother, T. Minka, A. Blake, and V. Kolmogorov,
 “Cosegmentation of image pairs by histogram
 matching - incorporating a global constraint
 into mrfs,” in Computer Vision and Pattern
 Recognition, 2006 IEEE Computer Society
-Conference on , vol. 1, June 2006, pp. 993–
-1000. [Online]. Available: http://ieeexplore. ieee. org/
-xpls/abs_all. jsp?arnumber=1640859
-[SAN +
- 04] J. Staal, M. D. Abràmoff, M. Niemeijer,
+Conference on, vol. 1, June 2006, pp. 993–
+1000. [Online]. Available: http://ieeexplore.ieee.org/
+xpls/abs_all.jsp?arnumber=1640859
+[SAN+
+04] J. Staal, M. D. Abràmoff, M. Niemeijer,
 M. Viergever, B. Van Ginneken et al., “Ridge-based
 vessel segmentation in color images of the retina,”
-Medical Imaging, IEEE Transactions on , vol. 23,
+Medical Imaging, IEEE Transactions on, vol. 23,
 no. 4, pp. 501–509, 2004. [Online]. Available:
-http://www . isi . uu. nl/Research/Databases/DRIVE/
+http://www.isi.uu.nl/Research/Databases/DRIVE/
 [SCZ08] F. Schroff, A. Criminisi, and A. Zisserman,
 “Object class segmentation using random
-forests.” in BMVC , 2008, pp. 1–10. [Online].
- Available: http://research. microsoft. com/pubs/
-72423/Criminisi_bmvc2008. pdf
+forests.” in BMVC, 2008, pp. 1–10. [Online].
+ Available: http://research.microsoft.com/pubs/
+72423/Criminisi_bmvc2008.pdf
 [SJC08]
  J. Shotton, M. Johnson, and R. Cipolla,
 “Semantic texton forests for image categorization
 and segmentation,” in Computer vision and
 pattern recognition, 2008. CVPR 2008. IEEE
-Conference on . IEEE, Jun. 2008, pp. 1–8.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=4587503
+Conference on. IEEE, Jun. 2008, pp. 1–8.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=4587503
 [SM11] C. Sutton and A. McCallum, “An introduction
-to conditional random fields,” Machine Learning ,
+to conditional random fields,” Machine Learning,
 vol. 4, no. 4, pp. 267–373, 2011. [Online].
-Available: http://homepages . inf . ed . ac . uk/csutton/
-publications/crftutv2 . pdf
+Available: http://homepages.inf.ed.ac.uk/csutton/
+publications/crftutv2.pdf
 [Smi02] L. I. Smith, “A tutorial on principal components
-analysis,” Cornell University, USA , vol. 51, p. 52,
+analysis,” Cornell University, USA, vol. 51, p. 52,
 2002.
 [Smi04] B. T. Smith, “Lagrange multipliers tutorial in the
 context of support vector machines,” Memorial University
  of Newfoundland St. John’s, Newfoundland,
-Canada , Jun. 2004.
+Canada, Jun. 2004.
 [SSA12] D. Schiebener, J. Schill, and T. Asfour, “Discovery,
 segmentation and reactive grasping of unknown
-objects.” in Humanoids , 2012, pp. 71–77. [Online].
- Available: http://h2t . anthropomatik . kit . edu/
-pdf/Schiebener2012. pdf
+objects.” in Humanoids, 2012, pp. 71–77. [Online].
+ Available: http://h2t.anthropomatik.kit.edu/
+pdf/Schiebener2012.pdf
 [SUM+
- 11] D. Schiebener, A. Ude, J. Morimotot,
+11] D. Schiebener, A. Ude, J. Morimotot,
 T. Asfour, and R. Dillmann, “Segmentation
 and learning of unknown objects through physical
 interaction,” in Humanoid Robots (Humanoids),
 2011 11th IEEE-RAS International Conference
-on . IEEE, 2011, pp. 500–506. [Online].
-Available: http://ieeexplore. ieee. org/ielx5/6086637/
-6100798/06100843 . pdf
+on. IEEE, 2011, pp. 500–506. [Online].
+Available: http://ieeexplore.ieee.org/ielx5/6086637/
+6100798/06100843.pdf
 [SWRC06] J. Shotton, J. Winn, C. Rother, and A. Criminisi,
 “Textonboost: Joint appearance, shape and context
 modeling for multi-class object recognition and
-segmentation,” in Computer Vision–ECCV 2006 .
+segmentation,” in Computer Vision–ECCV 2006.
 Springer, 2006, pp. 1–15. [Online]. Available: http:
-//link . springer. com/chapter/10 . 1007/11744023_1
+//link.springer.com/chapter/10.1007/11744023_1
 [TNL14] J. Tighe, M. Niethammer, and S. Lazebnik,
 “Scene parsing with object instances and
 occlusion ordering,” in Computer Vision and
 
 Pattern Recognition (CVPR), 2014 IEEE
-Conference on . IEEE, 2014, pp. 3748–3755.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=6909874
+Conference on. IEEE, 2014, pp. 3748–3755.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=6909874
 [UPH05] R. Unnikrishnan, C. Pantofaru, and M. Hebert,
 “A measure for objective evaluation of
 image segmentation algorithms,” in Computer
 Vision and Pattern Recognition-Workshops, 2005.
 CVPR Workshops. IEEE Computer Society
-Conference on . IEEE, 2005, pp. 34–34.
-[Online]. Available: http://repository . cmu . edu/cgi/
-viewcontent. cgi?article=1365&context=robotics
+Conference on. IEEE, 2005, pp. 34–34.
+[Online]. Available: http://repository.cmu.edu/cgi/
+viewcontent.cgi?article=1365&context=robotics
 [vdMPvdH09] L. J. van der Maaten, E. O. Postma, and H. J.
 van den Herik, “Dimensionality reduction: A comparative
  review,” Journal of Machine Learning
 Research, vol. 10, no. 1-41, pp. 66–71, 2009.
 [VOC10] “Voc2010 preliminary results,” 2010. [Online].
-Available: http://host . robots . ox . ac . uk/pascal/VOC/
-voc2010/results/index. html
+Available: http://host.robots.ox.ac.uk/pascal/VOC/
+voc2010/results/index.html
 [WAH97] G.-Q. Wei, K. Arbter, and G. Hirzinger, “Automatic
 tracking of laparoscopic instruments by color
-coding,” in CVRMed-MRCAS’97 , ser. Lecture
+coding,” in CVRMed-MRCAS’97, ser. Lecture
 Notes in Computer Science, J. Troccaz, E. Grimson,
 and R. Mösges, Eds. Springer Berlin Heidelberg,
 1997, vol. 1205, pp. 357–366. [Online]. Available:
-http://dx . doi . org/10. 1007/BFb0029257
+http://dx.doi.org/10.1007/BFb0029257
 [YBCK10] Z. Yin, R. Bise, M. Chen, and T. Kanade, “Cell
 segmentation in microscopy imagery using a
 bag of local bayesian classifiers,” in Biomedical
 Imaging: From Nano to Macro, 2010 IEEE
-International Symposium on , Apr. 2010, pp. 125–
-128. [Online]. Available: http://ieeexplore. ieee. org/
-xpls/abs_all. jsp?arnumber=5490399
+International Symposium on, Apr. 2010, pp. 125–
+128. [Online]. Available: http://ieeexplore.ieee.org/
+xpls/abs_all.jsp?arnumber=5490399
 [YHRF12] Y. Yang, S. Hallman, D. Ramanan, and
 C. C. Fowlkes, “Layered object models for
 image segmentation,” Pattern Analysis and
-Machine Intelligence, IEEE Transactions on ,
+Machine Intelligence, IEEE Transactions on,
 vol. 34, no. 9, pp. 1731–1743, Sep. 2012.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=6042883
-[ZBS01]Y. Zhang, M. Brady, and S. Smith, “Segmentation
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=6042883
+[ZBS01] Y. Zhang, M. Brady, and S. Smith, “Segmentation
 of brain MR images through a hidden Markov
 random field model and the expectationmaximization
  algorithm,” Medical Imaging, IEEE
-Transactions on , vol. 20, no. 1, pp. 45–57, 2001.
-[Online]. Available: http://ieeexplore . ieee . org/xpls/
-abs_all. jsp?arnumber=906424
+Transactions on, vol. 20, no. 1, pp. 45–57, 2001.
+[Online]. Available: http://ieeexplore.ieee.org/xpls/
+abs_all.jsp?arnumber=906424
 [ZGWX05]
  S.-C. Zhu, C.-E. Guo, Y. Wang, and Z. Xu, “What
 are textons?” International Journal of Computer
-Vision , vol. 62, no. 1-2, pp. 121–143, 2005.
-[Zha12]
- Z. Zhang, “Microsoft kinect sensor and its effect,”
-MultiMedia, IEEE , vol. 19, no. 2, pp. 4–10, Feb.
+Vision, vol. 62, no. 1-2, pp. 121–143, 2005.
+[Zha12] Z. Zhang, “Microsoft kinect sensor and its effect,”
+MultiMedia, IEEE, vol. 19, no. 2, pp. 4–10, Feb.
 2012.
 [ZJRP+
- 15] S. Zheng, S. Jayasumana, B. Romera-Paredes,
+15] S. Zheng, S. Jayasumana, B. Romera-Paredes,
 V. Vineet, Z. Su, D. Du, C. Huang, and
 P. H. Torr, “Conditional random fields as
 recurrent neural networks,” in Proceedings
 of the IEEE International Conference on
-Computer Vision , 2015, pp. 1529–1537. [Online].
-Available: http://www . robots . ox . ac . uk/~szheng/
-papers/CRFasRNN. pdf G LOSSARY
+Computer Vision, 2015, pp. 1529–1537. [Online].
+Available: http://www.robots.ox.ac.uk/~szheng/
+papers/CRFasRNN.pdf GLOSSARY
 ACM active contour model. 6
 BOV bag-of-visual-words. 5
 CNN Convolution Neuronal Network. 5, 9
@@ -1768,22 +1764,22 @@ RBF radial basis function. 8
 SIFT scale-invariant feature transform. 5
 SVM Support Vector Machine. 4, 6–8
 
-A PPENDIX A
+APPENDIX A
 TABLES
 Database Image Resolution (width × height) Number
 of
 Images Number
 of
 Classes Channels Data source
-Colon Crypt DB (302 px − 1116 px ) × (349 px − 875 px) 389 2 3 [CRSS]
-DIARETDB1 1500 px × 1500 px 89 4 3 [KKV+
- 14]
-KITTI Road (1226 px − 1242 px ) × (370 px − 376 px) 289 2 3 [FKG13]
-MSRCv1 (213 px − 320 px) × (213 px − 320 px) 240 9 3 [MSR]
-MSRCv2 (213 px − 320 px) × (162 px − 320 px) 591 23 3 [MSR]
-Open-CAS Endoscopic Datasets 640 px × 480 px 120 2 3 [MHMK +
- 14]
-PASCAL VOC 2012 (142 px − 500 px) × ( 71 px − 500 px) 2913 20 3 [EVGW +
- 12]
-Warwick-QU (567 px − 775 px) × (430 px − 522 px) 165 5 3 [CSM09]
+Colon Crypt DB (302 px − 1116 px) × (349 px − 875 px) 389 2 3 [CRSS]
+DIARETDB1  1500 px × 1500 px 89 4 3 [KKV+
+14]
+KITTI Road (1226 px − 1242 px) × (370 px − 376 px) 289 2 3 [FKG13]
+MSRCv1  (213 px − 320 px) × (213 px − 320 px) 240 9 3 [MSR]
+MSRCv2  (213 px − 320 px) × (162 px − 320 px) 591 23 3 [MSR]
+Open-CAS Endoscopic Datasets 640 px × 480 px 120 2 3 [MHMK+
+14]
+PASCAL VOC 2012 (142 px − 500 px) × ( 71 px − 500 px) 2913 20 3 [EVGW+
+12]
+Warwick-QU  (567 px − 775 px) × (430 px − 522 px) 165 5 3 [CSM09]
 Table I: An overview over publicly available image databases with a semantic segmentation ground trouth.

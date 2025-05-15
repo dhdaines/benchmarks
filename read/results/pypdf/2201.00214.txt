@@ -906,24 +906,24 @@ Abedini, A., Safari, H., & Nasiri, S. 2012, Solar Physics, 28 0
 Anfinogentov, S., Nakariakov, V . M., Mathioudakis, M., V an D oorsselaere, T ., & Kowalski, A. F .
 2013, ApJ, 773, 156
 Aschwanden, M., B. P . S. C. M. A. 2013, Solar Physics, 283, 5
-Aschwanden, M. J. 2006, Philosophical T ransactions of the Royal Society of London Series A, 364,
+Aschwanden, M. J. 2006, Philosophical T ransactions of the R oyal Society of London Series A, 364,
 417
 Aschwanden, M. J., & Boerner , P . 2011, The Astrophysical Jou rnal, 732, 81
 Aschwanden, M. J., Boerner , P ., Ryan, D., et al. 2015, The Ast rophysical Journal, 802, 53
 Aschwanden, M. J., Fletcher, L., Schrijver, C. J., & Alexand er, D. 1999, ApJ, 520, 880
 Ballai, I., Jess, D. B., & Douglas, M. 2011, A&A, 534, A13
-Banerjee, D., Erdélyi, R., Oliver, R., & O’Shea, E. 2007, Solar Physics, 246, 3
+Banerjee, D., Erdélyi, R., Oliver, R., & O’Shea, E. 2007, Sol ar Physics, 246, 3
 Berghmans, D., & Clette, F . 1999, Solar Physics, 186, 207
-Boerner, P ., Edwards, C., Lemen, J., et al. 2012, Solar Physics, 275, 41
+Boerner, P ., Edwards, C., Lemen, J., et al. 2012, Solar Physi cs, 275, 41
 Dahlburg, R. B., Einaudi, G., Ugarte-Urra, I., Rappazzo, A. F ., & V elli, M. 2018, ApJ, 868, 116
 De Moortel, I. 2005, Philosophical T ransactions of the Roya l Society of London Series A, 363, 2743
 De Moortel, I., & Brady, C. S. 2007, ApJ, 664, 1210
 De Moortel, I., Ireland, J., & W alsh, R. W . 2000, A&A, 355, L23
-De Moortel, I., & Nakariakov, V . M. 2012, Philosophical T ransactions of the Royal Society of
+De Moortel, I., & Nakariakov, V . M. 2012, Philosophical T ran sactions of the Royal Society of
 London Series A, 370, 3193
 Fathalian, N. 2019, arXiv e-prints, arXiv:1908.11369
 Fathalian, N., & Safari, H. 2010, ApJ, 724, 411
-Fathalian, N., Safari, H., & Nasiri, S. 2010, New Astronomy ,15, 403
+Fathalian, N., Safari, H., & Nasiri, S. 2010, New Astronomy , 15, 403
 Goossens, M., Hollweg, J. V ., & Sakurai, T . 1992, Solar Physi cs, 138, 233
 Gruszecki, M., Murawski, K., Selwa, M., & Ofman, L. 2006, A&A , 460, 887
 Guennou, C., Auchère, F ., Soubrié, E., et al. 2012a, ApJ, 203 , 25
@@ -931,15 +931,15 @@ Guennou, C., Auchère, F ., Soubrié, E., et al. 2012b, ApJ, 203 , 26
 Habbal, S. R., & Rosner, R. 1979, ApJ, 234, 1113
 Hindman, B. W ., & Jain, R. 2014, ApJ, 784, 103
 Jain, R., Maurya, R. A., & Hindman, B. W . 2015, ApJ, 804, L19
-Jess, D. B., Reznikova, V . E., Ryans, R. S. I., et al. 2016, Nature Physics, 12, 179
+Jess, D. B., Reznikova, V . E., Ryans, R. S. I., et al. 2016, Nat ure Physics, 12, 179
 Kolotkov, D. Y ., Nakariakov, V . M., & Zavershinskii, D. I. 20 19, A&A, 628, A133
 Krishna Prasad, S., Jess, D. B., & V an Doorsselaere, T . 2019, Frontiers in Astronomy and Space
 Sciences, 6, 57
 Li, L. P ., Peter, H., Chen, F ., & Zhang, J. 2015, A&A, 583, A109
 Liu, W ., & Ofman, L. 2014, Solar Physics, 289, 3233–3277
-Luna, M., T erradas, J., Oliver, R., & Ballester, J. L. 2010, ApJ, 716, 1371
+Luna, M., T erradas, J., Oliver, R., & Ballester, J. L. 2010, A pJ, 716, 1371
 McClymont, A. N., & Craig, I. J. D. 1985, ApJ, 289, 834
-McLaughlin, J. A., Nakariakov, V . M., Dominique, M., Jelínek, P ., & T akasao, S. 2018, Space
+McLaughlin, J. A., Nakariakov, V . M., Dominique, M., Jelíne k, P ., & T akasao, S. 2018, Space
 Science Reviews volume, 214, 45
 Nakariakov, V . M., Afanasyev, A. N., Kumar, S., & Moon, Y . J. 2 017, ApJ, 849, 62
 Nakariakov, V . M., Inglis, A. R., Zimovets, I. V ., et al. 2010 , Plasma Physics and Controlled Fusion,
@@ -949,28 +949,28 @@ Nakariakov, V . M., & V erwichte, E. 2005, Living Reviews in So lar Physics, 2, 
 Nisticò, G., Nakariakov, V . M., & V erwichte, E. 2013, A&A, 55 2, A57
 Nisticò, G., Polito, V ., Nakariakov, V . M., & Del Zanna, G. 20 17, A&A, 600, A37
 Ofman, L., & W ang, T . 2002, ApJ, 580, L85
-Pant, V ., Tiwari, A., Y uan, D., & Banerjee, D. 2017, ApJ, 847,L5
+Pant, V ., Tiwari, A., Y uan, D., & Banerjee, D. 2017, ApJ, 847, L5
 Pascoe, D. J., Nakariakov, V . M., & Arber, T . D. 2007, Solar Ph ysics, 246, 165
 Reale, F ., T esta, P ., Petralia, A., & Kolotkov, D. Y . 2019, Ap J, 884, 131
 Roberts, B., Edwin, P . M., & Benz, A. O. 1984, ApJ, 279, 857
-Romano, P ., Zuccarello, F ., Guglielmino, S. L., et al. 2015,A&A, 582, A55
+Romano, P ., Zuccarello, F ., Guglielmino, S. L., et al. 2015, A&A, 582, A55
 Russell, A. J. B., Simões, P . J. A., & Fletcher, L. 2015, A&A, 5 81, A8
 Scargle, J. D. 1982, ApJ, 263, 835
-Schmelz, J. T ., Jenkins, B. S., W orley, B. T ., et al. 2011, ApJ, 731, 49
+Schmelz, J. T ., Jenkins, B. S., W orley, B. T ., et al. 2011, ApJ , 731, 49
 Schmelz, J. T ., Kimble, J. A., Jenkins, B. S., et al. 2010, ApJ , 725, L34
 Schmelz, J. T ., Pathak, S., Brooks, D. H., Christian, G. M., & Dhaliwal, R. S. 2014, ApJ, 795, 171
 Schmelz, J. T ., Pathak, S., Jenkins, B. S., & W orley, B. T . 201 3, ApJ, 764, 53
 Ugarte-Urra, I., & W arren, H. P . 2014, ApJ, 783, 12
-V an Doorsselaere, T ., Kupriyanova, E. G., & Y uan, D. 2016, Solar Physics, 291, 3143
+V an Doorsselaere, T ., Kupriyanova, E. G., & Y uan, D. 2016, So lar Physics, 291, 3143
 V an Doorsselaere, T ., W ardle, N., Del Zanna, G., et al. 2011, ApJ, 727, L32
 V anderPlas, J. T . 2018, ApJ, 236, 16
-V erwichte, E., Nakariakov, V . M., Ofman, L., & Deluca, E. E. 2004, Solar Physics, 223, 77
+V erwichte, E., Nakariakov, V . M., Ofman, L., & Deluca, E. E. 2 004, Solar Physics, 223, 77
 W ang, T . 2011, Space Science Reviews, 158, 397–419
 W ang, T ., Innes, D. E., & Qiu, J. 2007, ApJ, 656, 598
 W ang, T . J., & Solanki, S. K. 2004, A&A, 421, L33
-W ang, T . J., Solanki, S. K., Innes, D. E., Curdt, W ., & Marsch,E. 2003, A&A, 402, L17
+W ang, T . J., Solanki, S. K., Innes, D. E., Curdt, W ., & Marsch, E. 2003, A&A, 402, L17
 W ang, T ., & Ofman, L. 2019, ApJ, 886, 2
-W ang, T ., Ofman, L., Sun, X., Provornikova, E., & Davila, J. M. 2015, ApJ, 811, L13
+W ang, T ., Ofman, L., Sun, X., Provornikova, E., & Davila, J. M . 2015, ApJ, 811, L13
 W ang, T ., Ofman, L., Y uan, D., et al. 2021, Space Science Revi ews, 217
 W arren, H. P ., W inebarger, A. R., & Brooks, D. H. 2012, ApJ, 75 9, 141
 W ills-Davey, M. J., & Thompson, B. J. 1999, Solar Physics, 19 0, 467

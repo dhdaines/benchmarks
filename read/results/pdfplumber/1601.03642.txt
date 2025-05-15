@@ -110,14 +110,20 @@ An important group of machine learning algorithms was
 inspired by biological neurons and are thus called artificial
 neural networks. Those networks are based on mathematical
 functions called artificial neurons which take n ∈ N num-
-bers x 1,...,x
+bers x
+1
+,...,x
 n
 ∈ R as input, multiply them with weights
-w 1,...,w
+w
+1
+,...,w
 n
 ∈ R, add them and apply a so called activation
 function ϕ as visualized in Figure 1(a). One example of such
-an activation function is the sigmoid function ϕ(x)= 1 1+e−x.
+an activation function is the sigmoid function ϕ(x)= 1
+1+e−x
+.
 Those functions act as building blocks for more complex
 systems as they can be chained and grouped in layers as
 visualized in Figure 1(b). The interesting question is how
@@ -127,11 +133,40 @@ are learned. This is usually done by an
 optimization technique called gradient descent. The gradient
 descent algorithm takes a function which has to be derivable,
 starts at any point of the surface of this error function and
-arXiv:1601.03642v1
-[cs.CV]
-12
-Jan
-2016
+a
+r
+X
+i
+v
+:
+1
+6
+0
+1
+.
+0
+3
+6
+4
+2
+v
+1
+[
+c
+s
+.
+C
+V
+]
+1
+2
+J
+a
+n
+2
+0
+1
+6
 2
 makes a step in the direction which goes downwards. Hence
 it tries to find a minimum of this high-dimensional function.
@@ -370,9 +405,13 @@ Recurrent neural networks — LSTM networks, to be exact
 music. Instead of taking notes directly or MIDI files, Nayebi
 and Vitelli took raw audio waveforms as input. Those audio
 waveformsarefeaturevectorsgivenfortimesteps0,1,...,t−
-1,t. The network is given those feature vectors X 1,...,X
+1,t. The network is given those feature vectors X
+1
+,...,X
 t
-and has to predict the following feature vector X t+1. This
+and has to predict the following feature vector X
+t+1
+. This
 means it continues the music. As the input is continuous, the
 problem was modeled as a regression task. Discrete Fourier
 Transformation (DFT) was used on chunks of length N of the

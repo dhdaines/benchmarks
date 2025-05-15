@@ -94,11 +94,39 @@ tion algorithms, there is a publication about multiple
 class affiliation segmentation [LRAL08]. Similarly,
 recent publications in pixel-level object segmentation
 used layered models [YHRF12].
-arXiv:1602.06541v2
-[cs.CV]
-11
-May
-2016
+a
+r
+X
+i
+v
+:
+1
+6
+0
+2
+.
+0
+6
+5
+4
+1
+v
+2
+[
+c s
+.
+C
+V
+]
+1
+1
+M
+a
+y
+2
+0
+1
+6
 2
 C. Input Data
 The available data which can be used for the
@@ -178,10 +206,14 @@ ij
 0
 with i,j ∈1,...,k be the number of pixels
 which belong to class i and were labeled as class j.
-(n ij) is called a confusion matrix. Let t
+(n
+ij
+) is called a confusion matrix. Let t
 i
-=(cid:80)k
-j=1n
+=
+(cid:80)k
+j=1
+n
 ij
 be the total number of pixels of class i.
 One way to compare segmentation algorithms is by
@@ -189,8 +221,12 @@ the pixel-wise accuracy of the predicted segmentation
 as done in many publications [SWRC06], [CP08],
 [LSD14]. This is also called per-pixel rate and de-
 fined as
-(cid:80)k i=1nii
-(cid:80)k i=1ti
+(cid:80)k
+i=1
+nii
+(cid:80)k
+i=1
+ti
 . Taking the pixel-wise classification
 accuracy has two major drawbacks:
 P1 Taskslikesegmentingimagesforautonomouscars
@@ -209,18 +245,28 @@ general “car” and the more specific “wheel of a
 car”
 Three accuracy metrics which do not suffer from
 problem P1 are used in [LSD14]:
-• mean accuracy: 1 k ·(cid:80)k i=1 nii ti ∈[0,1]
+• mean accuracy: 1 k · (cid:80)k i=1 nii ti ∈[0,1]
 • mean intersection over union:
 1
 k
-·(cid:80)k
+· (cid:80)k
 i=1
 nii
-ti−nii+(cid:80)k j=1nji
+ti−nii+(cid:80)k j=1 nji
 ∈[0,1]
 • frequency weighted intersection over union:
-((cid:80)k i=1t i)−1(cid:80)k i=1t i· nii
-ti−nii+(cid:80)k j=1nji
+( (cid:80)k
+i=1
+t
+i
+) −1(cid:80)k
+i=1
+t
+i
+· nii
+ti−nii+(cid:80)k
+j=1
+nji
 ∈[0,1]
 Another problem might be pixels which cannot be
 assigned to one of the known classes. For this reason,
@@ -670,7 +716,7 @@ Forestsforsemanticsegmentationisgivenby[SCZ08].
 D. SVMs
 SVMs are well-studied binary classifiers which can
 be described by five central ideas. For those ideas, the
-training data is represented as (x i,y i) where x i is the
+training data is represented as (x i ,y i ) where x i is the
 feature vector and y i ∈ {−1,1} the binary label for
 training example i∈{1,...,m}.
 1) If data is linearly separable, it can be separated
@@ -680,8 +726,15 @@ maximizes the distance to the next datapoints
 minimize
 w,b
 1
-2(cid:107)w(cid:107)2
-s.t. ∀m i=1y i·((cid:104)w,x i(cid:105)+b)
+2
+(cid:107)w(cid:107)2
+s.t. ∀m
+i=1
+y
+i
+·((cid:104)w,x
+i
+(cid:105)+b)
 (cid:124) (cid:123)(cid:122) (cid:125)
 sgn appliedtothisgivestheclassification
 ≥1
@@ -692,15 +745,17 @@ duction ofslackvariables to relaxthe requirement
 of linear separability solves this problem. The
 trade-off between accepting some errors and a
 more complex model is weighted by a parameter
-C ∈ R+ 0. The bigger C, the more errors are
+C ∈ R+
+0
+. The bigger C, the more errors are
 accepted. The new optimization problem is:
-minimize
-w
+minimize w
 1
-2(cid:107)w(cid:107)2+C·
+2 (cid:107)w(cid:107)2+C·
 m (cid:88)
-i=1ξ i
-s.t. ∀m i=1y i·((cid:104)w,x i(cid:105)+b)≥1−ξ i
+i=1
+ξ i
+s.t. ∀m i=1 y i ·((cid:104)w,x i (cid:105)+b)≥1−ξ i
 Note that 0 ≤ ξ
 i
 ≤ 1 means that the data point
@@ -711,10 +766,17 @@ misclassified. An SVM with C >0 is also called
 a soft-margin SVM.
 3) The primal problem is to find the normal vector
 w and the bias b. The dual problem is to express
-w as a linear combination of the training data x i:
+w as a linear combination of the training data x
+i
+:
 w=
 m (cid:88)
-i=1α iy ix
+i=1
+α
+i
+y
+i
+x
 i
 where y
 i
@@ -741,7 +803,10 @@ maximize
 αi
 m
 (cid:88)
-i=1α i−
+i=1
+α
+i
+−
 1
 2
 m
@@ -749,37 +814,85 @@ m
 i=1
 m
 (cid:88)
-j=1α iα jy iy j(cid:104)x i,x j(cid:105)
-s.t. ∀m i=10≤α
+j=1
+α
+i
+α
+j
+y
+i
+y
+j
+(cid:104)x
+i
+,x
+j
+(cid:105)
+s.t. ∀m
+i=1
+0≤α
 i
 ≤C
 s.t.
 m (cid:88)
-i=1α iy i =0
+i=1
+α i y i =0
 8
 4) Not every dataset is linearly separable. This prob-
 lem is approached by transforming the feature
 vectors x with a non-linear mapping Φ into
 a higher dimensional (probably ∞-dimensional)
 space. As the feature vectors x are only used
-within scalar product (cid:104)x i,x j(cid:105), it is not necessary
+within scalar product (cid:104)x
+i
+,x
+j
+(cid:105), it is not necessary
 to do the transformation. It is enough to do the
 calculation
-K(x i,x j)=(cid:104)x i,x j(cid:105)
+K(x
+i
+,x
+j
+)=(cid:104)x
+i
+,x
+j
+(cid:105)
 This function K is called a kernel. The idea of
 never explicitly transforming the vectors x
 i
 to the
 higher dimensional space is called the kernel trick.
 Common kernels include the polynomial kernel
-K P(x i,x j)=((cid:104)x i,x j(cid:105)+r)p
+K
+P
+(x
+i
+,x
+j
+)=((cid:104)x
+i
+,x
+j
+(cid:105)+r)p
 of degree p and coefficient r, the Gaussian radial
 basis function (RBF) kernel
-K Gauss(x i,x
-j)=e−γ(cid:107)xi−xj(cid:107)2
+K Gauss (x i ,x j )=e
+−γ(cid:107)xi−xj(cid:107)2
 2σ2
 and the sigmoid kernel
-K tanh(x i,x j)=tanh(γ(cid:104)x i,x j(cid:105)−r)
+K
+tanh
+(x
+i
+,x
+j
+)=tanh(γ(cid:104)x
+i
+,x
+j
+(cid:105)−r)
 where the parameter γ determines how much
 influence single training examples have.
 5) ThedescribedSVMscanonlydistinguishbetween
@@ -885,16 +998,37 @@ typically live on 0,...,255 or [0,1].
 The probability of x,y can be expressed as
 P(x,y)=
 1
-Ze−E(x,y)
-where Z = (cid:80) x,ye−E(x,y) is a normalization term
+Z
+e−E(x,y)
+where Z = (cid:80)
+x,y
+e−E(x,y) is a normalization term
 called the partition function and E is called the energy
 function. A common choice for the energy function is
-E(x,y)=(cid:88)
-c∈Cψ c(x,y)
+E(x,y)=
+(cid:88)
+c∈C
+ψ
+c
+(x,y)
 where ψ is called a clique potential. One choice for
-cliques of size two x,y=(x 1,x 2) is [KP06]
-ψ c(x 1,x 2)=wδ(x 1,x
-2)=(cid:40)
+cliques of size two x,y=(x
+1
+,x
+2
+) is [KP06]
+ψ
+c
+(x
+1
+,x
+2
+)=wδ(x
+1
+,x
+2
+)=
+(cid:40)
 +w if x
 1
 (cid:54)=x
@@ -921,7 +1055,8 @@ not have to be estimated. Another advantage of CRFs
 compared to MRFs is that no distribution assumption
 about x has to be made.
 A CRF has the partition function Z:
-Z(x)=(cid:88)
+Z(x)=
+(cid:88)
 y
 P(x,y)
 and joint probability distribution
@@ -929,7 +1064,12 @@ P(y|x)=
 1
 Z(x)
 (cid:89)
-c∈Cψ c(y c|x)
+c∈C
+ψ
+c
+(y
+c
+|x)
 The simplest way to define the clique potentials ψ is
 the count of the class y c given x added with a positive
 smoothing constant to prevent the complete term from
@@ -990,10 +1130,12 @@ clever regularization called dropout training, which set
 the output of neurons while training randomly to zero.
 Another contribution was the usage of an activation
 function called rectified linear unit:
-ϕ ReLU(x)=max(0,x)
+ϕ ReLU (x)=max(0,x)
 Those are much faster to train than the commonly used
 sigmoid activation functions
-ϕ Sigmoid(x)=
+ϕ
+Sigmoid
+(x)=
 1
 e−x+1
 Krizhevsky et al. implemented those ideas and partici-

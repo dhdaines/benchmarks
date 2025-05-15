@@ -7,12 +7,16 @@ Sanaea C. Rose,1,2 Smadar Naoz,1,2 Re’em Sari,3 and Itai Linial3
 3Racah Institute for Physics, The Hebrew University, Jerusalem 91904, Israel
 ABSTRACT
 Most stellar evolution models predict that black holes (BHs) should not exist above approximately
-50−70 M (cid:12), the lower limit of the pair-instability mass gap. However, recent LIGO/Virgo detections
+50−70 M
+(cid:12)
+, the lower limit of the pair-instability mass gap. However, recent LIGO/Virgo detections
 indicate the existence of BHs with masses at and above this threshold. We suggest that massive
 BHs, including intermediate mass black holes (IMBHs), can form in galactic nuclei through collisions
 between stellar-mass black holes and the surrounding main-sequence stars. Considering dynamical
 processes such as collisions, mass segregation, and relaxation, we find that this channel can be quite
-efficient, forming IMBHs as massive as 104 M (cid:12). This upper limit assumes that (1) the BHs accrete a
+efficient, forming IMBHs as massive as 104 M
+(cid:12)
+. This upper limit assumes that (1) the BHs accrete a
 substantial fraction of the stellar mass captured during each collision and (2) that the rate at which
 new stars are introduced into the region near the SMBH is high enough to offset depletion by stellar
 disruptionsandstar-starcollisions. Wediscussdeviationsfromthesekeyassumptionsinthetext. Our
@@ -27,7 +31,9 @@ respectively).
 The recently detected gravitational wave source
 GW190521 (The LIGO Scientific Collaboration et al.
 2020a,b) produced an intermediate mass black hole of
-approximately142M (cid:12). Thiseventmayhavealsohada
+approximately142M
+(cid:12)
+. Thiseventmayhavealsohada
 85M
 (cid:12)
 progenitor,whichfallswithinthepair-instability
@@ -71,11 +77,45 @@ lated gas (e.g., Begelman et al. 2006; Yue et al. 2014;
 Ferrara et al. 2014; Choi et al. 2015; Shlosman et al.
 2016). These high redshift IMBHs would need to sur-
 vive galaxy evolution and mergers to present day (e.g.,
-arXiv:2201.00022v2
-[astro-ph.GA]
+a
+r
+X
+i
+v
+:
+2
+2
+0
+1
+.
+0
+0
+0
+2
+2
+v
+2
+[
+a
+s
+t
+r
+o
+-
+p
+h
+.
+G
+A
+]
 6
-Jul
-2022
+J
+u
+l
+2
+0
+2
+2
 2 Rose et al.
 Rashkov&Madau2014),withsignificanteffectsontheir
 stellarandevendarkmattersurroundings(e.g.,Bertone
@@ -131,7 +171,9 @@ peatedcollisionsbetweenBHsandmain sequence stars.
 During a collision, the BH can accrete some portion of
 the star’s mass. Over many collisions, it can grow ap-
 preciablyinsize. Wedemonstratethatthischannelcan
-createIMBHswithmassesaslargeas104 M (cid:12),anupper
+createIMBHswithmassesaslargeas104 M
+(cid:12)
+,anupper
 limitthatdependsonthedensityprofileofthesurround-
 ing stars and the efficiency of the accretion.
 The paper is structured as follows: we describe rele-
@@ -168,7 +210,9 @@ our final results. Future work may address the particu-
 lars of the BH mass distribution, but we do not expect
 that it will significantly alter the outcome. The upper
 and lower limits of the BH mass distribution are 5 and
-50M (cid:12), respectively. We select the upper limit to en-
+50M
+(cid:12)
+, respectively. We select the upper limit to en-
 compass the range of upper bounds predicted by stellar
 evolution models, which vary between 40 and 125M
 (cid:12)
@@ -176,7 +220,9 @@ dependingonthemetallicity(Hegeretal.2003;Woosley
 2017; Spera & Mapelli 2017b; Limongi & Chieffi 2018b;
 Belczynski et al. 2020b; Renzo et al. 2020). We assume
 that the orbits of the BHs follow a thermal eccentricity
-distribution. We draw their semimajor axes, a •, from a
+distribution. We draw their semimajor axes, a
+•
+, from a
 uniform distribution in log distance, dN/d(logr) being
 constant. While this distribution is not necessarily rep-
 resentative of actual conditions in the GN, we use it to
@@ -199,22 +245,42 @@ butreserveamoredetailedexaminationofthedistribu-
 tion’s impact for future work.
 2.2. Direct Collisions
 BHsintheGNcanundergodirectcollisionswithother
-objects. The timescale for this process, t coll, can be es-
+objects. The timescale for this process, t coll , can be es-
 timated using a simple rate calculation: t−1
 coll
 = nσA,
 where n is the number density of objects, σ is the ve-
 locitydispersion, andAisthecross-section. Weusethe
 collision timescale from Rose et al. (2020):
-t−1 coll=πn(a •)σ(a •)
-×(cid:18)
-f 1(e •)r2
+t−1
+coll
+=πn(a
+•
+)σ(a
+•
+)
+×
+(cid:18)
+f
+1
+(e
+•
+)r2
 c
-+f 2(e •)r
-c2G(m
++f
+2
+(e
+•
+)r
+c
+2G(m
 BH
-+m (cid:63))
-σ(a •)2
++m
+(cid:63)
+)
+σ(a
+•
+)2
 (cid:19)
 . (1)
 where G is the gravitational constant and r
@@ -223,8 +289,18 @@ is the sum
 of the radii of the interacting objects, a black hole with
 mass m
 BH
-and a star with mass m (cid:63). Detailed in Rose
-et al. (2020), f 1(e •) and f 2(e •) account for the effect of
+and a star with mass m
+(cid:63)
+. Detailed in Rose
+et al. (2020), f
+1
+(e
+•
+) and f
+2
+(e
+•
+) account for the effect of
 the eccentricity of the BH’s orbit about the SMBH on
 the collision rate, while n and σ are simply evaluated
 at the semimajor axis of the orbit (see below). Note
@@ -239,14 +315,20 @@ star as a function of distance from the SMBH
 in Figure 1.2 As this timescale depends on the density
 of surrounding stars, we adopt a density profile of the
 form:
-ρ(r •)=ρ
-0(cid:18)
+ρ(r
+•
+)=ρ
+0
+(cid:18)
 r
 •
 r
-0(cid:19)−α
+0
+(cid:19)−α
 , (2)
-wherer •denotesthedistancefromtheSMBH.Weadopt
+wherer
+•
+denotesthedistancefromtheSMBH.Weadopt
 a SMBH mass of 4×106 M
 (cid:12)
 such that our fiducial GN
@@ -254,36 +336,39 @@ matches our own galactic center (e.g., Ghez et al. 2005;
 Genzel et al. 2003). In this case, the normalization in
 Eq.(2)isρ
 0
-=1.35×106M (cid:12)/pc3 atr
+=1.35×106M
+(cid:12)
+/pc3 atr
 0
 =0.25pc(Gen-
 zel et al. 2010). Additionally, in Eq. (2), α gives the
 slope of the power law. We assume that a uniform pop-
 ulation of solar mass stars account for most of the mass
 in the GN, making the stellar number density:
-n(r •)=
-ρ(r •)
+n(r
+•
+)= ρ(r • )
 1M
 (cid:12)
 . (3)
 The collision timescale also depends on the velocity dis-
 persion, which we express as:
-σ(r
-•)=(cid:115)
+σ(r • )=
+(cid:115)
 GM
+• r
 •
-r
-•(1+α), (4)
+(1+α) , (4)
 where α is the slope of the density profile and M
 •
 de-
 notes the mass of the SMBH (Alexander 1999; Alexan-
 der&Pfuhl2014). Asmentionedabove,Eq.(1)depends
-on the sum of the radii of the colliding objects, r c. We
+on the sum of the radii of the colliding objects, r c . We
 take r c =1R (cid:12) because these interactions involve a BH
 and a star, and the former has a much smaller physi-
 calcross-section. Forexample,theSchwarzschildradius
-of a 10M (cid:12) BH is only 30 km, or 4.31×10−5R (cid:12). For
+of a 10M (cid:12) BH is only 30 km, or 4.31×10−5R (cid:12) . For
 this reason, direct collisions between compact objects
 are very rare and not included in our model.
 We note that direct collisions between BHs, via GW
@@ -306,7 +391,9 @@ collisiontimescale(Roseetal.2020).
 We simulate the mass growth of a population of BHs
 with initial conditions detailed in Section 2.1. Over an
 increment ∆t of 106 yr, we calculate the probability of
-a collision occurring, given by ∆t/t coll. This choice of
+a collision occurring, given by ∆t/t
+coll
+. This choice of
 ∆t is motivated by our galactic center’s star formation
 timescale (e.g., Lu et al. 2009), allowing for regular re-
 plenishmentofthestellarpopulationintheGN.Wehave
@@ -328,16 +415,18 @@ two objects experience a head on collision, with the BH
 passing through the star’s center. We begin by con-
 sidering the escape velocity from the BH at the star’s
 outermost point, its surface, which corresponds to the
-maximum impact parameter 1 R (cid:12). Qualitatively, one
+maximum impact parameter 1 R (cid:12) . Qualitatively, one
 might expect that the BH could capture the entire star
-(i.e.,∆m∼1M (cid:12))iftherelativevelocityissmallerthan
+(i.e.,∆m∼1M (cid:12) )iftherelativevelocityissmallerthan
 theescapevelocityfromtheBHatthispoint. However,
 in the vicinity of the SMBH, the dispersion velocity of
 the stars may be much larger than the escape velocity
 from the BH at the star’s surface. In this case, the BH
 captures a “tunnel” of material through the star. This
 tunnel has radius equal to the Bondi radius and length
-approximately 1R (cid:12). For the purposes of this study, we
+approximately 1R
+(cid:12)
+. For the purposes of this study, we
 assume that the BH accretes all of the material that
 it captures. The details of the accretion are uncertain,
 however, and it may be much less efficient than our re-
@@ -345,13 +434,19 @@ sults imply. We discuss accretion in Section 2.5.
 To estimate ∆m, we begin with the Bondi-Hoyle ac-
 cretion rate, ˙ m, given by:
 ˙ m=
-4πG2m2 BHρ
+4πG2m2
+BH
+ρ
 star
-(c2 s+σ2)3/2
+(c2
+s
++σ2)3/2
 , (5)
 3Closer to the SMBH, ∆t may exceed the collision timescale by
 a factor of a few for steep density profiles. We include a safe-
-guard in our code which takes the ratio t coll/∆t and rounds it
+guard in our code which takes the ratio t
+coll
+/∆t and rounds it
 tothenearestinteger. Wetakethisintegertobethenumberof
 collisionsandincreasetheBHmassaccordingly.
 Figure 2. Weconsideranexamplethathighlightsthemass
@@ -371,16 +466,18 @@ analytical predictions detailed in Section 2.4.
 wherec s isthespeedofsoundinthestarandρ star isits
 density (e.g., Bondi 1952; Bondi & Hoyle 1944; Shima
 et al. 1985; Edgar 2004, see latter for a review). We
-approximate the density as 1M (cid:12)/(4πR3 (cid:12)/3) and take
+approximate the density as 1M (cid:12) /(4πR3 (cid:12) /3) and take
 the conservative value of c s = 500 km s−1, which is
 consistent with the sound speed inside a 1 M (cid:12) star
 (Christensen-Dalsgaardetal.1996)andallowsustoset
 a lower limit on ∆m. To find ∆m, at each collision, we
 have:
-∆m=min(˙ m×t (cid:63),cross,1 M (cid:12)) , (6)
+∆m=min(˙ m×t (cid:63),cross ,1 M (cid:12) ) , (6)
 where t
 (cid:63),cross
-∼R (cid:12)/σ is the crossing time of the BH in
+∼R
+(cid:12)
+/σ is the crossing time of the BH in
 thestar. Wetaketheminimumbetween ˙ m×t
 (cid:63),cross
 and
@@ -399,8 +496,12 @@ start with identical populations of 10M
 BHs (grey)
 and simulate growth through collisions using a statisti-
 cal approach. As the BHs grow, the collision timescale,
-which depends on m BH, decreases. Simultaneously,
-∆m, which also depends on m BH, increases. The re-
+which depends on m
+BH
+, decreases. Simultaneously,
+∆m, which also depends on m
+BH
+, increases. The re-
 sult is exponential growth (see discussion and details
 surrounding Eq. (8)). In Figure 2, however, the simula-
 tions assume α=1 for the stellar density profile, ensur-
@@ -409,9 +510,13 @@ IMBH Formation in Galactic Nuclei 5
 ulation time, 10 Gyr. Therefore, the BHs grow slowly,
 and their final masses can be approximated using the
 following equation:
-m final(t
+m
+final
+(t
 coll
-→const.)=m initial+∆m
+→const.)=m
+initial
++∆m
 T
 t
 coll
@@ -428,7 +533,9 @@ This equation is plotted in Figure 2 for both cases,
 accretion (blue), and the curves coincide with the cor-
 responding simulated results. The shaded regions rep-
 resent one standard deviation from Eq. (7), calculated
-usingthesquarerootofthenumberofcollisions,T/t coll.
+usingthesquarerootofthenumberofcollisions,T/t
+coll
+.
 As indicated by the results in red, in the absence of
 Bondi-Hoyle-Lyttletonaccretion, theBHsclosesttothe
 SMBH experience the most growth because they have
@@ -443,15 +550,37 @@ star’s mass.
 Eq. 7 does not apply for other values of α. When the
 collision timescale is shorter, corresponding to a larger
 index α in the density profile (see Figure 1), the growth
-isveryefficientand∆mquicklyapproaches1M (cid:12). Con-
-sequently, while we can now assume ∆m = 1M (cid:12), we
+isveryefficientand∆mquicklyapproaches1M
+(cid:12)
+. Con-
+sequently, while we can now assume ∆m = 1M
+(cid:12)
+, we
 cannolongerassumethecollisiontimescaleisconstant.
 The final mass grows exponentially as a result. For
-∆m = 1M (cid:12), the general solution is reached by solving
-the differential equation dm/dt=1M (cid:12)/t coll(m), which
+∆m = 1M
+(cid:12)
+, the general solution is reached by solving
+the differential equation dm/dt=1M
+(cid:12)
+/t
+coll
+(m), which
 gives:
-m final(∆m→1M (cid:12))=−A+(m initial+A)eCT (8)
-where A=σ2R star/G and C =2πGn starR star/σ. As an
+m
+final
+(∆m→1M
+(cid:12)
+)=−A+(m
+initial
++A)eCT (8)
+where A=σ2R
+star
+/G and C =2πGn
+star
+R
+star
+/σ. As an
 example,weplotthiscurveinpurplefortheα=2case,
 in Figure 3, which agrees with the simulated masses.
 2.5. Uncertainties in Accretion
@@ -482,7 +611,7 @@ tivated inefficient accretion model. Several studies have
 invoked momentum-driven winds in BH accretion (e.g.,
 Murray et al. 2005; Ostriker et al. 2010; Brennan et al.
 2018). We thus estimate the fraction of captured mass
-accreted to be approximately v esc/(cη), where v esc is
+accreted to be approximately v esc /(cη), where v esc is
 the escape velocity from the BH at 1 R (cid:12) and η is the
 accretion efficiency at the ISCO. We take η to be 0.1
 (e.g., Yu & Tremaine 2002). This expression for the
@@ -506,26 +635,41 @@ characteristic timescale to merge a BH with an SMBH
 is given by:
 t
 GW
-≈2.9×1012
-yr(cid:18)
+≈2.9×1012 yr
+(cid:18)
 M
 •
 106 M
-(cid:12)(cid:19)−1(cid:18)
+(cid:12)
+(cid:19)−1(cid:18)
 m
 BH
 106 M
-(cid:12)(cid:19)−1
-×(cid:18)
-M •+m BH
-2×106 M
-(cid:12)(cid:19)−1(cid:18)
+(cid:12)
+(cid:19)−1
+×
+(cid:18)
+M • +m BH
+2×106 M (cid:12)
+(cid:19)−1(cid:18)
 a •
-10−2
-pc(cid:19)4
-×f(e •)(1−e2 •)7/2 , (9)
-where f(e •) is a function of e •. For all values of e •,
-f(e •) is between 0.979 and 1.81 (Blaes et al. 2002). We
+10−2 pc
+(cid:19)4
+×f(e
+•
+)(1−e2
+•
+)7/2 , (9)
+where f(e
+•
+) is a function of e
+•
+. For all values of e
+•
+,
+f(e
+•
+) is between 0.979 and 1.81 (Blaes et al. 2002). We
 plot this timescale for a 1×105M
 (cid:12)
 BH in Figure 1 in
@@ -568,7 +712,9 @@ massiveenoughtomergewiththeSMBHthroughGWs.
 Following the method detailed in Section 2.6, when a
 given BH meets the criterion t
 GW
-< t elapsed, we mark
+< t
+elapsed
+, we mark
 4For comparison, we also incrementally changed the semimajor
 axis and eccentricity from GW emission following the equations
 in Peters & Mathews (1963b). This method leads to a slight
@@ -594,11 +740,16 @@ t
 relax
 =0.34
 σ3
-G2ρ(cid:104)M ∗(cid:105)lnΛ
-rlx, (10)
+G2ρ(cid:104)M
+∗
+(cid:105)lnΛ
+rlx
+, (10)
 where lnΛ
 rlx
-is the Coulomb logarithm and (cid:104)M ∗(cid:105) is the
+is the Coulomb logarithm and (cid:104)M
+∗
+(cid:105) is the
 average mass of the surrounding objects, here assumed
 to be 1M
 (cid:12)
@@ -632,7 +783,11 @@ Miralda-Escud´e & Gould 2000; Baumgardt et al. 2004).
 They sink toward the SMBH on the mass segregation
 timescale, t
 seg
-≈ (cid:104)M ∗(cid:105)/m BH×t
+≈ (cid:104)M
+∗
+(cid:105)/m
+BH
+×t
 relax
 (e.g., Spitzer 1987;
 Fregeau et al. 2002; Merritt 2006), which is typically an
@@ -644,13 +799,18 @@ tum each time it orbits the SMBH. We apply a small
 instantaneous velocity kick to the BH, denoted as ∆v.
 We draw ∆v from a Guassian distribution with average
 of zero and a standard deviation of ∆v
-rlx/√
+rlx
+/
+√
 3, where
 ∆v
 rlx
 = v
-•(cid:112)
-P •/t
+•
+(cid:112)
+P
+•
+/t
 rlx
 (see Bradnick et al. 2017, for an
 approach to changes in the angular momentum). The
@@ -724,7 +884,9 @@ leads to a final distri-
 bution with an average of ∼ 200 M
 (cid:12)
 and a median of
-∼45 M (cid:12), which lies within the mass gap.
+∼45 M
+(cid:12)
+, which lies within the mass gap.
 3. DISCUSSION AND PREDICTIONS
 We explore the feasibility of forming IMBHs in a
 GN through successive collisions between a stellar-mass
@@ -748,7 +910,9 @@ Despite the substantially reduced accretion, BHs in the mass gap still form.
 As the stellar mass BH collides with a star, the BH
 will grow in mass. The increase may equal star’s en-
 tire mass if the relative velocity is smaller than the es-
-cape velocity from the BH at 1 R (cid:12). However, near the
+cape velocity from the BH at 1 R
+(cid:12)
+. However, near the
 SMBH, the velocity dispersion may be larger than the
 escapevelocityfromtheBHatthestar’sradius. Inthis
 limit, the BH captures a “tunnel” of material through
@@ -768,7 +932,9 @@ However, the inclusion of relaxation processes in the
 simulations dampens the influence of the stellar density
 profile by allowing BHs to diffuse into regions of more
 or less efficient growth. As a result, more BHs grow in
-mass, but their maximum mass is smaller (∼ 104 M (cid:12)).
+mass, but their maximum mass is smaller (∼ 104 M
+(cid:12)
+).
 Additionally, the final masses have no apparent depen-
 dence on distance from the SMBH (see Figure 4).
 Most simulations in our study assume that the BHs
@@ -786,7 +952,9 @@ final mass distribution for momentum-driven winds in
 Figure 4. Importantly, we find that BHs within the
 mass gap still form naturally despite the substantially
 reduced accretion. About 5% of the BHs grow by 10
-to 100 M (cid:12). Furthermore, if we increase this ∆M esti-
+to 100 M
+(cid:12)
+. Furthermore, if we increase this ∆M esti-
 mate by a factor of 2 (i.e., use η = 0.05), the simula-
 tionproducesa3.5×103 M
 (cid:12)
@@ -876,15 +1044,23 @@ tions must already reflect ongoing processes like star-
 star collisions and replenishment. Sch¨odel et al. (2018)
 findtheobservedstellarmassenclosedwithin0.01pcof
 the Milky Way’s Galactic Center to be approximately
-180 M (cid:12). This estimate is consistent to order of magni-
+180 M
+(cid:12)
+. This estimate is consistent to order of magni-
 tude with our α = 1.25 case. In a simulation like those
 depictedinFigure4, whichincluderelaxation, α=1.25
-leads to a maximum IMBH mass of 140 M (cid:12). Further-
+leads to a maximum IMBH mass of 140 M
+(cid:12)
+. Further-
 more, while the stellar mass within 0.01 pc may be a
-few hundred M (cid:12), Do et al. (2019) and GRAVITY Col-
+few hundred M
+(cid:12)
+, Do et al. (2019) and GRAVITY Col-
 laboration et al. (2020) set an upper limit on the mass
 enclosedwithintheorbitofS0-2tobeaboutafewthou-
-sand M (cid:12), or 0.1% of the central mass. This upper limit
+sand M
+(cid:12)
+, or 0.1% of the central mass. This upper limit
 canincludemassthatwaspreviouslyinstarsbutisnow
 inBHs. Inthatcase,the180M
 (cid:12)

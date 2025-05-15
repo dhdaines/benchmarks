@@ -17,16 +17,24 @@ Received13December2021/Accepted30December2021
 ABSTRACT
 Context. Molecularmaserlinesaresignpostsofhigh-massstarformation,probingtheexcitationandkinematicsofverycompact
 regionsinthecloseenvironmentofyoungstellarobjectsandprovidingusefultargetsfortrigonometricparallaxmeasurements.
-Aims.OnlyafewNH 3(9,6)masersareknownsofar,andtheiroriginisstillpoorlyunderstood.HereweaimtofindnewNH 3(9,6)
+Aims.OnlyafewNH
+3
+(9,6)masersareknownsofar,andtheiroriginisstillpoorlyunderstood.HereweaimtofindnewNH
+3
+(9,6)
 maserstoprovideabetterobservationalbasisforstudyingtheirroleinhigh-massstar-formingregions.
-Methods.WecarriedoutNH 3(9,6)observationstowardCepheusAandG34.26+0.15withtheEffelsberg100-metertelescope(beam
+Methods.WecarriedoutNH
+3
+(9,6)observationstowardCepheusAandG34.26+0.15withtheEffelsberg100-metertelescope(beam
 size49(cid:48)(cid:48))andtheKarlG.JanskyVeryLargeArray(JVLA;beamsizeabout1(cid:48)(cid:48) .2).
 Results.WediscoverednewNH
 3
 (9,6)masersinCepAandG34.26+0.15,whichincreasesthenumberofknownhigh-massstar-
-formingregionshostingNH 3(9,6)masersfromfivetoseven.Long-termmonitoring(20months)atEffelsbergshowsthattheintensity
+formingregionshostingNH 3 (9,6)masersfromfivetoseven.Long-termmonitoring(20months)atEffelsbergshowsthattheintensity
 ofthe(9,6)maserinG34.26+0.15isdecreasing,whiletheCepAmaserremainsstable.ComparedtotheEffelsbergdataandassuming
-linearvariationsbetweentheepochsofobservation,theJVLAdataindicatenomissingflux.ThissuggeststhattheNH 3(9,6)emission
+linearvariationsbetweentheepochsofobservation,theJVLAdataindicatenomissingflux.ThissuggeststhattheNH
+3
+(9,6)emission
 arisesfromsinglecompactemissionregionsthatarenotresolvedbytheinterferometricmeasurements.AsJVLAimagingshows,the
 NH
 3
@@ -41,7 +49,7 @@ baselineinterferometryobservationsareneededtoprovidemoreaccuratepositionsandcons
 Keywords. Masers–ISM:clouds–ISM:individualobjects:CepA,G34.26+0.15–ISM:Hiiregions–Radiolines:ISM
 1. Introduction
 Since its discovery more than five decades ago (Cheung et al.
-1968), ammonia (NH 3) has been a most valuable molecule for
+1968), ammonia (NH 3 ) has been a most valuable molecule for
 investigating the physical properties of molecular clouds (e.g.,
 Ho & Townes 1983). While thermally excited transitions in
 thecentimeter-wavelengthinversiontransitionsofammoniaare
@@ -91,11 +99,45 @@ beenidentifiedasmasers,includingthe(5,3),(5,4),(6,1),(6,2),
 (6,4),(6,5),(7,3),(7,4),(7,5)(7,6),(8,3),(8,4),(8,5),(8,6),(9,3),
 (9,4),(9,5),(9,7),(9,8),(10,7),(10,8),(10,9),and(11,9)transi-
 Articlenumber,page1of10
-arXiv:2201.00021v3
-[astro-ph.GA]
+a
+r
+X
+i
+v
+:
+2
+2
+0
+1
+.
+0
+0
+0
+2
+1
+v
+3
+[
+a
+s
+t
+r
+o
+-
+p
+h
+.
+G
+A
+]
 9
-Apr
-2022
+A
+p
+r
+2
+0
+2
+2
 A&Aproofs:manuscriptno.mainArxiv
 tions (e.g., Mauersberger et al. 1987, 1988; Walsh et al. 2007;
 Henkel et al. 2013; Mei et al. 2020). Except for the NH
@@ -104,8 +146,12 @@ Henkel et al. 2013; Mei et al. 2020). Except for the NH
 masersproposedtobeassociatedwithfoursupernovaremnants
 (McEwenetal.2016),almostalltheotherammoniamasersare
 detected in high-mass star-forming regions (HMSFRs). How-
-ever, while many HMSFRs host water (H 2O), hydroxyl (OH),
-or methanol (CH 3OH) masers, ammonia masers are quite rare
+ever, while many HMSFRs host water (H
+2
+O), hydroxyl (OH),
+or methanol (CH
+3
+OH) masers, ammonia masers are quite rare
 in these sources, and the role that the environment of a young
 high-mass star plays in their excitation remains unclear. There-
 fore, dedicated searches for ammonia masers in HMSFRs are
@@ -128,22 +174,30 @@ HMSFRs, W51, NGC7538, W49, DR21 (OH) (Madden et al.
 (3,3) masers
 arethoughttobecollisionallyexcited(e.g.,Floweretal.1990;
 Mangum & Wootten 1994); in contrast, the pumping mecha-
-nismofNH 3(9,6)masersislesswellconstrained(Maddenetal.
+nismofNH 3 (9,6)masersislesswellconstrained(Maddenetal.
 1986).Brown&Cragg(1991)havestudiedortho-ammoniaand
 found that it could possibly pump the (6,3) inversion line, but
 theydidnotextendtheirmodeltothe(9,6)transitionduetothe
 factthatcollisionratesareonlyknownforinversionlevelsupto
 J = 6(e.g.,Danbyetal.1988).
-NH 3(9,6)masersarefoundtobestronglyvariable,similarto
-H 2Omasers(Maddenetal.1986;Pratapetal.1991;Henkeletal.
+NH
+3
+(9,6)masersarefoundtobestronglyvariable,similarto
+H
+2
+Omasers(Maddenetal.1986;Pratapetal.1991;Henkeletal.
 2013). In W51-IRS2, Henkel et al. (2013) found that the (9,6)
 lineshowedsignificantvariationinlineshapewithinatimein-
 tervalofonlytwodays.Mappingofthe(9,6)masertowardW51
 withverylongbaselineinterferometry(VLBI)suggeststhatthe
-masers are closer to the H 2O masers than to the OH masers or
+masers are closer to the H
+2
+O masers than to the OH masers or
 to ultracompact (UC) Hii regions (Pratap et al. 1991). While
 Henkeletal.(2013)andGoddietal.(2015)showedthattheSiO
-andNH 3masersinW51-IRS2areveryclosetoeachother,their
+andNH
+3
+masersinW51-IRS2areveryclosetoeachother,their
 positions,differingby0(cid:48)(cid:48) .065(∼0.015pc),donotfullycoincide.
 In this paper we report the discovery of NH 3 (9,6) masers
 in two HMSFRs, Cepheus A and G34.26+0.15. This increases
@@ -178,8 +232,12 @@ ing was checked every 2 hours using 3C 286 or NGC 7027.
 Focus calibrations were done at the beginning of the observa-
 tionsandduringsunsetandsunrisetowardtheabovementioned
 pointingsources.Thesystemtemperatureswere100–130Kon
-amain-beambrightnesstemperature,T MB,scale.Thisfluxden-
-sitywascalibratedassumingaT MB/S ratioof1.95K/Jy,derived
+amain-beambrightnesstemperature,T
+MB
+,scale.Thisfluxden-
+sitywascalibratedassumingaT
+MB
+/S ratioof1.95K/Jy,derived
 fromcontinuumcrossscansofNGC7027(thefluxdensitywas
 adoptedfromOttetal.1994).Calibrationuncertaintiesareesti-
 matedtobe∼10%.
@@ -254,11 +312,15 @@ TimesequenceofNH
 Effelsberg 100-meter telescope (after subtracting a first-order polyno-
 mialbaseline).AJVLAspectrumisinterspersed.Thesystemicveloc-
 ity from CO and HCO+ lines is indicated by a dashed blue line. The
-two dashed red lines at LSR velocities, V LSR, of −0.90 km s−1 and
+two dashed red lines at LSR velocities, V
+LSR
+, of −0.90 km s−1 and
 −0.28 km s−1 indicate the central velocities of the two major compo-
 nents.Right:NH 3 (9,6)spectrafromG34.26+0.15.Thesystemicve-
 locityfromC17Oisindicatedbyadashedblueline.Thethreedashed
-redlinesatV LSR=54.1kms−1,55.8kms−1,and62.5kms−1showthe
+redlinesatV
+LSR
+=54.1kms−1,55.8kms−1,and62.5kms−1showthe
 centralvelocitiesofthemainammoniaemissioncomponents.
 3. Results
 The spectra from different epochs are shown in Figs. 1 and 2.
@@ -279,7 +341,9 @@ radius3(cid:48)(cid:48) .5,thatcontainsallthedetectedNH
 Table A.1, the observed NH
 3
 (9,6) line parameters obtained by
-Gaussianfitsarelisted.NH 3(8,5)and(10,7)emissionisnotde-
+Gaussianfitsarelisted.NH
+3
+(8,5)and(10,7)emissionisnotde-
 tected by our JVLA observations. The 3σ upper limits for the
 NH
 3
@@ -291,7 +355,9 @@ Fig. 2. NH
 (9,6) line profiles emphasizing, in contrast to the spectra
 in Fig. 1, weaker features. Cep A spectra are presented on the left,
 G34.26+0.15spectraontheright.Thetwodashedredlinesintheleft
-panelsindicateV LSR=1.48kms−1and2.89kms−1.Intherightpanels,
+panelsindicateV
+LSR
+=1.48kms−1and2.89kms−1.Intherightpanels,
 thetwodashedredlinesreferto54.1kms−1and55.8kms−1.
 and 27.2 mJy beam−1, respectively. In G34.26+0.15, the corre-
 sponding3σupperlimitsfortheNH
@@ -350,8 +416,12 @@ J2000
 = 62◦01(cid:48)49(cid:48)(cid:48) .587, the peak position of the continuum map, is marked with a black cross. Slightly to the west of the cross is the black
 ellipsedenotingthepositionoftheNH
 3
-(9,6)emissionwithapurplestaratitscenter.OH(Bartkiewiczetal.2005),H 2O(Sobolevetal.2018),
-andCH 3OH(Sannaetal.2017)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarontheright-handsideindicates
+(9,6)emissionwithapurplestaratitscenter.OH(Bartkiewiczetal.2005),H
+2
+O(Sobolevetal.2018),
+andCH
+3
+OH(Sannaetal.2017)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarontheright-handsideindicates
 theLSRvelocityrangeofthemaserspots.
 Fig. 4. 1.36cm JVLA continuum map of G34.26+0.15 presented as white contours with levels of −5, 5, 10, 20, 30, 40, 50, 70, 90, 110, 130,
 150,180,and200×5.0mJybeam−1.ThebackgroundimageistheSpitzer 4.5µmemission,takenfromGLIMPSE.Thereferencepositionis
@@ -361,8 +431,14 @@ J2000
 J2000
 =01◦14(cid:48)58(cid:48)(cid:48) .201,thepeakposition,ismarkedbyablackcross.TheblackellipsesshowthepositionsofNH
 3
-(9,6)emissionswithstarsattheircenter(i.e.,M1,M2,andM3).OH(Zhengetal.2000),H 2O(Imaietal.2011),andCH 3OH(Bartkiewiczetal.
-2016)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarindicatesthevelocityrange(V LSR)ofmaserspots.
+(9,6)emissionswithstarsattheircenter(i.e.,M1,M2,andM3).OH(Zhengetal.2000),H
+2
+O(Imaietal.2011),andCH
+3
+OH(Bartkiewiczetal.
+2016)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarindicatesthevelocityrange(V
+LSR
+)ofmaserspots.
 InviewoftheconstancyofthefluxdensitiesobtainedatEf-
 felsberg and the similar JVLA flux density, measured in 2021
 July,thereisnomissinginterferometricfluxdensityintheJVLA
@@ -379,7 +455,9 @@ emissiontobecomposedoftwodifferentcomponents.Thespec-
 traofweakcomponentsonasmallerfluxdensityscalearepre-
 sentedinFig.2.
 Three different locations showing NH 3 (9,6) emission are
-foundtowardG34.26+0.15(Fig.4).ThedeconvolvedNH 3(9,6)
+foundtowardG34.26+0.15(Fig.4).ThedeconvolvedNH
+3
+(9,6)
 componentsizesare(1(cid:48)(cid:48) .42±0(cid:48)(cid:48) .43)×(0(cid:48)(cid:48) .54±0(cid:48)(cid:48) .62)atP.A.=97◦
 (M1),(0(cid:48)(cid:48) .42±0(cid:48)(cid:48) .27)×(0(cid:48)(cid:48) .15±0(cid:48)(cid:48) .27)atP.A.=150◦ (M2),and
 Articlenumber,page4of10
@@ -411,7 +489,7 @@ namedasHWsources.TheHW2objectisoneofthebestknown
 examplesofaprotostellarjetordisksystemdrivingapowerful
 outflow(e.g.,Rodriguezetal.1980;Güstenetal.1984;Torrelles
 et al. 1986; Curiel et al. 2006; Carrasco-González et al. 2021).
-TheobservedNH 3(9,6)emissionisslightlyoffset(−0(cid:48)(cid:48) .28,0(cid:48)(cid:48) .02)
+TheobservedNH 3 (9,6)emissionisslightlyoffset(−0(cid:48)(cid:48) .28,0(cid:48)(cid:48) .02)
 fromthecenterofHW2(seeFig.3).
 G34.26+0.15isanHMSFRlocatedatadistanceof3.3kpc
 (Kuchar & Bania 1994). It hosts four radio continuum compo-
@@ -422,7 +500,7 @@ etal.1986;Sewiloetal.2004;Sewiłoetal.2011).Components
 A and B are HC Hii regions, located to the east of component
 C.Anextendedring-likeHiiregion,calledcomponentD,islo-
 cated southeast of components A-C. One of the three observed
-NH 3(9,6)emissionlinesources,M1,isclosetotheheadofcom-
+NH 3 (9,6)emissionlinesources,M1,isclosetotheheadofcom-
 ponentC,whereasM2andM3originatefromanothercompact
 regioninthewestoftheHCHiicomponentA(seeFig.4).
 4.2. NH
@@ -461,7 +539,9 @@ the NH
 causeG34.26+0.15islocatedataboutfivetimesthedistanceto
 CepA,beamdilutioneffectsreducethelowermainbeambright-
 ness temperature limit to 400 K in G34.26+0.15 (M2) (see Ta-
-bleA.3).WealsonotethattheluminosityoftheNH 3(9,6)emis-
+bleA.3).WealsonotethattheluminosityoftheNH
+3
+(9,6)emis-
 sioninG34.26+0.15ishigherthanorcomparabletothatinCep
 A,dependingontheepochofourobservations.
 Finally,thenon-detectionsofthe(8,5)and(10,7)linesalso
@@ -496,7 +576,9 @@ show thermal emission toward Cep A over a velocity range of
 LSR
 ≤ −4 km s−1 (Brown et al. 1981; Güsten
 etal.1984;Torrellesetal.1985,1986,1993,1999).Anaverage
-NH 3columndensityof∼5×1015cm−2wasestimatedforaregion
+NH
+3
+columndensityof∼5×1015cm−2wasestimatedforaregion
 of3(cid:48)(cid:48)aroundHW2(Torrellesetal.1999).ThishighNH
 3
 abun-
@@ -573,11 +655,21 @@ To characterize the environment of NH
 3
 (9,6) masers, we can
 compare their positions with respect to those of other maser
-species (i.e., OH, H 2O, and CH 3OH). Toward Cep A HW2,
-manyCH 3OH(e.g.,Menten1991;Sugiyamaetal.2008;Sanna
-et al. 2017) and H 2O maser spots (e.g., Torrelles et al. 1998,
+species (i.e., OH, H
+2
+O, and CH
+3
+OH). Toward Cep A HW2,
+manyCH
+3
+OH(e.g.,Menten1991;Sugiyamaetal.2008;Sanna
+et al. 2017) and H
+2
+O maser spots (e.g., Torrelles et al. 1998,
 2011;Sobolevetal.2018)aredetectedandareassociatedwith
-its disk. Sobolev et al. (2018) also found that most of the H 2O
+its disk. Sobolev et al. (2018) also found that most of the H
+2
+O
 maserfluxisassociatedwiththecompactHiiregionHW3d.OH
 maser features close to the Hii regions are also seen in HW2
 (e.g., Cohen & Brebner 1985; Bartkiewicz et al. 2005). These
@@ -597,23 +689,31 @@ sizedregiontothewestofthepeakcontinuumpositionofHW2
 (9,6) maser in Cep A
 isuniqueandnotrelatedtomaserspotsseeninothermolecular
 species.
-In G34.26+0.15, OH (Zheng et al. 2000), H 2O (Imai et al.
-2011),andCH 3OH(Bartkiewiczetal.2016)masershavebeen
+In G34.26+0.15, OH (Zheng et al. 2000), H
+2
+O (Imai et al.
+2011),andCH 3 OH(Bartkiewiczetal.2016)masershavebeen
 detected east of source C (Fig. 4), and none of them coincides
 with the head of C. The NH
 3
 (9,6) maser M1 is also found
 slightly off the head of source C. This could suggest that M1
 ispoweredbycontinuumsourceCorbyanoutflow.Nearcom-
-ponent B, there are some OH and CH 3OH masers but no H 2O
-or NH 3 masers. A group of H 2O masers, well-known tracers
+ponent B, there are some OH and CH
+3
+OH masers but no H
+2
+O
+or NH 3 masers. A group of H 2 O masers, well-known tracers
 of outflows, with a large velocity distribution of 43 km s−1 ≤
 V
 LSR
 ≤54 km s−1, was found to the west of the centimeter-
 continuum source A and close to the peak of the millimeter-
 continuumemission(seedetailsinourFig.A.2andalsoinFig.5
-ofImaietal.2011).TheclosenessofNH 3(9,6)maserspotsM2
+ofImaietal.2011).TheclosenessofNH
+3
+(9,6)maserspotsM2
 andM3tothisgroupofwatermasersandtheirsimilarvelocities
 again suggest an association of NH
 3
@@ -639,7 +739,9 @@ tons near 10 µm, which is used for radiative pumping (Henkel
 etal.2013).BothCepAandG34.26+0.15havesimilarkinetic
 temperatures of (cid:38)200 K (Henkel et al. 1987; Patel et al. 2005;
 Comito et al. 2007; Beuther et al. 2018). This suggests that
-highkinetictemperaturesareneededtoexciteNH 3(9,6)masers.
+highkinetictemperaturesareneededtoexciteNH
+3
+(9,6)masers.
 However,itshouldbenotedthatthesilicatedustabsorptionfea-
 turemightdominateat10µm(seethespectralenergydistribu-
 tion of Cep A in De Buizer et al. 2017). Additionally, there is
@@ -665,9 +767,13 @@ to, but not coincident with, the peaks of the radio continuum
 emission in Cep A and G34.26+0.15. Furthermore, the (9,6)
 masers show velocity offsets with respect to their systemic ve-
 locities. This indicates that the (9,6) masers are located at the
-base of outflows, similar to the H 2O masers. This is supported
+base of outflows, similar to the H
+2
+O masers. This is supported
 by VLBI observations that show that (9,6) masers tend to be
-closelyassociatedwithH 2Omasers(Pratapetal.1991).Theob-
+closelyassociatedwithH
+2
+Omasers(Pratapetal.1991).Theob-
 servedtimevariabilityinG34.26+0.15andW51-IRS2canalso
 beattributedtoepisodicmolecularoutflows.Thisindicatesthat
 collisional pumping could be the driver of the (9,6) maser. On
@@ -678,7 +784,9 @@ toexplaintheNH
 Floweretal.1990;Mangum&Wootten1994).Collisionstendto
 pumpfromtheK=0leveltotheK=3levelwithparitychanges,
 thatis,theupperlevelofthe(3,3)metastabletransitionwillbe
-overpopulated.NH 3(9,6)arisesfromtheorthospecies,soasim-
+overpopulated.NH
+3
+(9,6)arisesfromtheorthospecies,soasim-
 ilarmechanismmightalsooccurinthecaseofthe(9,6)transi-
 tion.Furthermeasurementsofcollisionalratesofammoniawill
 allowustotestthisscenario.
@@ -842,12 +950,16 @@ Zheng,X.W.,Moran,J.M.,&Reid,M.J.2000,MNRAS,317,192
 Articlenumber,page7of10
 A&Aproofs:manuscriptno.mainArxiv
 AppendixA:
-TableA.1.SummaryofNH 3(9,6)maserobservations.
+TableA.1.SummaryofNH
+3
+(9,6)maserobservations.
 Source Telescope Beam Epoch Channel S
 ν
 rms
 (cid:82)
-S νdv V
+S
+ν
+dv V
 LSR
 ∆V
 1/2
@@ -875,8 +987,12 @@ Effelsberg 49(cid:48)(cid:48) 2021,Aug.11 0.07 0.08 13.92 0.06±0.007 54.10±0.0
 0.12 0.10±0.006 55.85±0.02 0.75±0.06
 Effelsberg 49(cid:48)(cid:48) 2021,Aug.12 0.07 0.16 27.40 0.09±0.008 55.83±0.02 0.56±0.05
 Notes.ThespectralparametersareobtainedfromGaussianfitting.(a)TheJVLAspectrumtowardCepAisextractedfromtheEffelsberg-beam-
-sizedregion(FWHM49(cid:48)(cid:48)).(b)ForG34.26+0.15,theJVLAbeamsamplestheNH 3(9,6)spectrumoveraregionofradius3(cid:48)(cid:48) .5,whichcontainsall
-detectedNH 3(9,6)emissions.
+sizedregion(FWHM49(cid:48)(cid:48)).(b)ForG34.26+0.15,theJVLAbeamsamplestheNH
+3
+(9,6)spectrumoveraregionofradius3(cid:48)(cid:48) .5,whichcontainsall
+detectedNH
+3
+(9,6)emissions.
 TableA.2.1.36cmJVLAfluxdensitiesofindividualcontinuumsources.
 Source R.A. Dec. Size P.A. S
 ν
@@ -892,7 +1008,9 @@ B 185318.649±0.005 +011500.071±0.180 (2.31±0.49)×(0.85±0.21) 17.4 597±110
 C 185318.560±0.004 +011458.201±0.112 (2.03±0.30)×(1.34±0.20) 178.0 5070±660
 Articlenumber,page8of10
 Y.T.Yan(闫耀庭) etal.:Discoveryofammonia(9,6)masersintwohigh-massstar-formingregions
-TableA.3.NH 3(9,6)maserpositionsderivedfromtheJVLAobservations.
+TableA.3.NH
+3
+(9,6)maserpositionsderivedfromtheJVLAobservations.
 Source R.A. Dec. S
 ν
 T
@@ -910,14 +1028,24 @@ M2 185318.696±0.002 +011455.807±0.034 48.4 122.4 53.77±0.05 0.35±0.08
 180.8 457.6 55.83±0.01 0.59±0.03
 M3 185318.667±0.005 +011455.348±0.066 78.1 197.2 54.22±0.04 0.94±0.08
 73.7 186.3 55.78±0.04 0.79±0.08
-Fig.A.1.CepheusA.Thegreyshadedareasmarkthe1.36cmJVLAcontinuummapofCepA.Thereferencepositionisα J2000=22h56m17s.972,
-andδ J2000=62◦01(cid:48)49(cid:48)(cid:48) .587,thepeakpositionofthecontinuummap,ismarkedbyaredcross.Slightlytothewestofthecrossisthewhiteellipse
+Fig.A.1.CepheusA.Thegreyshadedareasmarkthe1.36cmJVLAcontinuummapofCepA.Thereferencepositionisα
+J2000
+=22h56m17s.972,
+andδ
+J2000
+=62◦01(cid:48)49(cid:48)(cid:48) .587,thepeakpositionofthecontinuummap,ismarkedbyaredcross.Slightlytothewestofthecrossisthewhiteellipse
 denotingthepositionoftheNH
 3
 (9,6)emissionwithapurplestaratitscenter.TheredcontoursshowtheNOrthernExtendedMillimeterArray
 (NOEMA)1.37mmcontinuum,takenfromBeutheretal.(2018).Contourlevelsare-5,5,10,20,40,80,100,150,and200×2.43mJybeam−1.
-OH(Bartkiewiczetal.2005),H 2O(Sobolevetal.2018),andCH 3OH(Sannaetal.2017)masersarepresentedasdiamonds,circles,andsquares,
-respectively.Thecolorbarontheright-handsideindicatesthevelocityrange(V LSR)ofmaserspots.
+OH(Bartkiewiczetal.2005),H
+2
+O(Sobolevetal.2018),andCH
+3
+OH(Sannaetal.2017)masersarepresentedasdiamonds,circles,andsquares,
+respectively.Thecolorbarontheright-handsideindicatesthevelocityrange(V
+LSR
+)ofmaserspots.
 Articlenumber,page9of10
 A&Aproofs:manuscriptno.mainArxiv
 Fig.A.2.1.36cmJVLAcontinuummapofG34.26+0.15presentedasgrayshadedareas.Thereferencepositionisα
@@ -929,7 +1057,13 @@ J2000
 3
 (9,6)emissionwithstarsattheir
 center(i.e.,M1,M2,andM3).ThebluecontoursshowtheBerkeley-Illinois-MarylandAssociation(BIMA)array2.8mmcontinuum,takenfrom
-Mookerjeaetal.(2007).Contourlevelsare-3,3,10,20,30,40,50,70,90,100,120,and140×20mJybeam−1.OH(Zhengetal.2000),H 2O(Imai
-etal.2011),andCH 3OH(Bartkiewiczetal.2016)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarindicates
-thevelocityrange(V LSR)ofmaserspots.
+Mookerjeaetal.(2007).Contourlevelsare-3,3,10,20,30,40,50,70,90,100,120,and140×20mJybeam−1.OH(Zhengetal.2000),H
+2
+O(Imai
+etal.2011),andCH
+3
+OH(Bartkiewiczetal.2016)masersarepresentedasdiamonds,circles,andsquares,respectively.Thecolorbarindicates
+thevelocityrange(V
+LSR
+)ofmaserspots.
 Articlenumber,page10of10

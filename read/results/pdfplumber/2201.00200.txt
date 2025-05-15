@@ -83,11 +83,44 @@ solar-wind mass loss (Zhang et al. 2019; Kunitomo & Guillot
 To reinvigorate the debate, Buldgen et al. (2019b) recently
 highlightedonceagainhowthetransitionofthetemperaturegra-
 1
-arXiv:2201.00200v1
-[astro-ph.SR]
+a
+r
+X i
+v
+:
+2
+2
+0
 1
-Jan
-2022
+.
+0
+0
+2
+0
+0
+v
+1
+[
+a
+s
+t
+r
+o
+-
+p
+h
+.
+S
+R
+]
+1
+J
+a
+n
+2
+0
+2
+2
 Baraffeetal.:Localheatingduetoconvectiveovershootingandthesolarmodellingproblem
 dientjustbelowtheconvectiveenvelopecansignificantlyimpact
 the disagreement between solar models and helioseismic con-
@@ -161,17 +194,17 @@ dynamical simulations, as mentioned above. An exploration of
 theimpactofthisheatingonstellarevolutionmodelsmayreveal
 thatheatingisanecessaryaspectofmodelsforovershooting.
 Fig.1. Radial profile of the temperature departure ∆T/T 0 from
-theinitialprofileT 0andofthesub-adiabaticity(∇−∇ ad)closeto
+theinitialprofileT 0 andofthesub-adiabaticity(∇−∇ ad )closeto
 theconvectiveboundarypredictedby2Dhydrodynamicalsimu-
 lations(B21)ofsolar-likemodels.Thelowerpanelcorresponds
 to the model with a realistic stellar luminosity and the upper
 panel to a model with luminosity enhanced by a factor of ten.
 The dash-dotted red lines show ∆T/T 0 (in %), the relative dif-
 ferencebetweenthetimeandspaceaveragesofthetemperature,
-T,andtheinitialtemperature,T 0.Thesolidbluelinesshowthe
-time and space averages of the sub-adiabaticity (∇−∇ ad). The
+T,andtheinitialtemperature,T 0 .Thesolidbluelinesshowthe
+time and space averages of the sub-adiabaticity (∇−∇ ad ). The
 dashedblacklinesshowtheinitialprofileofthesub-adiabaticity,
-(∇−∇ ad) init.Theconvectiveboundaryisindicatedbythevertical
+(∇−∇ ad ) init .Theconvectiveboundaryisindicatedbythevertical
 solidline(seedetailsinB21)
 The behaviour of the thermal profile below the convective
 boundary found in the simulations of B21 is illustrated in Fig.
@@ -180,14 +213,18 @@ boundary found in the simulations of B21 is illustrated in Fig.
 cialenhancementintheluminositybyafactoroftenbecausethe
 featuresareintensifiedinthese‘boosted’models(upperpanel).
 Thefigureshowsthelocalheatingintheovershootinglayerand
-itsimpactonthesub-adiabaticity(∇−∇ ad),with∇ = dlogT
+itsimpactonthesub-adiabaticity(∇−∇
+ad
+),with∇ = dlogT
 dlogP
 the
 2
 Baraffeetal.:Localheatingduetoconvectiveovershootingandthesolarmodellingproblem
 temperature gradient and ∇
 ad
-= dlogT dlogP|
+= dlogT
+dlogP
+|
 S
 the adiabatic gradient.
 Theinitialstratificationbelowtheconvectiveboundary(located
@@ -221,25 +258,33 @@ definedby
 A=
 1
 Γ
-1dlnP
+1
+dlnP
 dlnr
 −
 dlnρ
-dlnr, (1)
+dlnr
+, (1)
 with Γ
 1
-= (∂lnP/∂lnρ) ad. Starting from a reference evolu-
+= (∂lnP/∂lnρ)
+ad
+. Starting from a reference evolu-
 tionary model, Buldgen et al. (2020) used an inversion pro-
 cedure to iteratively reconstruct a solar model. Successive in-
 versions of the Ledoux discriminant allowed them to obtain a
 model-independentprofileforthisquantity.Theirreconstruction
 method also gives solar structures that are in excellent agree-
 mentwithotherstructuralinversions,namelytheentropy,S,the
-squareofthespeedofsound,c2 s,andthedensity,ρ.Toillustrate
+squareofthespeedofsound,c2
+s
+,andthedensity,ρ.Toillustrate
 the convergence of their reconstruction procedure, they show
 (rightpanelsoftheirFigs.3-6)thesuccessiveiterationsthatcon-
 verge to an excellent level of agreement for the four structural
-inversions(A,S,c2 s,ρ)startingfromtheinitialreferencemodel
+inversions(A,S,c2
+s
+,ρ)startingfromtheinitialreferencemodel
 adoptedintheirwork.Thedifferencesfoundbetweentherecon-
 structedmodelandthereferencemodelareusefulastheyindi-
 catethemodificationsofthereferencemodelthatarerequiredto
@@ -250,19 +295,33 @@ analysisinSect.3.2.
 The first concerns the Ledoux discriminant. The major dis-
 crepancy between the Sun and the reference model occurs just
 below the convective boundary, with a large positive bump for
-thequantity(A Sun-A ref).
+thequantity(A
+Sun
+-A
+ref
+).
 Thesecondconcernsthespeedofsound.Thesamepositive
 bumpatthesamelocationasfortheLedouxdiscriminant,A,is
 observed for the quantity (c2
 s,Sun
-− c2 s,ref)/c2 s,ref. The corrections
+− c2
+s,ref
+)/c2
+s,ref
+. The corrections
 appliedtoAduringthereconstructionprocedurealsoreducethe
 discrepancyinthespeedofsoundintheradiativeregion.
 Thethirdconcernstheentropy.Largediscrepanciesareob-
 servedinboththeradiativeregionandtheconvectivezone.The
-1 Lesssub-adiabaticmeansthat|∇−∇ ad|decreasescomparedtothe
+1 Lesssub-adiabaticmeansthat|∇−∇
+ad
+|decreasescomparedtothe
 initialprofile.
-entropydiscrepancy(S Sun−S ref)/S
+entropydiscrepancy(S
+Sun
+−S
+ref
+)/S
 ref
 hastwopositivepeaksin
 theradiativezone,onejustbelowtheovershootingregionanda
@@ -270,7 +329,7 @@ larger peak deeper at ∼ 40% of the stellar radius. This discrep-
 ancyisnegativeintheconvectivezone.Thecorrectionsapplied
 toAhelpreducetheseentropydiscrepanciesinbothregions.
 The fourth concerns the density. The quantity (ρ Sun −
-ρ ref)/ρ ref has a negative peak in the radiative region, at ∼ 35%
+ρ ref )/ρ ref has a negative peak in the radiative region, at ∼ 35%
 ofthestellarradius,andispositiveintheconvectivezone.
 Importantly,Buldgenetal.(2020)mentionthattheirrecon-
 struction procedure gives similar Ledoux discriminant profiles
@@ -317,31 +376,69 @@ aturegradientintheovershootinglayerthatqualitativelyrepro-
 ducesthebehaviourdisplayedinFig.1.Wedefineanovershoot-
 inglengthd
 ov
-= α ovH P,CB,with H
+= α
+ov
+H
+P,CB
+,with H
 P,CB
 thepressurescaleheight
-attheconvectiveboundaryandα ovafreeparameter.Wealsode-
+attheconvectiveboundaryandα
+ov
+afreeparameter.Wealsode-
 finetworadiallocations,r
 ov
-=r CB−d ovandr
+=r
+CB
+−d
+ov
+andr
 mid
-=r CB−d ov/2,
-withr CBtheradiallocationoftheconvectiveboundary.Thetem-
+=r
+CB
+−d
+ov
+/2,
+withr CB theradiallocationoftheconvectiveboundary.Thetem-
 peraturegradientismodifiedasfollows.Forr
 mid
-≤ r < r CB,we
+≤ r < r
+CB
+,we
 use
-∇=g(r)∇ ad+(1−g(r))∇ rad, (2)
+∇=g(r)∇
+ad
++(1−g(r))∇
+rad
+, (2)
 with
-g(r)= sin{[(r−r mid)/(r CB−r mid)]a×π/2}. (3)
+g(r)= sin{[(r−r
+mid
+)/(r
+CB
+−r
+mid
+)]a×π/2}. (3)
 3
 Baraffeetal.:Localheatingduetoconvectiveovershootingandthesolarmodellingproblem
 Forr
 ov
-≤r<r mid,weuse
-∇=∇ rad−h(r)∇ ad, (4)
+≤r<r
+mid
+,weuse
+∇=∇
+rad
+−h(r)∇
+ad
+, (4)
 with
-h(r)=b×sin{[(r mid−r)/(r mid−r ov)]×π}. (5)
+h(r)=b×sin{[(r
+mid
+−r)/(r
+mid
+−r
+ov
+)]×π}. (5)
 Sine functions are used in Eqs. (3) and (5) to reproduce the
 smoothvariationsinthetemperaturegradientbelowtheconvec-
 tiveboundaryproducedbythehydrodynamicalsimulations.We
@@ -362,7 +459,9 @@ modelwithaninitial
 helium mass fraction of 0.28, metallicity Z = 0.02, and a mix-
 ing length l
 mix
-= 1.9H P. We use a reference model that is in
+= 1.9H
+P
+. We use a reference model that is in
 thermal equilibrium2 and has the luminosity and radius of the
 current Sun. Starting from this reference model, the tempera-
 ture gradient is modified over a prescribed depth to mimic the
@@ -373,7 +472,9 @@ ov
 belowtheconvectivebound-
 ary.WeshowtheresultsinFig.2forα
 ov
-=0.15andα ov=0.20.
+=0.15andα
+ov
+=0.20.
 Theseovershootingwidthsareingoodagreementwiththemaxi-
 maldepthreachedbydownflowsbelowtheconvectiveboundary
 predicted by the hydrodynamical simulations for the solar-like
@@ -408,7 +509,9 @@ temperaturegradientcanbeconsistentlycomparedtotherefer-
 ence model. As shown in Fig. 2, the simple prescription given
 2 Thermalequilibriummeansthatthetotalnuclearenergyproduced
 inthecentralregionsbalancestheradiativelossesatthesurface,i.e.the
-totalnuclearluminosity,L nuc,equalsthetotalstellarluminosity,L.
+totalnuclearluminosity,L
+nuc
+,equalsthetotalstellarluminosity,L.
 byEqs.(2)-(5)yieldssimilarqualitativechangesinthetemper-
 ature and the sub-adiabaticity close to the convective boundary
 thatwasfoundinthehydrodynamicalsimulationsofB21.
@@ -418,20 +521,42 @@ perature gradient in the overshooting layer according to Eqs.
 (2)-(5). The temperature gradient is modified over a distance
 d
 ov
-= α ovH P,CB,withα ov=0.15inthelowerpanelandα ov=0.20
+= α
+ov
+H
+P,CB
+,withα
+ov
+=0.15inthelowerpanelandα
+ov
+=0.20
 intheupperpanel.Thedash-dottedredlinesshowthepercent-
-agerelativetemperaturedifference,∆T/T ref,with∆T =T−T ref.
-Thesolidbluelinescorrespondtothesub-adiabaticity(∇−∇ ad).
+agerelativetemperaturedifference,∆T/T
+ref
+,with∆T =T−T
+ref
+.
+Thesolidbluelinescorrespondtothesub-adiabaticity(∇−∇
+ad
+).
 The dashed black lines show the sub-adiabaticity of the refer-
 encemodel.Theconvectiveboundaryisindicatedbythevertical
 solidline.Theverticaldashedlineineachpanelislocatedata
-distanced ovbelowtheconvectiveboundary.
+distanced
+ov
+belowtheconvectiveboundary.
 Theimpactonthewholestellarstructurewasquantifiedby
-comparingthefourstructuralquantities(A,S,c2 s,ρ)betweenthe
+comparingthefourstructuralquantities(A,S,c2
+s
+,ρ)betweenthe
 modified and the reference model. The results are displayed in
-Fig.3,with∆Xdefinedas(X−X ref)foranystructuralquantityX.
+Fig.3,with∆Xdefinedas(X−X
+ref
+)foranystructuralquantityX.
 Theforcedlocalheatingintheovershootinglayerproducessim-
-ilarpositivepeaksfor∆A,∆S,and∆c2 s,asfoundforthetemper-
+ilarpositivepeaksfor∆A,∆S,and∆c2
+s
+,asfoundforthetemper-
 ature.Themodificationthusprovidesthecorrectionrequiredto
 improvethediscrepancyfortheLedouxdiscriminantdescribed
 in the first of the trends outlined in Sect. 3.1. Unsurprisingly,
@@ -460,13 +585,21 @@ Thesetrendsareinsensitivetothedepthoverwhichthetem-
 peraturegradientismodified.Increasingthedepthincreasesthe
 magnitudeofthedifferencesbuthasnoimpactontheirsign. We
 findthatthemaximumvariationinthemodelproperties,suchas
-thespeedofsound,∆c2 s/c2 s,ref,roughlyscaleswithd2 ov.Thisscal-
+thespeedofsound,∆c2
+s
+/c2
+s,ref
+,roughlyscaleswithd2
+ov
+.Thisscal-
 ingislinkedtotheintegratedareabetweenthemodifiedtemper-
 aturegradientcurveandtheoneforthereference(non-modified)
 temperature gradient, which roughly decreases linearly with r.
 Thisareaisproportionaltothesquareoftheovershootingdepth,
 and consequently, the maximum variation in the model proper-
-tiesisalsoproportionaltod2 ov.Thequalitativetrendsalsoremain
+tiesisalsoproportionaltod2
+ov
+.Thequalitativetrendsalsoremain
 the same whether overshooting mixing in the reference model
 isignoredorincludedusingastepfunction(withinstantaneous
 mixing)oranexponentialdecayforthediffusioncoefficient(e.g.
@@ -483,7 +616,9 @@ fusionforHandHewasimplementedaccordingtoThouletal.
 accordingto Eqs.(2)-(5).AllmodelsstartfromtheZAMSand
 areevolveduntiltheyreachthesolarradiusandluminosityatthe
 sameage.Thiswasachievedbymakingsmalladjustmentstothe
-mixinglength,l mix.Themodelswithtemperaturegradientmod-
+mixinglength,l
+mix
+.Themodelswithtemperaturegradientmod-
 ificationswerecomparedtotherelevantreferencemodel,which
 has no modification of the temperature gradient but everything
 else is the same (i.e. the same treatment of microscopic diffu-
@@ -499,12 +634,14 @@ mixing and whether microscopic diffusion is included or not.
 Intheconvectivezone,allmodelsgiveapositivedifferencefor
 thedensitybetweenthemodelwithamodifiedtemperaturegra-
 dient and the relevant reference model. For the other quantities
-(S,c2 s),thedifferencesintheconvectivezoneareverysensitive
+(S,c2
+s
+),thedifferencesintheconvectivezoneareverysensitive
 Fig.3. Difference of various structural quantities between a
 model with a modified temperature gradient in the overshoot-
 inglayerandareferencemodelcalculatedwiththeLyonstellar
 evolutioncode.Thetemperaturegradientinthemodifiedmodel
-is changed over a distance d ov = α ovH P,CB below the convec-
+is changed over a distance d ov = α ov H P,CB below the convec-
 tive boundary (indicated by the vertical solid line). The lower
 panel shows the results for α
 ov
@@ -519,9 +656,13 @@ structural quantities. This is illustrated in Fig. 4 with a model
 that accounts for step function overshooting mixing over a dis-
 tanced
 ov
-=0.15H P,CB(lowerpanel)andd
+=0.15H
+P,CB
+(lowerpanel)andd
 ov
-=0.20H P,CB(upper
+=0.20H
+P,CB
+(upper
 panel).
 4. Conclusion
 The tests performed in Sect. 3 are based on different methods
@@ -539,7 +680,11 @@ MONSTAR stellar evolution code. The reference model is
 evolved from the ZAMS with microscopic diffusion and step
 functionovershootingmixingoveradistanced
 ov
-=α ovH P,CBbe-
+=α
+ov
+H
+P,CB
+be-
 lowtheconvectiveboundary.Thelowerpanelshowstheresults
 forα
 ov
@@ -557,7 +702,9 @@ this problem, as mentioned in Sect. 1. However, the details of
 thephysicalprocessresponsibleforthislocalheatinghavebeen
 lacking, whereas we can now suggest an explanation based on
 the B21 results. The trends that we find for the four structural
-quantities (A, S, c2 s, ρ) are robust below the convective bound-
+quantities (A, S, c2
+s
+, ρ) are robust below the convective bound-
 aryandinalargefractionoftheradiativecore,independentlyof
 thetreatmentofmixinganddiffusionandofthemethodforcon-
 structingthemodelsinSects.3.2.1and3.2.2.Ourexperiments

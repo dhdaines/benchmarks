@@ -1,19 +1,55 @@
-arXiv:2201.00214v1
-[astro-ph.SR]
+a
+r
+X
+i
+v
+:
+2
+2
+0
 1
-Jan
-2022
+.
+0
+0
+2
+1
+4
+v
+1
+[
+a
+s
+t
+r
+o
+-
+p
+h
+.
+S
+R
+]
+1
+J
+a
+n
+2
+0
+2
+2
 Temperature Analysis of Flaring
 (AR11283) and non-Flaring (AR12194)
 Coronal Loops
-N.
-Fathalian1,
-S. S.
-Hosseini Rad2,
-N.
-Alipour2,
-H.
-Safari2
+N. F
+athalian1,
+S. S. H
+osseini
+R
+ad2,
+N. A
+lipour2,
+H. S
+afari2
 1Department of Physics, Payame Noor University (PNU), 19395-3697, Tehran, Iran.
 2Department of Physics, Faculty of Science, University of Zanjan, 45195-313, Zanjan, Iran.
 e-mail: narges_fathalian@alum.sharif.edu
@@ -39,8 +75,8 @@ flaringloops’periodsshowmorediversityandtheirtemperatureshavewiderrangesofvari
 non-flaringones. Moreaccuratecommentaryinthisrespectrequiresmoreextensivestatisticalresearch
 andbroaderobservations.
 CoronalLoops,TemperatureAnalysis,TemperatureOscillations,Flaringandnon-FlaringActiveRegions
-I.
-Introduction
+I. I
+ntroduction
 Analyzing the thermal structure of coronal loops is of considerable interest, especially as these
 magnetic loops have an essential role in heating the solar chromosphere and corona. Such anal-
 ysis can help to describe how the process of solar flaring is correlated with the loop’s thermal
@@ -119,8 +155,8 @@ the data employed and the time and properties of the flare, occurred in the acti
 section III, we explain the method we use to analyzethe time-seriesof temperaturesin different
 strips of the loops. Section IV is specified to our results, obtained related to flaring and non-
 flaringregions. InsectionVwebrieflystateasummaryofthiswork.
-II.
-Data
+II. D
+ata
 Weinvestigatethethermalstructureandtreatmentofloopsinaflaringregiontoseeifitfollows
 thetransverseoscillationsoftheloops,andweexaminethethermalfluctuationsattheflaretime.
 Forthispurpose,weselectahighenergyflarex2.1whichthetransverseoscillationsoftwoloops
@@ -157,11 +193,12 @@ indicated by the white box is featured in a zoom-in view in Figure 1.b (right) a
 selected parts of the center of the three chosen loops are shown by red lines (the movie of
 the region is available in this link). As it is clear in the movie, these three loops oscillate
 togetherandtheiroscillationsdecaysimultaneously. Thecenteroffigure1.aiscoordinated
-at (230, 165) arcsec and its width and height are 450′′ ×456′′ /750×775 pixels. The flare
+at (230, 165) arcsec and its width and height are 450 ′′ ×456 ′′ /750×775 pixels. The flare
 occurringinthisactiveregionisanX2.1classflarelocatedclosetothediskcenteratlatitude
-14◦
-northand longitude
-18◦
+14
+◦
+northand longitude 18
+◦
 west(269.9arcsec,129.9arcsec). Thisflareinitiatesat22:12UT,
 ends about 22:24UT with the peak at 22:20UT,and associates with a coronal mass ejection
 (CME)whichoccursfrom2011September6,21:36:05Tto2011September7,02:24:05T,with
@@ -170,7 +207,7 @@ moredetailslookatLASCOCMEcatalogue.) 1
 – Threeloops of non-flaring activeregion 12194: Asa blind test, we selectthree loops of the
 non-flaring(nonfhereafter)activeregion12194inthesmoothtimeperiodof08:00:00UTtill
 09:00:00UT of 2014 October 26. The center of figure 2.a is coordinated at (0, -264) arcsec
-and its width and height are 615′′ ×615′′ /1025×1025 pixels. We consider the images of
+and its width and height are 615 ′′ ×615 ′′ /1025×1025 pixels. We consider the images of
 the selected area with the cadence of 12 sec in the same six wavelengths mentioned above.
 These loops are relatively motionless and do not show any transversal oscillation (see the
 region’s movie in the link). We select the loops in such a way that they do not have any
@@ -185,8 +222,12 @@ We alsoused drot_map.pro subroutine tocorrectthe differentialrotationeffect. Acc
 movie made by pre-processed images, the most obvious loops (marked in the abovementioned
 figures)areselectedineachregion(withobvioustransversaloscillationsinthecaseoftheflaring
 activeregion).
-III.
-Temperature Analysis Method
+III. T
+emperature
+A
+nalysis
+M
+ethod
 We extract the selected loop segment pixels, for each loop, and calculate the normal vectors
 to each point of the loop’s direction. Then by using these data, we straighten each loop in a
 considered box with the thickness of 15 to 40 pixels (macro-pixels, depending on the available
@@ -209,12 +250,11 @@ in terms of the logarithm of the temperature, which has three free parameters (A
 Boerner,2011):
 DEM
 i
-=
-dEM
-i
+= dEM i
 dT
 = EM
-p,iexp(−[log(T)−log(T p,i)
+p,i
+exp(− [log(T)−log(T p,i )
 2σ2
 T,i
 ). (1)
@@ -233,17 +273,35 @@ F
 Z
 dEM(T)
 dT
-R λ(T)dT =∑
+R
+λ
+(T)dT =∑
 k
-EM(T k)R λ(T k). (2)
-Here,R λ(T)istheinstrumentaltemperatureresponsefunctionofeachwavelengthfilterλ,which
+EM(T
+k
+)R
+λ
+(T
+k
+). (2)
+Here,R
+λ
+(T)istheinstrumentaltemperatureresponsefunctionofeachwavelengthfilterλ,which
 is obtained by the code aia_get_response.pro in the SSW package. As time has passed, the AIA
 response functions calibration has partly changed. Here, we use the updated calibration of the
 temperature response functions, for each of the AIA temperature filters, according to the CHI-
 ANTIVersion2019codeavailableintheSolarSoftWare(SSW).Afterforward-fittingtheGaussian
 DEMtothebackground-subtractedobservedfluxesinmultiplewavelengths,thethree-fittingpa-
-rameters,temperaturewidth(σ T,i),peakoftemperature(T p,i),andpeakemissionmeasure(EM p,i)
-arefoundbyminimizing χ2 i.
+rameters,temperaturewidth(σ
+T,i
+),peakoftemperature(T
+p,i
+),andpeakemissionmeasure(EM
+p,i
+)
+arefoundbyminimizing χ2
+i
+.
 Our data sample is uneven because of omitting some damaged images in between. There-
 fore to analyze the temperature oscillations, we use the Lomb-Scargle method. This method is
 developed to use the technique periodogram, in the case where the observation times are un-
@@ -260,8 +318,8 @@ the periods, we computed the probability values (p-values). In the Lomb-Scargle 
 significance returned here is the false alarm probability of the null hypothesis, i.e., as the data
 is composed of independent Gaussian random variables. Accordingly, low probability values
 (p-valuelessthan0.05)indicateahighdegreeofsignificanceintheassociatedperiodicsignal.
-IV.
-Results
+IV. R
+esults
 i. Temperature Analysis of Flaring Active Region Loops
 Thenceforth the temperature time-series of different strips of the selected loops are calculated
 using the method described in section 3. In the following figures, the vertical axis shows the
@@ -411,8 +469,8 @@ withthenon-flaringones. Andfigure9showsthattheincreasinganddecreasingoftemperatu
 range,orthedifferencebetweenmaximumandminimumofthetemperaturevalue(max(log(T))-
 min(log(T))),ismuchhigheronaveragefortheloops’stripsoftheflaringARincomparisonwith
 theloops’stripsofthenon-flaring one.
-V.
-Summery
+V. S
+ummery
 We reported the temperature oscillations of coronal loops of a flaring active region. We selected
 theflaringactiveregion11283toinvestigatethethermalstructureandtreatmentofitsloops. This
 regionincludesahighenergyflarex2.1andthetransverseoscillationsoftwoloopsofithavebeen
@@ -513,8 +571,8 @@ arcsec
 241.2
 276.1
 311
-Loop B1 Loop
-ALoop C2
+Loop B1 Loop A
+Loop C2
 Loop C1
 b
 Loop B2
@@ -550,7 +608,8 @@ viewofthearea,markedbyaboxintheleft,theloopsaredistinguishedinred.
 6.4
 6.6
 6.8
-LogT
+L o
+g T
 F−LoopA
 5.8
 6
@@ -558,7 +617,8 @@ F−LoopA
 6.4
 6.6
 6.8
-LogT
+L o
+g T
 22:10 22:20 22:30 22:40 22:50 23:00
 5.8
 6
@@ -567,7 +627,8 @@ LogT
 6.6
 6.8
 time
-LogT
+L o
+g T
 5.8
 6
 6.2
@@ -597,9 +658,11 @@ logarithmofthetemperature. Theredlinesmarktheinitialandfinaltimeoftheflarex2.1.
 F−loopA
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -612,8 +675,10 @@ Length(Mm)
 F−loopB1
 Time
 Loop
-Length(Mm)
-66.05
+Length( M
+m)
+6
+6.05
 6.1
 6.15
 6.2
@@ -632,9 +697,11 @@ Length(Mm)
 F−loopB2
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -647,10 +714,13 @@ Length(Mm)
 F−loopC1
 Time
 Loop
-Length(Mm)
+Length(
+M
+m)
 5.6
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -663,9 +733,11 @@ Length(Mm)
 F−loopC2
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -777,8 +849,11 @@ Min(log(T))
 Int−Fe−LoopA
 Time
 Loop
-Length(Mm)
-00.02
+Length(
+M
+m)
+0
+0.02
 0.04
 0.06
 0.08
@@ -802,7 +877,8 @@ Length(Mm)
 1
 Int−Fe−LoopA
 Time
-Normalized
+Nor
+malized
 Intensity
 Fe
 XVIII
@@ -860,9 +936,11 @@ flaringLoopsAandB.Horizontalaxisisthetimeandtheverticalaxisisthelogarithmofthete
 NonF−loopA
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -875,9 +953,11 @@ Length(Mm)
 NonF−loopB
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -890,9 +970,11 @@ Length(Mm)
 NonF−loopC
 Time
 Loop
-Length(Mm)
+Length( M
+m)
 5.8
-66.2
+6
+6.2
 6.4
 6.6
 6.8
@@ -912,19 +994,26 @@ colorsconsideredforthetemperaturerange.
 Temp. Period (min)
 Percentage
 of
-Temp.
+Te
+mp.
 Periods
 Figure8: Hisogram of the temperature periods percentages for the loops’ strips of the flaring (blue bars) and non-
 flaring(redbars)ARs. Thehorizontalaxisshowsthetemperatureperiodsinminute.
 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7
-02468
+0
+2
+4
+6
+8
 10
 12
 max(log(T))−min(log(T))
-Number
+Nu
+mber
 Figure9: Hisogramoftheparameterof(max(log(T))-min(log(T)))foreachstripoftheloopsoftheflaring(bluebars)
 andnon-flaring(redbars)ARs.
-References
+R
+eferences
 Abedini,A.,Safari,H.,&Nasiri,S.2012,SolarPhysics, 280
 Anfinogentov, S., Nakariakov, V. M., Mathioudakis, M., Van Doorsselaere, T., & Kowalski, A. F.
 2013,ApJ,773,156
