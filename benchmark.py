@@ -151,7 +151,7 @@ if __name__ == "__main__":
         Document(name="2201.00201", url="https://arxiv.org/pdf/2201.00201.pdf"),
         Document(name="1602.06541", url="https://arxiv.org/pdf/1602.06541.pdf"),
         Document(name="2201.00200", url="https://arxiv.org/pdf/2201.00200.pdf"),
-        Document(name="2201.00022", url="https://arxiv.org/pdf/2201.00022.pdf"),
+        Document(name="2201.00022", url="https://arxiv.org/pdf/2201.00022v1.pdf"),
         Document(name="2201.00029", url="https://arxiv.org/pdf/2201.00029.pdf"),
         Document(name="1601.03642", url="https://arxiv.org/pdf/1601.03642.pdf"),
     ]
