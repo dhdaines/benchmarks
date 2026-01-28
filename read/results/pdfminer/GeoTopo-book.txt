@@ -1385,9 +1385,9 @@ x = y
 
 Ux
 
-∩
-
 ∈
+
+∩
 
 Uy =
 ∅
@@ -2183,9 +2183,9 @@ R
 ∩
 X, wobei X ein topologischer Raum ist.
 
-∩
-
 ∪
+
+∩
 
 6) R mit Zariski-Topologie ist zusammenhängend.
 
@@ -4245,9 +4245,9 @@ Umgebung: B1(0, 1)
 (cid:12)
 (cid:12) w2 + z2 < 1 (cid:9) = V2
 
-}
-
 (cid:107)
+
+}
 
 ?
 
@@ -7535,11 +7535,11 @@ R)
 ×
 (x, y, t)
 
+→
+
+→
+
 (cid:55)→
-
-→
-
-→
 
 ×
 
@@ -8099,9 +8099,9 @@ e
 
 →
 
-(cid:55)→
-
 →
+
+(cid:55)→
 
 ist nicht injektiv.
 π1(S1, 1) ∼=
@@ -9034,9 +9034,9 @@ Vi
 
 Vj =
 
-∃
-
 ∀
+
+∃
 
 ∈
 
@@ -9079,9 +9079,9 @@ yi
 
 ∩
 
-{
-
 }
+
+{
 
 .
 ∅
@@ -10188,9 +10188,9 @@ von y.
 
 ⊆
 
-Y
-
 U ein Homöomorphismus. Dann ist W := f −1(V )
+
+Y
 
 ×
 ∈
@@ -10234,9 +10234,9 @@ f (y0) = g(y0), so ist (g−1
 
 −
 
-1
-
 }
+
+1
 
 schon Fix(f ) = Y , also f = idY .
 
@@ -11444,6 +11444,8 @@ Hi, B
 
 ∈ {
 
+1, 2
+
 ∈
 
 ∈
@@ -11456,8 +11458,6 @@ H2 in zwei nichtleere Teilmengen H1, H2, sodass
 gilt: AB
 
 = j.
-
-1, 2
 
 g
 
@@ -13660,17 +13660,17 @@ Abbildung 4.21: Hyperbolische Geraden erfüllen §5 nicht.
 1
 −
 
+4
+
 0
-
-3
-
-2
 
 5
 
+2
+
 1
 
-4
+3
 
 x
 
@@ -17594,9 +17594,9 @@ zi
 
 0
 
-{
-
 }
+
+{
 
 ⊆ {
 ∈
@@ -17773,9 +17773,9 @@ phismus.
 
 H, x
 
-→
-
 (cid:55)→
+
+→
 
 3) Sei X ein topologischer Raum. Dann ist idX ein Homöomorphismus. Da keine
 Verknüpfung auf X deﬁniert wurde, ist X keine Gruppe und daher auch kein Grup-
@@ -18038,9 +18038,9 @@ R
 
 \ {
 
-0
-
 }
+
+0
 
 0
 
