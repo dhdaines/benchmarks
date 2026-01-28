@@ -21,17 +21,16 @@ import pypdfium2
 import tika
 from pdfminer.high_level import extract_text as pdfminder_extract_text
 from rich.progress import track
-from tika import parser
 
 from pdf_benchmark.data_structures import Cache, Document, Library
 from pdf_benchmark.library_code import (
-    borb_get_text,
     pdfium_get_text,
     pdfminer_image_extraction,
     pdfplubmer_get_text,
     pdfrw_watermarking,
     pdftotext_get_text,
     playa_get_text,
+    playa_image_extraction,
     pymupdf_get_text,
     pymupdf_image_extraction,
     pymupdf_watermarking,
@@ -220,22 +219,12 @@ if __name__ == "__main__":
             last_release_date="-",
             license="GPL",
         ),
-        "borb": Library(
-            "Borb",
-            "borb",
-            "https://pypi.org/project/borb/",
-            text_extraction_function=borb_get_text,
-            version="2.1.16",
-            watermarking_function=None,
-            license="AGPL/Commercial",
-            last_release_date="2024-08-03",
-        ),
         "pdfium": Library(
             "pypdfium2",
             "pdfium",
             "https://pypi.org/project/pypdfium2/",
             text_extraction_function=pdfium_get_text,
-            version=pypdfium2.V_PYPDFIUM2,
+            version=pypdfium2.version,
             watermarking_function=None,
             image_extraction_function=pdfium_image_extraction,
             license="Apache-2.0 or BSD-3-Clause",
@@ -260,7 +249,8 @@ if __name__ == "__main__":
             text_extraction_function=playa_get_text,
             version=playa.__version__,
             license="MIT",
-            last_release_date="2025-02-20",
+            last_release_date="2025-06-17",
+            image_extraction_function=playa_image_extraction,
         ),
     }
     main(docs, libraries)

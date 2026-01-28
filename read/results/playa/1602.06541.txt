@@ -13,7 +13,7 @@ convolutional neural networks are mentioned and typical
 problematic situations for segmentation algorithms are
 examined. A taxonomy of segmentation algorithms is
 given.
- I. INTRODUCTION
+I. INTRODUCTION
 Semantic segmentation is the task of clustering
 parts of images together which belong to the same
 object class. This type of algorithm has several usecases
@@ -49,7 +49,7 @@ brief, non-exhaustive summary of recently published
 semantic segmentation algorithms which are based on
 neural networks in Section VI. Finally, Section VII
 informs the reader about typical problematic cases for
-segmentation algorithms.  II. TAXONOMY OF SEGMENTATION ALGORITHMS
+segmentation algorithms. II. TAXONOMY OF SEGMENTATION ALGORITHMS
 The computer vision community has published a
 wide range of segmentation algorithms so far. Those
 algorithms can be grouped by the kind of data they
@@ -145,7 +145,7 @@ One example would be a system where the user clicks
 on the background or marks a coarse segmentation and
 the algorithm finds a fine-grained segmentation. [BJ00],
 [RKB04], [PS07] describe systems which work in an
-interactive mode.  (a) Example Scene (b) Visualization of a found segmentation
+interactive mode. (a) Example Scene (b) Visualization of a found segmentation
 
 Figure 1: An example of a scene and a possible visualization
  of a found segmentation.
@@ -176,7 +176,7 @@ ij ∈ N
 which belong to class i and were labeled as class j .
 (n
 ij ) is called a confusion matrix. Let t
-i =
+i = P
 k
 j=1 n
 ij
@@ -185,11 +185,11 @@ One way to compare segmentation algorithms is by
 the pixel-wise accuracy of the predicted segmentation
 as done in many publications [SWRC06], [CP08],
 [LSD14]. This is also called per-pixel rate and defined
- as
+ as P
 k
 i=1 n
 ii
-
+P
 k
 i=1 t
 i . Taking the pixel-wise classification
@@ -211,7 +211,7 @@ car”
 Three accuracy metrics which do not suffer from
 problem P1 are used in [LSD14]:
 • mean accuracy: 1
-k ·
+k · P
 k
 i=1 n
 ii
@@ -219,28 +219,28 @@ t
 i ∈ [0, 1]
 • mean intersection over union:
 1
-k ·
+k · P
 k
 i=1 n
 ii
 t
 i−n
-ii+
+ii+P
 k
 j=1 n
 ji ∈ [0, 1]
 • frequency weighted intersection over union:
-(
+(P
 k
 i=1 t
-i)−1
+i)−1 P
 k
 i=1 t
 i · n
 ii
 t
 i−n
-ii+
+ii+P
 k
 j=1 n
 ji ∈ [0, 1]
@@ -263,7 +263,7 @@ F
 β = (1 + β )2 tp
 (1 + β 2
 ) · tp + β 2
- · fn + fp
+· fn + fp
 where β = 1 is chosen in most cases and tp means
 true positive, fn means false negative and fp means
 false positive.
@@ -332,8 +332,8 @@ as three medical databases are described. An overview
 over the quantity and the kind of data is given by
 Table I.
 1) PASCAL VOC: The PASCAL1
- VOC2
- challenge
+VOC2
+challenge
 was organized eight times with different datasets:
 Once every year from 2005 to 2012 [EVGW+
 b].
@@ -399,9 +399,9 @@ images were labeled by anonymous untrained workers
 to which they refer to as knowledge workers (KWs).
 One crowd annotation was obtained for each image by
 a majority vote on a pixel basis of 10 segmentations
-given by 10 different KWs.  Training
+given by 10 different KWs. Training
 Prediction
- PostprocessingWindow-wise
+PostprocessingWindow-wise
 
 ClassificationWindow
 extraction Data
@@ -493,7 +493,7 @@ applied to improve contrast [PAA+
 2) Histogram of oriented Gradients: Histogram of
 oriented gradients (HOG) features interpret the image
 as a discrete function I : N2
- → { 0, . . . , 255 } which
+→ { 0, . . . , 255 } which
 maps the position (x, y) to a color. For each pixel, there
 are two gradients: The partial derivative of x and y.
 Now the original image is transformed to two feature
@@ -611,7 +611,7 @@ This threshold can either be constant, adapted to the
 graph or adjusted by the user. After the edge-cutting
 step, the connected components are the segments.
 A graph-based method which ranked 2nd
- in the
+in the
 Pascal VOC 2010 challenge [EVGW+
 10] is described
 in [CS10]. The system makes heavy use of the multicue
@@ -722,7 +722,7 @@ s.t. ∀m
 i=1y
 i · (w, x
 i + b)
-
+| {z }
 sgn applied to this gives the classification≥ 1
 2) Even if the underlying process which generates the
 features for the two classes is linearly separable,
@@ -737,8 +737,8 @@ accepted. The new optimization problem is:
 minimize
 w 1
 2 w2
- + C · m
-
++ C · m
+X
 i=1 ξ
 i
 s.t. ∀m
@@ -757,7 +757,7 @@ w and the bias b. The dual problem is to express
 w as a linear combination of the training data x
 i:
 w = m
-
+X
 i=1 α
 iy
 ix
@@ -781,13 +781,13 @@ to [Bur98]:
 maximize
 α
 i m
-
+X
 i=1 α
 i − 1
 2 m
-
+X
 i=1 m
-
+X
 j=1 α
 iα
 j y
@@ -799,7 +799,7 @@ s.t. ∀m
 i=10 ≤ α
 i ≤ C
 s.t. m
-
+X
 i=1 α
 iy
 i = 0
@@ -814,7 +814,7 @@ i, x
 j , it is not necessary
 to do the transformation. It is enough to do the
 calculation
- K (x
+K (x
 i, x
 j ) = x
 i, x
@@ -869,7 +869,7 @@ but calculated an average rank of 7 among the different
 categories.
 [FGMR10] also used an SVM based method with
 HOG features and achieved the 7th
- rank in the 2010
+rank in the 2010
 PASCAL segmentation challenge by mean accuracy. It
 needs about 2 s on a 2.8 GHz 8-core Intel processor.
 E. Markov Random Fields
@@ -925,9 +925,9 @@ gets labeled as shown in Figure 3. For example, a MRF
 which is trained on images of the size 224 px×224 pixel
 and gets the raw RGB values as features has
 224 · 224 · 3
-
+| {z }
 input + 224 · 224
-
+| {z }
 output = 200 704
 random variables. Those random variables are conditionally
  independent, given their local neighborhood.
@@ -948,12 +948,12 @@ typically live on 0, . . . , 255 or [0, 1].
 The probability of x, y can be expressed as
 P (x, y) = 1
 Z e−E(x,y)
-where Z =
+where Z = P
 x,y e−E(x,y)
- is a normalization term
+is a normalization term
 called the partition function and E is called the energy
 function. A common choice for the energy function is
-E (x, y) =
+E (x, y) = X
 c∈C ψ
 c(x, y)
 where ψ is called a clique potential. One choice for
@@ -965,7 +965,7 @@ c(x
 1, x
 2) = wδ(x
 1, x
-2) =
+2) = (
 +w if x
 1 = x
 2
@@ -990,11 +990,11 @@ not have to be estimated. Another advantage of CRFs
 compared to MRFs is that no distribution assumption
 about x has to be made.
 A CRF has the partition function Z :
-Z (x) =
+Z (x) = X
 y P (x, y)
 and joint probability distribution
 P (y|x) = 1
-Z (x)
+Z (x) Y
 c∈C ψ
 c(y
 c|x)
@@ -1011,7 +1011,7 @@ A method similar to CRFs was proposed
 in [GBVdW+
 10]. The system of Gonfaus et.al.
 ranked 1st
- by mean accuracy in the segmentation task
+by mean accuracy in the segmentation task
 of the PASCAL VOC 2010 challenge [EVGW+
 10].
 An introduction to CRFs is given by [SM11].
@@ -1029,7 +1029,7 @@ is by adjusting the segmentation to match close edges.
 This was used in [BBMM11] with an ultra-metric
 contour map [AMFM09].
 Active contour models are another example of a
-post-processing method [KWT88].  VI. NEURAL NETWORKS FOR SEM ANTIC
+post-processing method [KWT88]. VI. NEURAL NETWORKS FOR SEM ANTIC
 SEGM ENTATION
 Artificial neural networks are classifiers which are
 inspired by biologic neurons. Every single artificial
@@ -1068,7 +1068,7 @@ sigmoid activation functions
 ϕ
 Sigmoid(x) = 1
 e−x
- + 1
++ 1
 Krizhevsky et al. implemented those ideas and participated
  in the ImageNet Large-Scale Visual Recognition
 Challenge (ILSVRC). The best other system, which
@@ -1128,11 +1128,11 @@ are problems depends heavily on the problem domain
 and the used model.
 1) Partial Occlusions: Segmentation systems which
 employ a model of the objects which should be
-segmented might suffer from partial occlusions. (a) Lens Flare
-Image by [Hus07] (b) Vignetting
+segmented might suffer from partial occlusions. (a)Lens Flare
+Image by [Hus07] (b)Vignetting
 Image by [Man12]
-(c) Smoke by cauterization
-Image by [GVSY13] (d) Camouflage
+(c)Smoke by cauterization
+Image by [GVSY13] (d)Camouflage
 Image by [Kaf07]
 (e) Transparency (f) Viewpoint
 Figure 4: Examples of images which might cause
@@ -1182,7 +1182,7 @@ would be an interesting option to explore in order to
 improve accuracy. Another direction which is currently
 studied is combining classifiers such as neural networks
 with CRFs [ZJRP+
-15].  REFERENCES
+15]. REFERENCES
 [AM98] M. S. Atkins and B. T. Mackiewich, “Fully
 automatic segmentation of the brain in
 mri,” Medical Imaging, IEEE Transactions
@@ -1262,7 +1262,7 @@ Transactions on, vol. 24, no. 5, pp. 603–619, 2002.
 [Online]. Available: http://ieeexplore.ieee.org/xpl/
 login.jsp?tp=&arnumber=1000236
 [COWR11]
- C. Chen, J. Ozolek, W. Wang, and G. K. Rohde,
+C. Chen, J. Ozolek, W. Wang, and G. K. Rohde,
 “A pixel classification system for segmenting
 biomedical images using intensity neighborhoods
 and dimension reduction,” in Biomedical Imaging:
@@ -1355,7 +1355,7 @@ VOC/voc2012/index.html
  segmentation.” [Online]. Available: http:
 //cs.brown.edu/~pff/segment/
 [FGMR10]
- P. F. Felzenszwalb, R. B. Girshick, D. McAllester,
+P. F. Felzenszwalb, R. B. Girshick, D. McAllester,
 and D. Ramanan, “Object detection with discriminatively
  trained part-based models,” Pattern Analysis
 and Machine Intelligence, IEEE Transactions on,
@@ -1486,7 +1486,7 @@ International Conference on, 2009, pp. 739–746.
 [Online]. Available: http://ieeexplore.ieee.org/xpls/
 abs_all.jsp?arnumber=5459248
 [LSD14]
- J. Long, E. Shelhamer, and T. Darrell, “Fully
+J. Long, E. Shelhamer, and T. Darrell, “Fully
 convolutional networks for semantic segmentation,”
 arXiv preprint arXiv:1411.4038, 2014. [Online].
 Available: http://arxiv.org/abs/1411.4038
@@ -1621,7 +1621,7 @@ Conference on, May 2007, pp. 175–182.
 [Online]. Available: http://ieeexplore.ieee.org/xpls/
 abs_all.jsp?arnumber=4228537
 [RMBK06]
- C. Rother, T. Minka, A. Blake, and V. Kolmogorov,
+C. Rother, T. Minka, A. Blake, and V. Kolmogorov,
 “Cosegmentation of image pairs by histogram
 matching - incorporating a global constraint
 into mrfs,” in Computer Vision and Pattern
@@ -1642,7 +1642,7 @@ forests.” in BMVC, 2008, pp. 1–10. [Online].
  Available: http://research.microsoft.com/pubs/
 72423/Criminisi_bmvc2008.pdf
 [SJC08]
- J. Shotton, M. Johnson, and R. Cipolla,
+J. Shotton, M. Johnson, and R. Cipolla,
 “Semantic texton forests for image categorization
 and segmentation,” in Computer vision and
 pattern recognition, 2008. CVPR 2008. IEEE
@@ -1725,7 +1725,7 @@ Machine Intelligence, IEEE Transactions on,
 vol. 34, no. 9, pp. 1731–1743, Sep. 2012.
 [Online]. Available: http://ieeexplore.ieee.org/xpls/
 abs_all.jsp?arnumber=6042883
-[ZBS01] Y. Zhang, M. Brady, and S. Smith, “Segmentation
+[ZBS01]Y. Zhang, M. Brady, and S. Smith, “Segmentation
 of brain MR images through a hidden Markov
 random field model and the expectationmaximization
  algorithm,” Medical Imaging, IEEE
@@ -1733,7 +1733,7 @@ Transactions on, vol. 20, no. 1, pp. 45–57, 2001.
 [Online]. Available: http://ieeexplore.ieee.org/xpls/
 abs_all.jsp?arnumber=906424
 [ZGWX05]
- S.-C. Zhu, C.-E. Guo, Y. Wang, and Z. Xu, “What
+S.-C. Zhu, C.-E. Guo, Y. Wang, and Z. Xu, “What
 are textons?” International Journal of Computer
 Vision, vol. 62, no. 1-2, pp. 121–143, 2005.
 [Zha12] Z. Zhang, “Microsoft kinect sensor and its effect,”
@@ -1772,14 +1772,14 @@ Images Number
 of
 Classes Channels Data source
 Colon Crypt DB (302 px − 1116 px) × (349 px − 875 px) 389 2 3 [CRSS]
-DIARETDB1  1500 px × 1500 px 89 4 3 [KKV+
+DIARETDB1 1500 px × 1500 px 89 4 3 [KKV+
 14]
 KITTI Road (1226 px − 1242 px) × (370 px − 376 px) 289 2 3 [FKG13]
-MSRCv1  (213 px − 320 px) × (213 px − 320 px) 240 9 3 [MSR]
-MSRCv2  (213 px − 320 px) × (162 px − 320 px) 591 23 3 [MSR]
+MSRCv1 (213 px − 320 px) × (213 px − 320 px) 240 9 3 [MSR]
+MSRCv2 (213 px − 320 px) × (162 px − 320 px) 591 23 3 [MSR]
 Open-CAS Endoscopic Datasets 640 px × 480 px 120 2 3 [MHMK+
 14]
 PASCAL VOC 2012 (142 px − 500 px) × ( 71 px − 500 px) 2913 20 3 [EVGW+
 12]
-Warwick-QU  (567 px − 775 px) × (430 px − 522 px) 165 5 3 [CSM09]
+Warwick-QU (567 px − 775 px) × (430 px − 522 px) 165 5 3 [CSM09]
 Table I: An overview over publicly available image databases with a semantic segmentation ground trouth.

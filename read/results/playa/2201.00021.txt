@@ -1,4 +1,4 @@
-Astronomy & Astrophysics manuscript no. mainArxiv  ©ESO 2022
+Astronomy & Astrophysics manuscript no. mainArxiv ©ESO 2022
 April 12, 2022
 Discovery of ammonia (9,6) masers in two high-mass star-forming
 regions
@@ -15,20 +15,20 @@ Brunthaler1
 , J. L. Chen (陈家梁)5
 , and K. Yang (杨楷)6, 7
 1
- Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, 53121 Bonn, Germany
+Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, 53121 Bonn, Germany
 e-mail: yyan@mpifr-bonn.mpg.de
 2
- Astronomy Department, Faculty of Science, King Abdulaziz University, P. O. Box 80203, Jeddah 21589, Saudi Arabia
+Astronomy Department, Faculty of Science, King Abdulaziz University, P. O. Box 80203, Jeddah 21589, Saudi Arabia
 3
- Xinjiang Astronomical Observatory, Chinese Academy of Sciences, 830011 Urumqi, PR China
+Xinjiang Astronomical Observatory, Chinese Academy of Sciences, 830011 Urumqi, PR China
 4
- National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903-2475, USA
+National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903-2475, USA
 5
- Center for Astrophysics, Guangzhou University, 510006 Guangzhou, People’s Republic of China
+Center for Astrophysics, Guangzhou University, 510006 Guangzhou, People’s Republic of China
 6
- School of Astronomy and Space Science, Nanjing University, 163 Xianlin Avenue, Nanjing 210023, People’s Republic of China
+School of Astronomy and Space Science, Nanjing University, 163 Xianlin Avenue, Nanjing 210023, People’s Republic of China
 7
- Key Laboratory of Modern Astronomy and Astrophysics (Nanjing University), Ministry of Education, Nanjing 210023, People’s
+Key Laboratory of Modern Astronomy and Astrophysics (Nanjing University), Ministry of Education, Nanjing 210023, People’s
 Republic of China
 Received 13 December 2021 / Accepted 30 December 2021
 ABSTRACT
@@ -85,9 +85,9 @@ NH
 3 (5,5) (Cesaroni et al. 1992), NH
 3 (6,6) (Beuther
 
- Member of the International Max Planck Research School (IMPRS)
+Member of the International Max Planck Research School (IMPRS)
  for Astronomy and Astrophysics at the universities of Bonn and
-Cologne.  et al. 2007), NH
+Cologne. et al. 2007), NH
 3 (7,7), NH
 3 (9,9), and NH
 3 (12,12) (Henkel
@@ -180,16 +180,16 @@ presented in Sect. 4. Our main results are summarized in Sect. 5.
 The NH
 3 (9,6) line was observed toward Cep A and
 G34.26+0.15 with the 100-meter Effelsberg telescope1
- in 2020
+in 2020
 January and 2021 February, July, and August. The S14mm double
  beam secondary focus receiver was employed. The full width
 at half maximum (FWHM) beam size is 49
- at 18.5 GHz, the
+at 18.5 GHz, the
 frequency of the target line. The observations were performed in
 position switching mode, and the off position was 10
- in azimuth
+in azimuth
 1
- Based on observations with the 100-meter telescope of the MPIfR
+Based on observations with the 100-meter telescope of the MPIfR
 (Max-Planck-Institut für Radioastronomie) at Effelsberg. away from the source. For observations made before 2021 August,
  we used a spectrometer that covered 2 GHz wide backends
 with a channel width of 38.1 kHz, corresponding to ∼0.62 km s−1
@@ -197,7 +197,7 @@ at the line’s rest frequency, 18.49939 GHz (Poynter & Kakar
 1975). A high spectral resolution backend with 65536 channels
 and a bandwidth of 300 MHz was employed in 2021 August,
 providing a channel width of 0.07 km s−1
- at 18.5 GHz. Pointing
+at 18.5 GHz. Pointing
  was checked every 2 hours using 3C 286 or NGC 7027.
 Focus calibrations were done at the beginning of the observations
  and during sunset and sunrise toward the abovementioned
@@ -210,7 +210,7 @@ from continuum cross scans of NGC 7027 (the flux density was
 adopted from Ott et al. 1994). Calibration uncertainties are estimated
  to be ∼ 10%.
 We used the GILDAS/CLASS2
- package (Pety 2005) to reduce
+package (Pety 2005) to reduce
  the spectral line data. A first-order polynomial was subtracted
  from each spectrum for baseline removal.
 2.2. JVLA observations and data reduction
@@ -218,11 +218,11 @@ Observations of the NH
 3 (9,6) line toward Cep A and
 G34.26+0.15 were obtained on 2021 July 13 with the JVLA
 of the National Radio Astronomy Observatory3
- (NRAO) in the
+(NRAO) in the
 C configuration (project ID: 21A-157, PI: Yaoting Yan). We
 employed 27 antennas for the observations. The primary beam
 of the JVLA antennas is 150
- (FWHM) at 18.5 GHz. A mixture
+(FWHM) at 18.5 GHz. A mixture
  of mixed three-bit and eight-bit samplers were used to perform
  the observations. For the NH
 3 (9,6) line observations, we
@@ -230,7 +230,7 @@ used one subband with the eight-bit sampler covering a bandwidth
  of 16 MHz with full polarization, eight recirculations, and
 four baseline board pairs (BIBPs) to provide a velocity range
 of 260 km s−1
- with a channel spacing of 0.13 km s−1
+with a channel spacing of 0.13 km s−1
 . Two
 additional subbands of bandwidth 16 MHz were used to cover
 the NH
@@ -244,9 +244,9 @@ J2230+6946 and J1851+0035 served as gain calibrators for Cep
 A and G34.26+0.15, respectively. The on-source times were
 4m
 30s
- and 4m
+and 4m
 50s
- toward Cep A and G34.26+0.15, respectively.
+toward Cep A and G34.26+0.15, respectively.
 Data from two antennas were lost due to technical issues.
  The data from the remaining 25 antennas were reduced
 through the Common Astronomy Software Applications package
@@ -267,13 +267,13 @@ used to produce the images of spectral line and continuum emission.
 . 47 × 0
 . 99 at
 2
- https://www.iram.fr/IRAMFR/GILDAS/
+https://www.iram.fr/IRAMFR/GILDAS/
 3
- The National Radio Astronomy Observatory is a facility of the National
+The National Radio Astronomy Observatory is a facility of the National
  Science Foundation operated under cooperative agreement by Associated
  Universities, Inc.
 4
- https://casa.nrao.edu/
+https://casa.nrao.edu/
 Article number, page 2 of 10
 Y. T. Yan (闫耀庭) et al.: Discovery of ammonia (9,6) masers in two high-mass star-forming regions
 P.A. = 58◦
@@ -301,12 +301,12 @@ Time sequence of NH
 Effelsberg 100-meter telescope (after subtracting a first-order polynomial
  baseline). A JVLA spectrum is interspersed. The systemic velocity
  from CO and HCO+
- lines is indicated by a dashed blue line. The
+lines is indicated by a dashed blue line. The
 two dashed red lines at LSR velocities, V
 LSR, of −0.90 km s−1
- and
+and
 −0.28 km s−1
- indicate the central velocities of the two major components.
+indicate the central velocities of the two major components.
  Right: NH
 3 (9,6) spectra from G34.26+0.15. The systemic velocity
  from C17
@@ -315,7 +315,7 @@ red lines at V
 LSR = 54.1 km s−1
 , 55.8 km s−1
 , and 62.5 km s−1
- show the
+show the
 central velocities of the main ammonia emission components.
 3. Results
 The spectra from different epochs are shown in Figs. 1 and 2.
@@ -339,24 +339,24 @@ Gaussian fits are listed. NH
 NH
 3 (8,5) and (10,7) lines toward Cep A are 23.2 mJy beam−1
 5
- https://science.nrao.edu/facilities/vla/docs/manuals/oss/performance/positional-accuracy
-  Fig. 2. NH
+https://science.nrao.edu/facilities/vla/docs/manuals/oss/performance/positional-accuracy
+ Fig. 2. NH
 3 (9,6) line profiles emphasizing, in contrast to the spectra
 in Fig. 1, weaker features. Cep A spectra are presented on the left,
 G34.26+0.15 spectra on the right. The two dashed red lines in the left
 panels indicate V
 LSR = 1.48 km s−1
- and 2.89 km s−1
+and 2.89 km s−1
 . In the right panels,
 the two dashed red lines refer to 54.1 km s−1
- and 55.8 km s−1
+and 55.8 km s−1
 .
 and 27.2 mJy beam−1
 , respectively. In G34.26+0.15, the corresponding
  3σ upper limits for the NH
 3 (8,5) and (10,7) lines are
 22.1 mJy beam−1
- and 30.4 mJy beam−1
+and 30.4 mJy beam−1
 . For both sources, sensitivity
  levels refer to emission from a single channel of width
 0.13 km s−1
@@ -407,7 +407,7 @@ position of the NH
 , derived with the imfit task
 in CASA, and can thus be considered, accounting for the uncertainties,
  as unresolved.
- Article number, page 3 of 10
+Article number, page 3 of 10
 A&A proofs: manuscript no. mainArxiv
 Fig. 3. Cepheus A. White contours mark the 1.36 cm JVLA continuum map of Cep A; levels are −5, 5, 10, 20, 30, 40, 50, 70, 90,
 and 110 × 0.125 mJy beam−1
@@ -473,7 +473,7 @@ component sizes are (1
 . 27) × (0
 . 15 ± 0
 . 27) at P.A. = 150◦
- (M2), and
+(M2), and
 Article number, page 4 of 10
 Y. T. Yan (闫耀庭) et al.: Discovery of ammonia (9,6) masers in two high-mass star-forming regions
 (1
@@ -481,7 +481,7 @@ Y. T. Yan (闫耀庭) et al.: Discovery of ammonia (9,6) masers in two high-mass
 . 34) × (0
 . 27 ± 0
 . 46) at P.A. = 53◦
- (M3) and are thus
+(M3) and are thus
 comparable to or smaller than the beam size.
 Overall, the NH
 3 (9,6) line from G34.26+0.15 weakened
@@ -532,16 +532,16 @@ As shown in Fig. 1, the NH
 G34.26+0.15 are narrow (∆V
 1/2 ≤2.0 km s−1
 ), much narrower
-than the expected line widths (4 km s−1
+than the expected line widths (&4 km s−1
 ) of thermal lines observed
  at a similar angular resolution (e.g., Torrelles et al. 1985,
 1986, 1993, 1999; Henkel et al. 1987; Comito et al. 2007; Mookerjea
  et al. 2007; Wyrowski et al. 2012; Beuther et al. 2018). Velocity
  shifts with respect to the systemic velocities of the two
 sources are both observed, that is, V ∼10 km s−1
- in Cep A and
+in Cep A and
 V ∼4 km s−1
- in G34.26+0.15 (see details in Sect. 4.3). Furthermore,
+in G34.26+0.15 (see details in Sect. 4.3). Furthermore,
  time variability is observed in the case of G34.26+0.15,
 which is also a characteristic feature of maser emission.
 Additional evidence of their maser nature is the high brightness
@@ -570,7 +570,7 @@ ratios. The (9,6) line arises from ortho-NH
 3 (K = 3n), whereas
 the NH
 3 (8,5) and (10,7) lines are para-NH
-3 (K  3n) lines.
+3 (K , 3n) lines.
 The minimum ortho-to-para ratios are in the range 12–42 and 1–
 8 toward Cep A and G34.26+0.15, respectively. The statistical
 weights for the ortho states are twice as large as those for the
@@ -587,16 +587,16 @@ published (quasi-)thermal NH
 The metastable (1,1), (2,2), (3,3), and (4,4) ammonia lines
 show thermal emission toward Cep A over a velocity range of
 −13 km s−1
- ≤ V
+≤ V
 LSR ≤ −4 km s−1
- (Brown et al. 1981; Güsten
+(Brown et al. 1981; Güsten
 et al. 1984; Torrelles et al. 1985, 1986, 1993, 1999). An average
 NH
 3 column density of ∼5×1015
- cm−2
- was estimated for a region
+cm−2
+was estimated for a region
 of 3
- around HW2 (Torrelles et al. 1999). This high NH
+around HW2 (Torrelles et al. 1999). This high NH
 3 abundance
  could provide a suitable environment for maser species.
 Large line widths (∆V
@@ -608,20 +608,20 @@ et al. 1993). The velocity is similar to the cloud’s systemic local
  standard of rest (LSR) velocity of −11.2 km s−1
 , which
 is based on CO (Narayanan & Walker 1996) and HCO+
- observations
+observations
  (Gómez et al. 1999). Our (9,6) maser is redshifted
 (−0.9 km s−1
- ≤ V
+≤ V
 LSR ≤2.9 km s−1
 ) and shares positions with
 the outflowing gas seen in CO and HCO+
- with similarly redshifted
+with similarly redshifted
  velocities. Therefore, we argue that the (9,6) masers are
 related to outflowing gas.
 In G34.26+0.15, a large NH
 3 column density,
 1018.5±0.2
- cm−2
+cm−2
 , and a kinetic temperature of 225±75 K
 were derived by Henkel et al. (1987) based on measurements
 of 15 NH
@@ -643,7 +643,7 @@ Their line widths (∆V
 1/2 ≥3.6 km s−1
 ) are larger than what
 we find (0.35 km s−1
- ≤ ∆V
+≤ ∆V
 1/2 ≤ 0.94 km s−1
 ) for each (9,6)
 maser component (see details in Table A.3). In all, we may
@@ -660,7 +660,7 @@ with Effelsberg in 2020 January. The velocity is similar to that
 of the JVLA measurements on the NH
 3 (1,1) absorption line
 against continuum source C (∼ 7
- resolution; Keto et al. 1987)
+resolution; Keto et al. 1987)
 Article number, page 5 of 10
 A&A proofs: manuscript no. mainArxiv
 and the NH
@@ -672,7 +672,7 @@ However, we did not find this redshifted component in our
 JVLA observations. Therefore, its position within G34.26+0.15
 cannot be determined. The blueshifted (9,6) masers with a
 velocity range of 53.8–56.8 km s−1
- (M1, M2, and M3) show
+(M1, M2, and M3) show
 velocities compatible with those of the NH
 3 (3,3) emission at
 the proper positions (Heaton et al. 1989), which might be a
@@ -697,15 +697,15 @@ maser features close to the H ii regions are also seen in HW2
 (e.g., Cohen & Brebner 1985; Bartkiewicz et al. 2005). These
 three kinds of masers in Cep A have a large velocity range of
 −25 km s−1
- ≤ V
+≤ V
 LSR ≤ −2 km s−1
- and are widespread around
+and are widespread around
 HW2 and HW3, while NH
 3 (9,6) emission is only detected at
 −0.9 km s−1
- ≤ V
+≤ V
 LSR ≤2.9 km s−1
- toward a sub-arcsecondsized
+toward a sub-arcsecondsized
  region to the west of the peak continuum position of HW2
 (see Fig. 3). This suggests that the NH
 3 (9,6) maser in Cep A
@@ -727,7 +727,7 @@ or NH
 3 masers. A group of H
 2O masers, well-known tracers
 of outflows, with a large velocity distribution of 43 km s−1
- ≤
+≤
 V
 LSR ≤54 km s−1
 , was found to the west of the centimetercontinuum
@@ -756,7 +756,7 @@ For the first mechanism, infrared photons near 10 µm are
 needed for vibrational excitation. The high dust temperature
 (∼300 K) of W51-IRS2 can provide substantial infrared photons
  near 10 µm, which is used for radiative pumping (Henkel et al. 2013). Both Cep A and G34.26+0.15 have similar kinetic
-temperatures of 200 K (Henkel et al. 1987; Patel et al. 2005;
+temperatures of &200 K (Henkel et al. 1987; Patel et al. 2005;
 Comito et al. 2007; Beuther et al. 2018). This suggests that
 high kinetic temperatures are needed to excite NH
 3 (9,6) masers.
@@ -819,8 +819,8 @@ months of monitoring at Effelsberg. Linearly interpolating the
 integrated intensities obtained at Effelsberg as a function of time,
 the JVLA measurements show that there is no missing flux density
  on scales on the order of 1.2 arcsec (4 ×10−3
- and 2 ×10−2
- pc)
+and 2 ×10−2
+pc)
 to the total single-dish flux. The JVLA-detected emission indicates
  that the NH
 3 (9,6) maser in Cep A originates from a
@@ -907,7 +907,7 @@ Madden, S. C., Irvine, W. M., Matthews, H. E., Brown, R. D., & Godfrey, P. D.
 1986, ApJ, 300, L79
 Mangum, J. G. & Wootten, A. 1994, ApJ, 428, L33
 Mauersberger, R., Henkel, C., & Wilson, T. L. 1987, A&A, 173, 352
-Mauersberger, R., Wilson, T. L., & Henkel, C. 1986, A&A, 160, L13  Mauersberger, R., Wilson, T. L., & Henkel, C. 1988, A&A, 201, 123
+Mauersberger, R., Wilson, T. L., & Henkel, C. 1986, A&A, 160, L13 Mauersberger, R., Wilson, T. L., & Henkel, C. 1988, A&A, 201, 123
 McEwen, B. C., Pihlström, Y. M., & Sjouwerman, L. O. 2016, ApJ, 826, 189
 McMullin, J. P., Waters, B., Schiebel, D., Young, W., & Golap, K. 2007, in Astronomical
  Society of the Pacific Conference Series, Vol. 376, Astronomical
@@ -968,9 +968,9 @@ Appendix A:
 Table A.1. Summary of NH
 3 (9, 6) maser observations.
 Source Telescope Beam Epoch Channel S
- ν rms
- S
- ν dv V
+ν rms R
+S
+ν dv V
 LSR ∆V
 1/2
 size spacing
@@ -979,54 +979,54 @@ size spacing
 ) (km s−1
 )
 Cep A Effelsberg 49
- 2020, Jan. 04 0.62 0.67 3.41 1.19 ± 0.02 -1.11 ± 0.02 1.67 ± 0.04
+2020, Jan. 04 0.62 0.67 3.41 1.19 ± 0.02 -1.11 ± 0.02 1.67 ± 0.04
 Effelsberg 49
- 2021, Feb. 11 0.62 0.59 5.97 1.08 ± 0.02 -0.74 ± 0.02 1.70 ± 0.04
+2021, Feb. 11 0.62 0.59 5.97 1.08 ± 0.02 -0.74 ± 0.02 1.70 ± 0.04
 Effelsberg 49
- 2021, Feb. 15 0.62 0.65 10.98 1.11 ± 0.03 -0.75 ± 0.02 1.60 ± 0.05
+2021, Feb. 15 0.62 0.65 10.98 1.11 ± 0.03 -0.75 ± 0.02 1.60 ± 0.05
 JVLAa
- 1
+1
 . 47 × 0
 . 99 2021, Jul. 13 0.13 1.13 144 0.89 ± 0.09 -0.86 ± 0.03 0.74 ± 0.12
 Effelsberg 49
- 2021, Aug. 11 0.07 0.98 13.36 0.49 ± 0.02 -0.90 ± 0.01 0.47 ± 0.01
+2021, Aug. 11 0.07 0.98 13.36 0.49 ± 0.02 -0.90 ± 0.01 0.47 ± 0.01
 0.35 0.26 ± 0.02 -0.28 ± 0.02 0.69 ± 0.05
 Effelsberg 49
- 2021, Aug. 12 0.07 0.98 13.35 0.50 ± 0.01 -0.89 ± 0.07 0.48 ± 0.07
+2021, Aug. 12 0.07 0.98 13.35 0.50 ± 0.01 -0.89 ± 0.07 0.48 ± 0.07
 0.35 0.20 ± 0.01 -0.29 ± 0.07 0.54 ± 0.07
 0.06 0.07 ± 0.01 0.51 ± 0.07 1.09 ± 0.07
 0.02 0.02 ± 0.01 2.15 ± 0.07 0.80 ± 0.07
 0.07 0.06 ± 0.01 2.89 ± 0.07 0.92 ± 0.07
 G34.26+0.15 Effelsberg 49
- 2020, Jan. 03 0.62 0.30 1.26 0.65 ± 0.03 62.50 ± 0.05 2.05 ± 0.13
+2020, Jan. 03 0.62 0.30 1.26 0.65 ± 0.03 62.50 ± 0.05 2.05 ± 0.13
 Effelsberg 49
- 2021, Feb. 11 0.62 0.24 2.42 0.40 ± 0.02 55.76 ± 0.04 1.60 ± 0.12
+2021, Feb. 11 0.62 0.24 2.42 0.40 ± 0.02 55.76 ± 0.04 1.60 ± 0.12
 Effelsberg 49
- 2021, Feb. 15 0.62 0.20 4.86 0.38 ± 0.02 55.71 ± 0.05 1.80 ± 0.14
+2021, Feb. 15 0.62 0.20 4.86 0.38 ± 0.02 55.71 ± 0.05 1.80 ± 0.14
 JVLAb
- 1
+1
 . 33 × 1
 . 06 2021, Jul. 13 0.13 0.23 37.1 0.09 ± 0.02 54.41 ± 0.03 0.38 ± 0.09
 0.22 0.22 ± 0.02 55.82 ± 0.05 0.95 ± 0.12
 0.15 0.06 ± 0.01 57.21 ± 0.04 0.35 ± 0.08
 Effelsberg 49
- 2021, Aug. 11 0.07 0.08 13.92 0.06 ± 0.007 54.10 ± 0.05 0.68 ± 0.12
+2021, Aug. 11 0.07 0.08 13.92 0.06 ± 0.007 54.10 ± 0.05 0.68 ± 0.12
 0.07 0.02 ± 0.006 54.82 ± 0.03 0.31 ± 0.09
 0.12 0.10 ± 0.006 55.85 ± 0.02 0.75 ± 0.06
 Effelsberg 49
- 2021, Aug. 12 0.07 0.16 27.40 0.09 ± 0.008 55.83 ± 0.02 0.56 ± 0.05
+2021, Aug. 12 0.07 0.16 27.40 0.09 ± 0.008 55.83 ± 0.02 0.56 ± 0.05
 Notes. The spectral parameters are obtained from Gaussian fitting. (a)
- The JVLA spectrum toward Cep A is extracted from the Effelsberg-beamsized
+The JVLA spectrum toward Cep A is extracted from the Effelsberg-beamsized
  region (FWHM 49
 ). (b)
- For G34.26+0.15, the JVLA beam samples the NH
+For G34.26+0.15, the JVLA beam samples the NH
 3 (9,6) spectrum over a region of radius 3
 . 5, which contains all
 detected NH
 3 (9,6) emissions.
 Table A.2. 1.36 cm JVLA flux densities of individual continuum sources.
 Source R.A. Dec. Size P.A. S
- ν
+ν
 (h m s) (◦
 ) (arcsec) (deg) (mJy)
 Cep A HW2 22 56 17.972 ± 0.003 +62 01 49.587 ± 0.015 (0.45 ± 0.19) × (0.22 ± 0.10) 50.0 20.2 ± 1.4
@@ -1042,8 +1042,8 @@ Article number, page 8 of 10
 Y. T. Yan (闫耀庭) et al.: Discovery of ammonia (9,6) masers in two high-mass star-forming regions
 Table A.3. NH
 3 (9,6) maser positions derived from the JVLA observations.
-Source R.A. Dec.  S
- ν T
+Source R.A. Dec. S
+ν T
 MB V
 LSR ∆V
 1/2
@@ -1078,7 +1078,7 @@ OH (Bartkiewicz et al. 2005), H
 3OH (Sanna et al. 2017) masers are presented as diamonds, circles, and squares,
 respectively. The color bar on the right-hand side indicates the velocity range (V
 LSR) of maser spots.
- Article number, page 9 of 10
+Article number, page 9 of 10
 A&A proofs: manuscript no. mainArxiv
 Fig. A.2. 1.36 cm JVLA continuum map of G34.26+0.15 presented as gray shaded areas. The reference position is α
 J2000 = 18h

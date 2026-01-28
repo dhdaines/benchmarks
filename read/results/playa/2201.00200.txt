@@ -1,4 +1,4 @@
-Astronomy & Astrophysics manuscript no. solar˙model˙v10˙corrected  © ESO 2022
+Astronomy & Astrophysics manuscript no. solar˙model˙v10˙corrected © ESO 2022
 January 4, 2022
 Local heating due to convective overshooting and the solar
 modelling problem
@@ -11,16 +11,16 @@ I. Baraffe1,2
 , J. Pratt3
 , D. G. Vlaykov1
 1
- University of Exeter, Physics and Astronomy, EX4 4QL Exeter, UK (e-mail: i.baraffe@ex.ac.uk)
+University of Exeter, Physics and Astronomy, EX4 4QL Exeter, UK (e-mail: i.baraffe@ex.ac.uk)
 2
- ´
+´
 Ecole Normale Sup´
 erieure, Lyon, CRAL (UMR CNRS 5574), Universit´
 e de Lyon, France
 3
- Department of Physics and Astronomy, Georgia State University, Atlanta GA 30303, USA
+Department of Physics and Astronomy, Georgia State University, Atlanta GA 30303, USA
 4
- Centre for Fusion, Space and Astrophysics, Department of Physics, University of Warwick, Coventry, CV4 7AL, UK
+Centre for Fusion, Space and Astrophysics, Department of Physics, University of Warwick, Coventry, CV4 7AL, UK
 ABSTRACT
 Recent hydrodynamical simulations of convection in a solar-like model suggest that penetrative convective flows at the boundary
 of the convective envelope modify the thermal background in the overshooting layer. Based on these results, we implement in onedimensional
@@ -238,7 +238,7 @@ A = 1
 Γ
 1 d ln P
 d ln r − d ln ρ
-d ln r ,  (1)
+d ln r , (1)
 with Γ
 1 = (∂ ln P/∂ ln ρ)
 ad. Starting from a reference evolutionary
@@ -279,12 +279,12 @@ discrepancy in the speed of sound in the radiative region.
 The third concerns the entropy. Large discrepancies are observed
  in both the radiative region and the convective zone. The
 1
- Less sub-adiabatic means that |∇ − ∇
+Less sub-adiabatic means that |∇ − ∇
 ad| decreases compared to the
-initial profile.  entropy discrepancy (S
- Sun − S
- ref )/S
- ref has two positive peaks in
+initial profile. entropy discrepancy (S
+Sun − S
+ref )/S
+ref has two positive peaks in
 the radiative zone, one just below the overshooting region and a
 larger peak deeper at ∼ 40% of the stellar radius. This discrepancy
  is negative in the convective zone. The corrections applied
@@ -366,7 +366,7 @@ g(r) = sin{[(r − r
 mid)/(r
 CB − r
 mid)]a
- × π/2}. (3)
+× π/2}. (3)
 
 Baraffe et al.: Local heating due to convective overshooting and the solar modelling problem
 For r
@@ -374,7 +374,7 @@ ov ≤ r < r
 mid, we use
 ∇ = ∇
 rad − h(r)∇
-ad,  (4)
+ad, (4)
 with
 h(r) = b × sin{[(r
 mid − r)/(r
@@ -401,7 +401,7 @@ helium mass fraction of 0.28, metallicity Z = 0.02, and a mixing
 mix = 1.9H
 P. We use a reference model that is in
 thermal equilibrium2
- and has the luminosity and radius of the
+and has the luminosity and radius of the
 current Sun. Starting from this reference model, the temperature
  gradient is modified over a prescribed depth to mimic the
 impact of overshooting according to the hydrodynamical simulations
@@ -442,7 +442,7 @@ heating’. This procedure ensures that the model with a modified
 temperature gradient can be consistently compared to the reference
  model. As shown in Fig. 2, the simple prescription given
 2
- Thermal equilibrium means that the total nuclear energy produced
+Thermal equilibrium means that the total nuclear energy produced
 in the central regions balances the radiative losses at the surface, i.e. the
 total nuclear luminosity, L
 nuc, equals the total stellar luminosity, L. by Eqs. (2)-(5) yields similar qualitative changes in the temperature
@@ -733,4 +733,3 @@ Zhang, C., Deng, L., Xiong, D., & Christensen-Dalsgaard, J. 2012, ApJ, 759,
 L14
 Zhang, Q. S. & Li, Y. 2012, ApJ, 746, 50
 Zhang, Q.-S., Li, Y., & Christensen-Dalsgaard, J. 2019, ApJ, 881, 103
- 

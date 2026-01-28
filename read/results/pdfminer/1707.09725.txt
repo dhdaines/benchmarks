@@ -6211,17 +6211,17 @@ Softsign
 
 Softmax
 
+88.19 % σ = 0.31
+
 88.41 % σ = 0.36
 
 81.46 % σ = 5.08
 
-88.19 % σ = 0.31
-
 87.92 % σ = 0.40
 
-84.70 % σ = 0.15
-
 79.67 % σ = 4.85
+
+84.70 % σ = 0.15
 
 84.69 % σ = 0.08
 
@@ -6326,13 +6326,13 @@ ELU
 
 80.1
 
-78.8
-
 83.2
 
-68.9
+78.8
 
 67.2
+
+68.9
 
 Table A.3.: Test accuracy of adjusted baseline models trained with diﬀerent activation functions on
 

@@ -11,7 +11,7 @@ This paper gives a high level overview of how they are created
 and gives some examples. It is meant to be a summary of the
 current work and give people who are new to machine learning
 some starting points.
- I. INTRODUCTION
+I. INTRODUCTION
 According to [Gad06] creativity is “the ability to use your
 imagination to produce new ideas, make things etc.” and
 imagination is “the ability to form pictures or ideas in your
@@ -132,7 +132,7 @@ it tries to find a minimum of this high-dimensional function.
 There is, of course, a lot more to say about machine learning.
 The interested reader might want to read the introduction given
 by Mitchell [Mit97].
- III. IMAGE DATA
+III. IMAGE DATA
 Applying a simple neural network on image data directly can
 work, but the number of parameters gets extraordinary large.
 One would take one neuron per pixel and channel. This means
@@ -225,7 +225,7 @@ could apply self-learning techniques to draw results most
 similar to the artists impression of the image. However, the
 system described in [TL05] seems not to be a machine
 learning computer program according to the definition by Tom
-Mitchell [Mit97].  IV. TEXT DATA
+Mitchell [Mit97]. IV. TEXT DATA
 Digital text is the first form of natural communication which
 involved computers. It is used in the form of chats, websites,
 on collaborative projects like Wikipedia, in scientific literature.
@@ -441,12 +441,12 @@ composition,” GitHub, Aug. 2015. [Online]. Available: https:
  Available: http://www.hexahedria.com/2015/08/03/
 composing-music- with-recurrent- neural-networks/
 [Joh16]
- J. Johnson, “neural-style,” GitHub, Jan. 2016. [Online]. Available:
+J. Johnson, “neural-style,” GitHub, Jan. 2016. [Online]. Available:
 https://github.com/jcjohnson/neural-style
 [Kar15a] A. Karpathy, “char-rnn,” GitHub, Nov. 2015. [Online]. Available:
 https://github.com/karpathy/char-rnn
 [Kar15b]
- ——, “The unreasonable effectiveness of recurrent neural
+——, “The unreasonable effectiveness of recurrent neural
 networks,” Personal Blog, May 2015. [Online]. Available:
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 [KMN+
@@ -457,7 +457,7 @@ IEEE Transactions on, vol. 24, no. 7, pp. 881–892, Jul 2002.
 [Mit97] T. M. Mitchell, Machine learning, ser. McGraw Hill series in
 computer science. McGraw-Hill, 1997.
 [MOT15]
- A. Mordvintsev, C. Olah, and M. Tyka, “Inceptionism: Going
+A. Mordvintsev, C. Olah, and M. Tyka, “Inceptionism: Going
 deeper into neural networks,” googleresearch.blogspot.co.uk,
 Jun. 2015. [Online]. Available: http://googleresearch.blogspot.de/
 2015/06/inceptionism-going- deeper-into- neural.html
@@ -550,7 +550,7 @@ C. Linux Code, 1
 */
 static int indicate_policy(void)
 {
- int error;
+int error;
 if (fd == MARN_EPT) {
 /
 *
@@ -568,7 +568,7 @@ setup_works = true;
 for (i = 0; i < blocks; i++) {
 seq = buf[i++];
 bpf = bd->bd.next + i
- * search;
+* search;
 if (fd) {
 current = blocked;
 }
@@ -587,7 +587,7 @@ D. Linux Code, 2
 * under the terms of the GNU General Public License version 2 as published by
 * the Free Software Foundation.
 *
-*  This program is distributed in the hope that it will be useful,
+* This program is distributed in the hope that it will be useful,
 * but WITHOUT ANY WARRANTY; without even the implied warranty of
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 *

@@ -77,7 +77,7 @@ of the supergranular scale (∼30 Mm), we expect the measured spectral cross-cor
 horizontal wavenumber qR⊙≈120 (Rincon & Rieutord 2018), where q = |q| = |(qx, qy)| is the vector horizontal
 wavenumber of the ﬂow. Accordingly, the goal is to relate measurements (linearly, to facilitate inversion) to the ﬂow
 perturbation described in a horizontal Fourier domain. Supergranular velocities are subsonic (300-400 m/s, see Rincon
-& Rieutord 2018), permitting us to model the ﬂow vector uuu = (ux, uy, uz) in the Cartesian domain like so (Unno et al.
+& Rieutord 2018), permitting us to model the ﬂow vector u = (ux, uy, uz) in the Cartesian domain like so (Unno et al.
 1989; Woodard 2006)
 uσ = ∇×[∇×(P ez)] + ∇×(T ez),
 (1)
@@ -374,7 +374,7 @@ FLCT code. vx and vy are then computed for consecutive pairs of images and are a
 5. MAPS OF HORIZONTAL DIVERGENCE AND RADIAL VORTICITY
 For mode-coupling, horizontal divergence (hereafter div) and radial vorticity (hereafter curl) are computed by
 substituting P and T from eq 3 into eq 2 as below -
-uuu(q, z) = −∇2Pez + ∇(∂zP) + ∇hT×ez,
+u(q, z) = −∇2Pez + ∇(∂zP) + ∇hT×ez,
 = −(0, 0, ∂2
 xP + ∂2
 yP + ∂2
@@ -384,11 +384,11 @@ zP) + (∂yT, −∂xT, 0).
 Setting ∂2
 x + ∂2
 y = q2, div is given by,
-∇h · uuu(q, z) = q2∂zP,
+∇h · u(q, z) = q2∂zP,
 (16)
 and curl is given by,
 h
-∇× uuu(q, z)
+∇× u(q, z)
 i
 z = q2T.
 (17)
