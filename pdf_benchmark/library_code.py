@@ -1,7 +1,9 @@
+import functools
 import os
 import subprocess
 import tempfile
 from io import BytesIO
+from pathlib import Path
 
 import fitz as PyMuPDF
 import pdfminer
@@ -9,9 +11,8 @@ import pdfplumber
 import playa
 import pypdf
 import pypdfium2 as pdfium
-from borb.pdf.pdf import PDF
-from borb.toolkit.text.simple_text_extraction import SimpleTextExtraction
 from pdfminer.high_level import extract_pages
+from playa.cli import get_images as playa_get_images
 from requests import ReadTimeout
 
 from .text_extraction_post_processing import postprocess, PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE
@@ -28,6 +29,21 @@ def playa_get_text(data: bytes) -> str:
             page_labels = [page.label for page in pages]
             texts = list(pages.map(playa.Page.extract_text))
         return postprocess(texts, page_labels)
+
+
+def playa_image_extraction(data: bytes):
+    with tempfile.TemporaryDirectory() as tempdir:
+        path = os.path.join(tempdir, "pdf.pdf")
+        with open(path, "wb") as outfh:
+            outfh.write(data)
+        images = []
+        get_images = functools.partial(playa_get_images,
+                                       imgdir=Path(tempdir))
+        with playa.open(path, max_workers=2) as pdf:
+            pages = pdf.pages
+            for pimgs in pages.map(get_images):
+                images.extend((pp.name, pp.read_bytes()) for pp, _ in pimgs)
+        return images
 
 
 def pymupdf_get_text(data: bytes) -> str:
@@ -185,19 +201,6 @@ def pdfminer_image_extraction(data: bytes) -> list[tuple[str, bytes]]:
     except Exception as exc:
         print(f"pdfminer Image extraction failure: {exc}")
     return images
-
-
-def borb_get_text(data: bytes) -> str:
-    text = ""
-    try:
-        ste = SimpleTextExtraction()
-        PDF.loads(BytesIO(data), [ste])
-        obj = ste.get_text()
-        for page_index in range(len(obj)):
-            text += obj[page_index]
-    except Exception as exc:
-        print(exc)
-    return text
 
 
 def pdfplubmer_get_text(data: bytes) -> str:
