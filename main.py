@@ -176,7 +176,6 @@ if __name__ == "__main__":
             image_extraction_function=pdfminer_image_extraction,
             version=version("pdfminer.six"),
             license="MIT/X",
-            last_release_date="2024-07-06",
         ),
         "pdfplumber": Library(
             "pdfplumber",
@@ -185,7 +184,6 @@ if __name__ == "__main__":
             text_extraction_function=pdfplubmer_get_text,
             version=version("pdfplumber"),
             license="MIT",
-            last_release_date="2025-01-01",
             dependencies="pdfminer.six",
         ),
         "pymupdf": Library(
@@ -198,7 +196,6 @@ if __name__ == "__main__":
             image_extraction_function=pymupdf_image_extraction,
             dependencies="MuPDF",
             license="GNU AFFERO GPL 3.0 / Commerical",
-            last_release_date="2025-02-06",
         ),
         "pdftotext": Library(
             "pdftotext",
