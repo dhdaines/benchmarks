@@ -7537,9 +7537,9 @@ R)
 
 →
 
-→
-
 (cid:55)→
+
+→
 
 ×
 
@@ -8855,9 +8855,9 @@ z
 
 Abbildungen.
 
-}
-
 (cid:107)
+
+}
 
 ∈
 1) f1 := idR ist eine oﬀene und stetige Abbildung.
@@ -10188,9 +10188,9 @@ von y.
 
 ⊆
 
-U ein Homöomorphismus. Dann ist W := f −1(V )
-
 Y
+
+U ein Homöomorphismus. Dann ist W := f −1(V )
 
 ×
 ∈
@@ -11440,11 +11440,11 @@ Diese Teilmengen Hi heißen Halbebenen bzgl. g.
 
 für alle A
 
+gilt: AB
+
 Hi, B
 
 ∈ {
-
-1, 2
 
 ∈
 
@@ -11455,9 +11455,9 @@ Hi, B
 H2 in zwei nichtleere Teilmengen H1, H2, sodass
 =
 
-gilt: AB
-
 = j.
+
+1, 2
 
 g
 
@@ -12447,9 +12447,9 @@ g =
 
 (cid:4)
 
-{
-
 }
+
+{
 
 ⇒
 ⇒
@@ -13660,15 +13660,15 @@ Abbildung 4.21: Hyperbolische Geraden erfüllen §5 nicht.
 1
 −
 
-4
-
 0
-
-5
 
 2
 
+5
+
 1
+
+4
 
 3
 
@@ -16703,9 +16703,9 @@ y3
 
 (cid:43)
 
-
-
 
+
+
 
 
 
@@ -17594,9 +17594,9 @@ zi
 
 0
 
-}
-
 {
+
+}
 
 ⊆ {
 ∈
@@ -17773,9 +17773,9 @@ phismus.
 
 H, x
 
-(cid:55)→
-
 →
+
+(cid:55)→
 
 3) Sei X ein topologischer Raum. Dann ist idX ein Homöomorphismus. Da keine
 Verknüpfung auf X deﬁniert wurde, ist X keine Gruppe und daher auch kein Grup-

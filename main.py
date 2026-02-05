@@ -5,19 +5,13 @@ Compare text extraction performance of different PDF parsers.
 import json
 import os
 import time
+from importlib.metadata import version
 from io import BytesIO
 from itertools import product
 from json import JSONDecodeError
 from pathlib import Path
 from typing import Literal
 
-import fitz as PyMuPDF
-import pdfminer
-import pdfplumber
-import pdfrw
-import playa
-import pypdf
-import pypdfium2
 import tika
 from pdfminer.high_level import extract_text as pdfminder_extract_text
 from rich.progress import track
@@ -160,20 +154,18 @@ if __name__ == "__main__":
             "tika",
             "https://pypi.org/project/tika/",
             text_extraction_function=tika_get_text,
-            version=tika.__version__,
+            version=version("tika"),
             dependencies="Apache Tika",
             license="Apache v2",
-            last_release_date="2023-01-01",
         ),
         "pypdf": Library(
             "pypdf",
             "pypdf",
             "https://pypi.org/project/pypdf/",
             text_extraction_function=pypdf_get_text,
-            version=pypdf.__version__,
+            version=version("pypdf"),
             watermarking_function=pypdf_watermarking,
             license="BSD 3-Clause",
-            last_release_date="2025-02-09",
             image_extraction_function=pypdf_image_extraction,
         ),
         "pdfminer": Library(
@@ -181,17 +173,17 @@ if __name__ == "__main__":
             "pdfminer",
             "https://pypi.org/project/pdfminer.six/",
             text_extraction_function=lambda n: pdfminder_extract_text(BytesIO(n)),
-            version=pdfminer.__version__,
+            image_extraction_function=pdfminer_image_extraction,
+            version=version("pdfminer.six"),
             license="MIT/X",
             last_release_date="2024-07-06",
-            image_extraction_function=pdfminer_image_extraction,
         ),
         "pdfplumber": Library(
             "pdfplumber",
             "pdfplumber",
             "https://pypi.org/project/pdfplumber/",
             text_extraction_function=pdfplubmer_get_text,
-            version=pdfplumber.__version__,
+            version=version("pdfplumber"),
             license="MIT",
             last_release_date="2025-01-01",
             dependencies="pdfminer.six",
@@ -201,7 +193,7 @@ if __name__ == "__main__":
             "pymupdf",
             "https://pypi.org/project/PyMuPDF/",
             text_extraction_function=lambda n: pymupdf_get_text(n),
-            version=PyMuPDF.version[0],
+            version=version("pymupdf"),
             watermarking_function=pymupdf_watermarking,
             image_extraction_function=pymupdf_image_extraction,
             dependencies="MuPDF",
@@ -216,7 +208,6 @@ if __name__ == "__main__":
             version="0.86.1",
             watermarking_function=None,
             dependencies="build-essential libpoppler-cpp-dev pkg-config python3-dev",
-            last_release_date="-",
             license="GPL",
         ),
         "pdfium": Library(
@@ -224,11 +215,10 @@ if __name__ == "__main__":
             "pdfium",
             "https://pypi.org/project/pypdfium2/",
             text_extraction_function=pdfium_get_text,
-            version=pypdfium2.version,
+            version=version("pypdfium2"),
             watermarking_function=None,
             image_extraction_function=pdfium_image_extraction,
             license="Apache-2.0 or BSD-3-Clause",
-            last_release_date="2024-12-19",
             dependencies="PDFium (Foxit/Google)",
         ),
         "pdfrw": Library(
@@ -236,10 +226,9 @@ if __name__ == "__main__":
             "pdfrw",
             "https://pypi.org/project/pdfrw/",
             text_extraction_function=None,
-            version=pdfrw.__version__,
+            version=version("pdfrw"),
             watermarking_function=pdfrw_watermarking,
             license="MIT",
-            last_release_date="2017-09-18",
             dependencies="",
         ),
         "playa": Library(
@@ -247,9 +236,8 @@ if __name__ == "__main__":
             "playa",
             "https://pypi.org/project/playa-pdf/",
             text_extraction_function=playa_get_text,
-            version=playa.__version__,
+            version=version("playa-pdf"),
             license="MIT",
-            last_release_date="2025-06-17",
             image_extraction_function=playa_image_extraction,
         ),
     }
