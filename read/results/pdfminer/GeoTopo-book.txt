@@ -51,18 +51,18 @@ in „Analysis I“ vermittelt.
 ), Mengenschreibweisen (
 
 ,
-∪
+∩
 
 ,
-∩
+∪
 
 P
 
 ∃
 
-\
-
 ∅
+
+\
 
 ,
 
@@ -273,9 +273,9 @@ sind als Komplement oﬀener Mengen abgeschlossen.
 
 X =
 
-∅
-
 \
+
+∅
 
 T und
 (cid:4)
@@ -1385,9 +1385,9 @@ x = y
 
 Ux
 
-∈
-
 ∩
+
+∈
 
 Uy =
 ∅
@@ -2183,9 +2183,9 @@ R
 ∩
 X, wobei X ein topologischer Raum ist.
 
-∪
-
 ∩
+
+∪
 
 6) R mit Zariski-Topologie ist zusammenhängend.
 
@@ -4245,9 +4245,9 @@ Umgebung: B1(0, 1)
 (cid:12)
 (cid:12) w2 + z2 < 1 (cid:9) = V2
 
-(cid:107)
-
 }
+
+(cid:107)
 
 ?
 
@@ -7535,9 +7535,9 @@ R)
 ×
 (x, y, t)
 
-→
-
 (cid:55)→
+
+→
 
 →
 
@@ -8855,9 +8855,9 @@ z
 
 Abbildungen.
 
-(cid:107)
-
 }
+
+(cid:107)
 
 ∈
 1) f1 := idR ist eine oﬀene und stetige Abbildung.
@@ -9034,9 +9034,9 @@ Vi
 
 Vj =
 
-∀
-
 ∃
+
+∀
 
 ∈
 
@@ -10797,9 +10797,9 @@ b) Ist X ein topologischer Raum, so entsprechen dabei die Gruppenoperationen dur
 
 →
 
-}
-
 {
+
+}
 
 |
 
@@ -11446,6 +11446,8 @@ Hi, B
 
 ∈ {
 
+1, 2
+
 ∈
 
 ∈
@@ -11456,8 +11458,6 @@ H2 in zwei nichtleere Teilmengen H1, H2, sodass
 =
 
 = j.
-
-1, 2
 
 g
 
@@ -12447,9 +12447,9 @@ g =
 
 (cid:4)
 
-}
-
 {
+
+}
 
 ⇒
 ⇒
@@ -13660,15 +13660,15 @@ Abbildung 4.21: Hyperbolische Geraden erfüllen §5 nicht.
 1
 −
 
+5
+
 0
 
 2
 
-5
+4
 
 1
-
-4
 
 3
 
@@ -16703,9 +16703,9 @@ y3
 
 (cid:43)
 
-
-
 
+
+
 
 
 
@@ -17594,9 +17594,9 @@ zi
 
 0
 
-{
-
 }
+
+{
 
 ⊆ {
 ∈
@@ -17773,9 +17773,9 @@ phismus.
 
 H, x
 
-→
-
 (cid:55)→
+
+→
 
 3) Sei X ein topologischer Raum. Dann ist idX ein Homöomorphismus. Da keine
 Verknüpfung auf X deﬁniert wurde, ist X keine Gruppe und daher auch kein Grup-
@@ -18038,9 +18038,9 @@ R
 
 \ {
 
-}
-
 0
+
+}
 
 0
 
